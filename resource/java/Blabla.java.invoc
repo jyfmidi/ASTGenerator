@@ -1,0 +1,17 @@
+trainOrLoadModel
+printNearest
+docVectorModel.similarity
+docVectorModel.similarity
+docVectorModel.addDocument
+printNearestDocument
+model.nearest
+entry.getKey
+entry.getValue
+printHeader
+model.nearest
+entry.getKey
+entry.getValue
+IOUtil.isFileExisted
+IOUtil.isFileExisted
+trainerBuilder.train
+loadModel

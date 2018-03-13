@@ -5,6 +5,11 @@ import antlr.Java8Parser;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.OutputStream;
+import java.io.Writer;
 
 import java.util.ArrayList;
 
@@ -22,15 +27,25 @@ public class ASTGenerator {
     static ArrayList<String> LineNum = new ArrayList<String>();
     static ArrayList<String> Type = new ArrayList<String>();
     static ArrayList<String> Content = new ArrayList<String>();
-
-    private static String readFile() throws IOException {
-        File file = new File("resource/java/Blabla.java");
+    
+    private static String readFile(String fileName) throws IOException {
+        File file = new File(fileName);
         byte[] encoded = Files.readAllBytes(file.toPath());
         return new String(encoded, Charset.forName("UTF-8"));
     }
 
     public static void main(String args[]) throws IOException{
-        String inputString = readFile();
+        File root = new File("resource/example");
+        //File root = new File("resource/java");
+        File[] fs = root.listFiles();
+        for (int i = 0; i < fs.length; i++) {
+            System.out.println("Parsing " + fs[i]);
+            parseFile(fs[i].toString());
+        }
+    }
+
+    private static void parseFile(String fileName) throws IOException {
+        String inputString = readFile(fileName);
         ANTLRInputStream input = new ANTLRInputStream(inputString);
         Java8Lexer lexer = new Java8Lexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
@@ -39,10 +54,19 @@ public class ASTGenerator {
 
         generateAST(ctx, false, 0);
 
-	System.out.println("digraph G {");
-        printDOT();
-	System.out.println("}");
-
+        File outputFile = new File(fileName + ".dot");
+        File invocationFile = new File(fileName + ".invoc");
+        Writer out = new FileWriter(outputFile);
+        Writer invocation = new FileWriter(invocationFile);
+       
+        out.write("digraph G {\n");
+        printDOT(out, invocation);
+        out.write("}\n");
+        out.close();
+        invocation.close();
+        // System.out.println("digraph G {");
+        // printDOT();
+        // System.out.println("}");
     }
 
     private static void generateAST(RuleContext ctx, boolean verbose, int indentation) {
@@ -62,18 +86,26 @@ public class ASTGenerator {
         }
     }
     
-    private static void printDOT(){
-        printLabel();
+    private static void printDOT(Writer writer, Writer invocationWriter) throws IOException {
+        printLabel(writer, invocationWriter);
         int pos = 0;
         for(int i=1; i<LineNum.size();i++){
             pos=getPos(Integer.parseInt(LineNum.get(i))-1, i);
-            System.out.println((Integer.parseInt(LineNum.get(i))-1)+Integer.toString(pos)+"->"+LineNum.get(i)+i);
+            writer.write((Integer.parseInt(LineNum.get(i))-1)+Integer.toString(pos)+"->"+LineNum.get(i)+i+"\n");
         }
     }
     
-    private static void printLabel(){
+    private static void printLabel(Writer writer, Writer invocationWriter) throws IOException {
         for(int i =0; i<LineNum.size(); i++){
-            System.out.println(LineNum.get(i)+i+"[label=\""+Type.get(i)+"\\n "+Content.get(i)+" \"]");
+            String label = Type.get(i);
+            String content = Content.get(i).replace("\"","\\\"");
+            writer.write(LineNum.get(i)+i+"[label=\""+label+"\\n "+content+" \"]\n");
+           
+            if (label == "methodDeclarator")
+                invocationWriter.write("\n>" + content + "\n");
+            if (label.indexOf("methodInvocation") != -1 && content.indexOf("System") == -1)
+                //System.out.println(label);
+                invocationWriter.write(content.split("\\(")[0] + "\n");
         }
     }
     
