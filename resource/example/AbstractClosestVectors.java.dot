@@ -1,0 +1,2107 @@
+digraph G {
+00[label="compilationUnit\n Bud1%@@@@E%DSDB@@@ "]
+01[label="compilationUnit\n digraphG{00[label=\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \"]} "]
+02[label="compilationUnit\n digraphG{00[label=\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \"]01[label=\"compilationUnit\n digraphG{00[label=\\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \\"]} \"]-10->01} "]
+03[label="compilationUnit\n <EOF> "]
+04[label="compilationUnit\n <EOF> "]
+05[label="compilationUnit\n digraphG{00[label=\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \"]01[label=\"compilationUnit\n digraphG{00[label=\\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \\"]} \"]02[label=\"compilationUnit\n digraphG{00[label=\\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \\"]01[label=\\"compilationUnit\n digraphG{00[label=\\\"compilationUnitnBud1%@@@@E%DSDB@@@\"]} \\"]-10->01} \"]03[label=\"compilationUnit\n <EOF> \"]04[label=\"compilationUnit\n <EOF> \"]-10->01-10->02-10->03-10->04} "]
+06[label="compilationUnit\n <EOF> "]
+07[label="compilationUnit\n packagecom.hankcs.hanlp.collection.trie.bintrie;publicclass_EmptyValueArray<V>extends_ValueArray<V>{public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}}<EOF> "]
+18[label="packageDeclaration\n packagecom.hankcs.hanlp.collection.trie.bintrie; "]
+29[label="packageName\n com.hankcs.hanlp.collection.trie.bintrie "]
+310[label="packageName\n com.hankcs.hanlp.collection.trie "]
+411[label="packageName\n com.hankcs.hanlp.collection "]
+512[label="packageName\n com.hankcs.hanlp "]
+613[label="packageName\n com.hankcs "]
+714[label="packageName\n com "]
+115[label="normalClassDeclaration\n publicclass_EmptyValueArray<V>extends_ValueArray<V>{public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}} "]
+216[label="classModifier\n public "]
+217[label="typeParameters\n <V> "]
+318[label="typeParameter\n V "]
+219[label="superclass\n extends_ValueArray<V> "]
+320[label="classType\n _ValueArray<V> "]
+421[label="typeArguments\n <V> "]
+522[label="classType_lfno_classOrInterfaceType\n V "]
+223[label="classBody\n {public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}} "]
+324[label="constructorDeclaration\n public_EmptyValueArray(){} "]
+425[label="constructorModifier\n public "]
+426[label="constructorDeclarator\n _EmptyValueArray() "]
+527[label="simpleTypeName\n _EmptyValueArray "]
+428[label="constructorBody\n {} "]
+329[label="methodDeclaration\n @OverridepublicVnextValue(){returnnull;} "]
+430[label="markerAnnotation\n @Override "]
+531[label="typeName\n Override "]
+432[label="methodModifier\n public "]
+433[label="methodHeader\n VnextValue() "]
+534[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+535[label="methodDeclarator\n nextValue() "]
+436[label="block\n {returnnull;} "]
+537[label="returnStatement\n returnnull; "]
+638[label="literal\n null "]
+039[label="compilationUnit\n packagecom.hankcs.hanlp.collection.trie.bintrie;publicclass_ValueArray<V>{V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}}<EOF> "]
+140[label="packageDeclaration\n packagecom.hankcs.hanlp.collection.trie.bintrie; "]
+241[label="packageName\n com.hankcs.hanlp.collection.trie.bintrie "]
+342[label="packageName\n com.hankcs.hanlp.collection.trie "]
+443[label="packageName\n com.hankcs.hanlp.collection "]
+544[label="packageName\n com.hankcs.hanlp "]
+645[label="packageName\n com.hankcs "]
+746[label="packageName\n com "]
+147[label="normalClassDeclaration\n publicclass_ValueArray<V>{V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}} "]
+248[label="classModifier\n public "]
+249[label="typeParameters\n <V> "]
+350[label="typeParameter\n V "]
+251[label="classBody\n {V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}} "]
+352[label="fieldDeclaration\n V[]value; "]
+453[label="unannArrayType\n V[] "]
+554[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+555[label="dims\n [] "]
+456[label="variableDeclaratorId\n value "]
+357[label="fieldDeclaration\n intoffset; "]
+458[label="integralType\n int "]
+459[label="variableDeclaratorId\n offset "]
+360[label="constructorDeclaration\n public_ValueArray(V[]value){this.value=value;} "]
+461[label="constructorModifier\n public "]
+462[label="constructorDeclarator\n _ValueArray(V[]value) "]
+563[label="simpleTypeName\n _ValueArray "]
+564[label="formalParameter\n V[]value "]
+665[label="unannArrayType\n V[] "]
+766[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+767[label="dims\n [] "]
+668[label="variableDeclaratorId\n value "]
+469[label="constructorBody\n {this.value=value;} "]
+570[label="expressionStatement\n this.value=value; "]
+671[label="assignment\n this.value=value "]
+772[label="fieldAccess\n this.value "]
+873[label="primaryNoNewArray_lfno_primary\n this "]
+774[label="assignmentOperator\n = "]
+775[label="expressionName\n value "]
+376[label="methodDeclaration\n publicVnextValue(){returnvalue[offset++];} "]
+477[label="methodModifier\n public "]
+478[label="methodHeader\n VnextValue() "]
+579[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+580[label="methodDeclarator\n nextValue() "]
+481[label="block\n {returnvalue[offset++];} "]
+582[label="returnStatement\n returnvalue[offset++]; "]
+683[label="arrayAccess_lfno_primary\n value[offset++] "]
+784[label="expressionName\n value "]
+785[label="postfixExpression\n offset++ "]
+886[label="expressionName\n offset "]
+887[label="postIncrementExpression_lf_postfixExpression\n ++ "]
+388[label="constructorDeclaration\n protected_ValueArray(){} "]
+489[label="constructorModifier\n protected "]
+490[label="constructorDeclarator\n _ValueArray() "]
+591[label="simpleTypeName\n _ValueArray "]
+492[label="constructorBody\n {} "]
+393[label="methodDeclaration\n public_ValueArraysetValue(V[]value){this.value=value;returnthis;} "]
+494[label="methodModifier\n public "]
+495[label="methodHeader\n _ValueArraysetValue(V[]value) "]
+596[label="unannClassType_lfno_unannClassOrInterfaceType\n _ValueArray "]
+597[label="methodDeclarator\n setValue(V[]value) "]
+698[label="formalParameter\n V[]value "]
+799[label="unannArrayType\n V[] "]
+8100[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+8101[label="dims\n [] "]
+7102[label="variableDeclaratorId\n value "]
+4103[label="block\n {this.value=value;returnthis;} "]
+5104[label="blockStatements\n this.value=value;returnthis; "]
+6105[label="expressionStatement\n this.value=value; "]
+7106[label="assignment\n this.value=value "]
+8107[label="fieldAccess\n this.value "]
+9108[label="primaryNoNewArray_lfno_primary\n this "]
+8109[label="assignmentOperator\n = "]
+8110[label="expressionName\n value "]
+6111[label="returnStatement\n returnthis; "]
+7112[label="primaryNoNewArray_lfno_primary\n this "]
+0113[label="compilationUnit\n packagecom.hankcs.hanlp.classification.classifiers;importcom.hankcs.hanlp.classification.corpus.Document;importcom.hankcs.hanlp.classification.corpus.IDataSet;importcom.hankcs.hanlp.classification.corpus.MemoryDataSet;importcom.hankcs.hanlp.classification.models.AbstractModel;importcom.hankcs.hanlp.classification.utilities.CollectionUtility;importcom.hankcs.hanlp.classification.utilities.MathUtility;importjava.io.IOException;importjava.util.Map;importjava.util.TreeMap;importstaticcom.hankcs.hanlp.classification.utilities.Predefine.logger;publicabstractclassAbstractClassifierimplementsIClassifier{@OverridepublicIClassifierenableProbability(booleanenable){returnthis;}booleanconfigProbabilityEnabled=true;@OverridepublicStringclassify(Stringtext)throwsIllegalArgumentException,IllegalStateException{Map<String,Double>scoreMap=predict(text);returnCollectionUtility.max(scoreMap);}@OverridepublicStringclassify(Documentdocument)throwsIllegalArgumentException,IllegalStateException{Map<String,Double>scoreMap=predict(document);returnCollectionUtility.max(scoreMap);}@Overridepublicvoidtrain(StringfolderPath,StringcharsetName)throwsIOException{IDataSetdataSet=newMemoryDataSet();dataSet.load(folderPath,charsetName);train(dataSet);}@Overridepublicvoidtrain(Map<String,String[]>trainingDataSet)throwsIllegalArgumentException{IDataSetdataSet=newMemoryDataSet();logger.start(\"正在构造训练数据集...\");inttotal=trainingDataSet.size();intcur=0;for(Map.Entry<String,String[]>entry:trainingDataSet.entrySet()){Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total));}logger.finish(\" 加载完毕\n\");train(dataSet);}@Overridepublicvoidtrain(StringfolderPath)throwsIOException{train(folderPath,\"UTF-8\");}@OverridepublicMap<String,Double>predict(Documentdocument){AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);Map<String,Double>scoreMap=newTreeMap<String,Double>();for(inti=0;i<probs.length;i++){scoreMap.put(model.catalog[i],probs[i]);}returnscoreMap;}@Overridepublicintlabel(Documentdocument)throwsIllegalArgumentException,IllegalStateException{AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);doublemax=Double.NEGATIVE_INFINITY;intbest=-1;for(inti=0;i<probs.length;i++){if(probs[i]>max){max=probs[i];best=i;}}returnbest;}}<EOF> "]
+1114[label="packageDeclaration\n packagecom.hankcs.hanlp.classification.classifiers; "]
+2115[label="packageName\n com.hankcs.hanlp.classification.classifiers "]
+3116[label="packageName\n com.hankcs.hanlp.classification "]
+4117[label="packageName\n com.hankcs.hanlp "]
+5118[label="packageName\n com.hankcs "]
+6119[label="packageName\n com "]
+1120[label="singleTypeImportDeclaration\n importcom.hankcs.hanlp.classification.corpus.Document; "]
+2121[label="typeName\n com.hankcs.hanlp.classification.corpus.Document "]
+3122[label="packageOrTypeName\n com.hankcs.hanlp.classification.corpus "]
+4123[label="packageOrTypeName\n com.hankcs.hanlp.classification "]
+5124[label="packageOrTypeName\n com.hankcs.hanlp "]
+6125[label="packageOrTypeName\n com.hankcs "]
+7126[label="packageOrTypeName\n com "]
+1127[label="singleTypeImportDeclaration\n importcom.hankcs.hanlp.classification.corpus.IDataSet; "]
+2128[label="typeName\n com.hankcs.hanlp.classification.corpus.IDataSet "]
+3129[label="packageOrTypeName\n com.hankcs.hanlp.classification.corpus "]
+4130[label="packageOrTypeName\n com.hankcs.hanlp.classification "]
+5131[label="packageOrTypeName\n com.hankcs.hanlp "]
+6132[label="packageOrTypeName\n com.hankcs "]
+7133[label="packageOrTypeName\n com "]
+1134[label="singleTypeImportDeclaration\n importcom.hankcs.hanlp.classification.corpus.MemoryDataSet; "]
+2135[label="typeName\n com.hankcs.hanlp.classification.corpus.MemoryDataSet "]
+3136[label="packageOrTypeName\n com.hankcs.hanlp.classification.corpus "]
+4137[label="packageOrTypeName\n com.hankcs.hanlp.classification "]
+5138[label="packageOrTypeName\n com.hankcs.hanlp "]
+6139[label="packageOrTypeName\n com.hankcs "]
+7140[label="packageOrTypeName\n com "]
+1141[label="singleTypeImportDeclaration\n importcom.hankcs.hanlp.classification.models.AbstractModel; "]
+2142[label="typeName\n com.hankcs.hanlp.classification.models.AbstractModel "]
+3143[label="packageOrTypeName\n com.hankcs.hanlp.classification.models "]
+4144[label="packageOrTypeName\n com.hankcs.hanlp.classification "]
+5145[label="packageOrTypeName\n com.hankcs.hanlp "]
+6146[label="packageOrTypeName\n com.hankcs "]
+7147[label="packageOrTypeName\n com "]
+1148[label="singleTypeImportDeclaration\n importcom.hankcs.hanlp.classification.utilities.CollectionUtility; "]
+2149[label="typeName\n com.hankcs.hanlp.classification.utilities.CollectionUtility "]
+3150[label="packageOrTypeName\n com.hankcs.hanlp.classification.utilities "]
+4151[label="packageOrTypeName\n com.hankcs.hanlp.classification "]
+5152[label="packageOrTypeName\n com.hankcs.hanlp "]
+6153[label="packageOrTypeName\n com.hankcs "]
+7154[label="packageOrTypeName\n com "]
+1155[label="singleTypeImportDeclaration\n importcom.hankcs.hanlp.classification.utilities.MathUtility; "]
+2156[label="typeName\n com.hankcs.hanlp.classification.utilities.MathUtility "]
+3157[label="packageOrTypeName\n com.hankcs.hanlp.classification.utilities "]
+4158[label="packageOrTypeName\n com.hankcs.hanlp.classification "]
+5159[label="packageOrTypeName\n com.hankcs.hanlp "]
+6160[label="packageOrTypeName\n com.hankcs "]
+7161[label="packageOrTypeName\n com "]
+1162[label="singleTypeImportDeclaration\n importjava.io.IOException; "]
+2163[label="typeName\n java.io.IOException "]
+3164[label="packageOrTypeName\n java.io "]
+4165[label="packageOrTypeName\n java "]
+1166[label="singleTypeImportDeclaration\n importjava.util.Map; "]
+2167[label="typeName\n java.util.Map "]
+3168[label="packageOrTypeName\n java.util "]
+4169[label="packageOrTypeName\n java "]
+1170[label="singleTypeImportDeclaration\n importjava.util.TreeMap; "]
+2171[label="typeName\n java.util.TreeMap "]
+3172[label="packageOrTypeName\n java.util "]
+4173[label="packageOrTypeName\n java "]
+1174[label="singleStaticImportDeclaration\n importstaticcom.hankcs.hanlp.classification.utilities.Predefine.logger; "]
+2175[label="typeName\n com.hankcs.hanlp.classification.utilities.Predefine "]
+3176[label="packageOrTypeName\n com.hankcs.hanlp.classification.utilities "]
+4177[label="packageOrTypeName\n com.hankcs.hanlp.classification "]
+5178[label="packageOrTypeName\n com.hankcs.hanlp "]
+6179[label="packageOrTypeName\n com.hankcs "]
+7180[label="packageOrTypeName\n com "]
+1181[label="normalClassDeclaration\n publicabstractclassAbstractClassifierimplementsIClassifier{@OverridepublicIClassifierenableProbability(booleanenable){returnthis;}booleanconfigProbabilityEnabled=true;@OverridepublicStringclassify(Stringtext)throwsIllegalArgumentException,IllegalStateException{Map<String,Double>scoreMap=predict(text);returnCollectionUtility.max(scoreMap);}@OverridepublicStringclassify(Documentdocument)throwsIllegalArgumentException,IllegalStateException{Map<String,Double>scoreMap=predict(document);returnCollectionUtility.max(scoreMap);}@Overridepublicvoidtrain(StringfolderPath,StringcharsetName)throwsIOException{IDataSetdataSet=newMemoryDataSet();dataSet.load(folderPath,charsetName);train(dataSet);}@Overridepublicvoidtrain(Map<String,String[]>trainingDataSet)throwsIllegalArgumentException{IDataSetdataSet=newMemoryDataSet();logger.start(\"正在构造训练数据集...\");inttotal=trainingDataSet.size();intcur=0;for(Map.Entry<String,String[]>entry:trainingDataSet.entrySet()){Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total));}logger.finish(\" 加载完毕\n\");train(dataSet);}@Overridepublicvoidtrain(StringfolderPath)throwsIOException{train(folderPath,\"UTF-8\");}@OverridepublicMap<String,Double>predict(Documentdocument){AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);Map<String,Double>scoreMap=newTreeMap<String,Double>();for(inti=0;i<probs.length;i++){scoreMap.put(model.catalog[i],probs[i]);}returnscoreMap;}@Overridepublicintlabel(Documentdocument)throwsIllegalArgumentException,IllegalStateException{AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);doublemax=Double.NEGATIVE_INFINITY;intbest=-1;for(inti=0;i<probs.length;i++){if(probs[i]>max){max=probs[i];best=i;}}returnbest;}} "]
+2182[label="classModifier\n public "]
+2183[label="classModifier\n abstract "]
+2184[label="superinterfaces\n implementsIClassifier "]
+3185[label="classType\n IClassifier "]
+2186[label="classBody\n {@OverridepublicIClassifierenableProbability(booleanenable){returnthis;}booleanconfigProbabilityEnabled=true;@OverridepublicStringclassify(Stringtext)throwsIllegalArgumentException,IllegalStateException{Map<String,Double>scoreMap=predict(text);returnCollectionUtility.max(scoreMap);}@OverridepublicStringclassify(Documentdocument)throwsIllegalArgumentException,IllegalStateException{Map<String,Double>scoreMap=predict(document);returnCollectionUtility.max(scoreMap);}@Overridepublicvoidtrain(StringfolderPath,StringcharsetName)throwsIOException{IDataSetdataSet=newMemoryDataSet();dataSet.load(folderPath,charsetName);train(dataSet);}@Overridepublicvoidtrain(Map<String,String[]>trainingDataSet)throwsIllegalArgumentException{IDataSetdataSet=newMemoryDataSet();logger.start(\"正在构造训练数据集...\");inttotal=trainingDataSet.size();intcur=0;for(Map.Entry<String,String[]>entry:trainingDataSet.entrySet()){Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total));}logger.finish(\" 加载完毕\n\");train(dataSet);}@Overridepublicvoidtrain(StringfolderPath)throwsIOException{train(folderPath,\"UTF-8\");}@OverridepublicMap<String,Double>predict(Documentdocument){AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);Map<String,Double>scoreMap=newTreeMap<String,Double>();for(inti=0;i<probs.length;i++){scoreMap.put(model.catalog[i],probs[i]);}returnscoreMap;}@Overridepublicintlabel(Documentdocument)throwsIllegalArgumentException,IllegalStateException{AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);doublemax=Double.NEGATIVE_INFINITY;intbest=-1;for(inti=0;i<probs.length;i++){if(probs[i]>max){max=probs[i];best=i;}}returnbest;}} "]
+3187[label="methodDeclaration\n @OverridepublicIClassifierenableProbability(booleanenable){returnthis;} "]
+4188[label="markerAnnotation\n @Override "]
+5189[label="typeName\n Override "]
+4190[label="methodModifier\n public "]
+4191[label="methodHeader\n IClassifierenableProbability(booleanenable) "]
+5192[label="unannClassType_lfno_unannClassOrInterfaceType\n IClassifier "]
+5193[label="methodDeclarator\n enableProbability(booleanenable) "]
+6194[label="formalParameter\n booleanenable "]
+7195[label="unannPrimitiveType\n boolean "]
+7196[label="variableDeclaratorId\n enable "]
+4197[label="block\n {returnthis;} "]
+5198[label="returnStatement\n returnthis; "]
+6199[label="primaryNoNewArray_lfno_primary\n this "]
+3200[label="fieldDeclaration\n booleanconfigProbabilityEnabled=true; "]
+4201[label="unannPrimitiveType\n boolean "]
+4202[label="variableDeclarator\n configProbabilityEnabled=true "]
+5203[label="variableDeclaratorId\n configProbabilityEnabled "]
+5204[label="literal\n true "]
+3205[label="methodDeclaration\n @OverridepublicStringclassify(Stringtext)throwsIllegalArgumentException,IllegalStateException{Map<String,Double>scoreMap=predict(text);returnCollectionUtility.max(scoreMap);} "]
+4206[label="markerAnnotation\n @Override "]
+5207[label="typeName\n Override "]
+4208[label="methodModifier\n public "]
+4209[label="methodHeader\n Stringclassify(Stringtext)throwsIllegalArgumentException,IllegalStateException "]
+5210[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+5211[label="methodDeclarator\n classify(Stringtext) "]
+6212[label="formalParameter\n Stringtext "]
+7213[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+7214[label="variableDeclaratorId\n text "]
+5215[label="throws_\n throwsIllegalArgumentException,IllegalStateException "]
+6216[label="exceptionTypeList\n IllegalArgumentException,IllegalStateException "]
+7217[label="classType\n IllegalArgumentException "]
+7218[label="classType\n IllegalStateException "]
+4219[label="block\n {Map<String,Double>scoreMap=predict(text);returnCollectionUtility.max(scoreMap);} "]
+5220[label="blockStatements\n Map<String,Double>scoreMap=predict(text);returnCollectionUtility.max(scoreMap); "]
+6221[label="localVariableDeclarationStatement\n Map<String,Double>scoreMap=predict(text); "]
+7222[label="localVariableDeclaration\n Map<String,Double>scoreMap=predict(text) "]
+8223[label="unannClassType_lfno_unannClassOrInterfaceType\n Map<String,Double> "]
+9224[label="typeArguments\n <String,Double> "]
+10225[label="typeArgumentList\n String,Double "]
+11226[label="classType_lfno_classOrInterfaceType\n String "]
+11227[label="classType_lfno_classOrInterfaceType\n Double "]
+8228[label="variableDeclarator\n scoreMap=predict(text) "]
+9229[label="variableDeclaratorId\n scoreMap "]
+9230[label="methodInvocation_lfno_primary\n predict(text) "]
+10231[label="methodName\n predict "]
+10232[label="expressionName\n text "]
+6233[label="returnStatement\n returnCollectionUtility.max(scoreMap); "]
+7234[label="methodInvocation_lfno_primary\n CollectionUtility.max(scoreMap) "]
+8235[label="typeName\n CollectionUtility "]
+8236[label="expressionName\n scoreMap "]
+3237[label="methodDeclaration\n @OverridepublicStringclassify(Documentdocument)throwsIllegalArgumentException,IllegalStateException{Map<String,Double>scoreMap=predict(document);returnCollectionUtility.max(scoreMap);} "]
+4238[label="markerAnnotation\n @Override "]
+5239[label="typeName\n Override "]
+4240[label="methodModifier\n public "]
+4241[label="methodHeader\n Stringclassify(Documentdocument)throwsIllegalArgumentException,IllegalStateException "]
+5242[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+5243[label="methodDeclarator\n classify(Documentdocument) "]
+6244[label="formalParameter\n Documentdocument "]
+7245[label="unannClassType_lfno_unannClassOrInterfaceType\n Document "]
+7246[label="variableDeclaratorId\n document "]
+5247[label="throws_\n throwsIllegalArgumentException,IllegalStateException "]
+6248[label="exceptionTypeList\n IllegalArgumentException,IllegalStateException "]
+7249[label="classType\n IllegalArgumentException "]
+7250[label="classType\n IllegalStateException "]
+4251[label="block\n {Map<String,Double>scoreMap=predict(document);returnCollectionUtility.max(scoreMap);} "]
+5252[label="blockStatements\n Map<String,Double>scoreMap=predict(document);returnCollectionUtility.max(scoreMap); "]
+6253[label="localVariableDeclarationStatement\n Map<String,Double>scoreMap=predict(document); "]
+7254[label="localVariableDeclaration\n Map<String,Double>scoreMap=predict(document) "]
+8255[label="unannClassType_lfno_unannClassOrInterfaceType\n Map<String,Double> "]
+9256[label="typeArguments\n <String,Double> "]
+10257[label="typeArgumentList\n String,Double "]
+11258[label="classType_lfno_classOrInterfaceType\n String "]
+11259[label="classType_lfno_classOrInterfaceType\n Double "]
+8260[label="variableDeclarator\n scoreMap=predict(document) "]
+9261[label="variableDeclaratorId\n scoreMap "]
+9262[label="methodInvocation_lfno_primary\n predict(document) "]
+10263[label="methodName\n predict "]
+10264[label="expressionName\n document "]
+6265[label="returnStatement\n returnCollectionUtility.max(scoreMap); "]
+7266[label="methodInvocation_lfno_primary\n CollectionUtility.max(scoreMap) "]
+8267[label="typeName\n CollectionUtility "]
+8268[label="expressionName\n scoreMap "]
+3269[label="methodDeclaration\n @Overridepublicvoidtrain(StringfolderPath,StringcharsetName)throwsIOException{IDataSetdataSet=newMemoryDataSet();dataSet.load(folderPath,charsetName);train(dataSet);} "]
+4270[label="markerAnnotation\n @Override "]
+5271[label="typeName\n Override "]
+4272[label="methodModifier\n public "]
+4273[label="methodHeader\n voidtrain(StringfolderPath,StringcharsetName)throwsIOException "]
+5274[label="result\n void "]
+5275[label="methodDeclarator\n train(StringfolderPath,StringcharsetName) "]
+6276[label="formalParameterList\n StringfolderPath,StringcharsetName "]
+7277[label="formalParameter\n StringfolderPath "]
+8278[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+8279[label="variableDeclaratorId\n folderPath "]
+7280[label="formalParameter\n StringcharsetName "]
+8281[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+8282[label="variableDeclaratorId\n charsetName "]
+5283[label="throws_\n throwsIOException "]
+6284[label="classType\n IOException "]
+4285[label="block\n {IDataSetdataSet=newMemoryDataSet();dataSet.load(folderPath,charsetName);train(dataSet);} "]
+5286[label="blockStatements\n IDataSetdataSet=newMemoryDataSet();dataSet.load(folderPath,charsetName);train(dataSet); "]
+6287[label="localVariableDeclarationStatement\n IDataSetdataSet=newMemoryDataSet(); "]
+7288[label="localVariableDeclaration\n IDataSetdataSet=newMemoryDataSet() "]
+8289[label="unannClassType_lfno_unannClassOrInterfaceType\n IDataSet "]
+8290[label="variableDeclarator\n dataSet=newMemoryDataSet() "]
+9291[label="variableDeclaratorId\n dataSet "]
+9292[label="classInstanceCreationExpression_lfno_primary\n newMemoryDataSet() "]
+6293[label="expressionStatement\n dataSet.load(folderPath,charsetName); "]
+7294[label="methodInvocation\n dataSet.load(folderPath,charsetName) "]
+8295[label="typeName\n dataSet "]
+8296[label="argumentList\n folderPath,charsetName "]
+9297[label="expressionName\n folderPath "]
+9298[label="expressionName\n charsetName "]
+6299[label="expressionStatement\n train(dataSet); "]
+7300[label="methodInvocation\n train(dataSet) "]
+8301[label="methodName\n train "]
+8302[label="expressionName\n dataSet "]
+3303[label="methodDeclaration\n @Overridepublicvoidtrain(Map<String,String[]>trainingDataSet)throwsIllegalArgumentException{IDataSetdataSet=newMemoryDataSet();logger.start(\"正在构造训练数据集...\");inttotal=trainingDataSet.size();intcur=0;for(Map.Entry<String,String[]>entry:trainingDataSet.entrySet()){Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total));}logger.finish(\" 加载完毕\n\");train(dataSet);} "]
+4304[label="markerAnnotation\n @Override "]
+5305[label="typeName\n Override "]
+4306[label="methodModifier\n public "]
+4307[label="methodHeader\n voidtrain(Map<String,String[]>trainingDataSet)throwsIllegalArgumentException "]
+5308[label="result\n void "]
+5309[label="methodDeclarator\n train(Map<String,String[]>trainingDataSet) "]
+6310[label="formalParameter\n Map<String,String[]>trainingDataSet "]
+7311[label="unannClassType_lfno_unannClassOrInterfaceType\n Map<String,String[]> "]
+8312[label="typeArguments\n <String,String[]> "]
+9313[label="typeArgumentList\n String,String[] "]
+10314[label="classType_lfno_classOrInterfaceType\n String "]
+10315[label="arrayType\n String[] "]
+11316[label="classType_lfno_classOrInterfaceType\n String "]
+11317[label="dims\n [] "]
+7318[label="variableDeclaratorId\n trainingDataSet "]
+5319[label="throws_\n throwsIllegalArgumentException "]
+6320[label="classType\n IllegalArgumentException "]
+4321[label="block\n {IDataSetdataSet=newMemoryDataSet();logger.start(\"正在构造训练数据集...\");inttotal=trainingDataSet.size();intcur=0;for(Map.Entry<String,String[]>entry:trainingDataSet.entrySet()){Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total));}logger.finish(\" 加载完毕\n\");train(dataSet);} "]
+5322[label="blockStatements\n IDataSetdataSet=newMemoryDataSet();logger.start(\"正在构造训练数据集...\");inttotal=trainingDataSet.size();intcur=0;for(Map.Entry<String,String[]>entry:trainingDataSet.entrySet()){Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total));}logger.finish(\" 加载完毕\n\");train(dataSet); "]
+6323[label="localVariableDeclarationStatement\n IDataSetdataSet=newMemoryDataSet(); "]
+7324[label="localVariableDeclaration\n IDataSetdataSet=newMemoryDataSet() "]
+8325[label="unannClassType_lfno_unannClassOrInterfaceType\n IDataSet "]
+8326[label="variableDeclarator\n dataSet=newMemoryDataSet() "]
+9327[label="variableDeclaratorId\n dataSet "]
+9328[label="classInstanceCreationExpression_lfno_primary\n newMemoryDataSet() "]
+6329[label="expressionStatement\n logger.start(\"正在构造训练数据集...\"); "]
+7330[label="methodInvocation\n logger.start(\"正在构造训练数据集...\") "]
+8331[label="typeName\n logger "]
+8332[label="literal\n \"正在构造训练数据集...\" "]
+6333[label="localVariableDeclarationStatement\n inttotal=trainingDataSet.size(); "]
+7334[label="localVariableDeclaration\n inttotal=trainingDataSet.size() "]
+8335[label="integralType\n int "]
+8336[label="variableDeclarator\n total=trainingDataSet.size() "]
+9337[label="variableDeclaratorId\n total "]
+9338[label="methodInvocation_lfno_primary\n trainingDataSet.size() "]
+10339[label="typeName\n trainingDataSet "]
+6340[label="localVariableDeclarationStatement\n intcur=0; "]
+7341[label="localVariableDeclaration\n intcur=0 "]
+8342[label="integralType\n int "]
+8343[label="variableDeclarator\n cur=0 "]
+9344[label="variableDeclaratorId\n cur "]
+9345[label="literal\n 0 "]
+6346[label="enhancedForStatement\n for(Map.Entry<String,String[]>entry:trainingDataSet.entrySet()){Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total));} "]
+7347[label="unannClassOrInterfaceType\n Map.Entry<String,String[]> "]
+8348[label="unannClassType_lfno_unannClassOrInterfaceType\n Map "]
+8349[label="unannClassType_lf_unannClassOrInterfaceType\n .Entry<String,String[]> "]
+9350[label="typeArguments\n <String,String[]> "]
+10351[label="typeArgumentList\n String,String[] "]
+11352[label="classType_lfno_classOrInterfaceType\n String "]
+11353[label="arrayType\n String[] "]
+12354[label="classType_lfno_classOrInterfaceType\n String "]
+12355[label="dims\n [] "]
+7356[label="variableDeclaratorId\n entry "]
+7357[label="methodInvocation_lfno_primary\n trainingDataSet.entrySet() "]
+8358[label="typeName\n trainingDataSet "]
+7359[label="block\n {Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total));} "]
+8360[label="blockStatements\n Stringcategory=entry.getKey();logger.out(\"[%s]...\",category);for(Stringdoc:entry.getValue()){dataSet.add(category,doc);}++cur;logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total)); "]
+9361[label="localVariableDeclarationStatement\n Stringcategory=entry.getKey(); "]
+10362[label="localVariableDeclaration\n Stringcategory=entry.getKey() "]
+11363[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+11364[label="variableDeclarator\n category=entry.getKey() "]
+12365[label="variableDeclaratorId\n category "]
+12366[label="methodInvocation_lfno_primary\n entry.getKey() "]
+13367[label="typeName\n entry "]
+9368[label="expressionStatement\n logger.out(\"[%s]...\",category); "]
+10369[label="methodInvocation\n logger.out(\"[%s]...\",category) "]
+11370[label="typeName\n logger "]
+11371[label="argumentList\n \"[%s]...\",category "]
+12372[label="literal\n \"[%s]...\" "]
+12373[label="expressionName\n category "]
+9374[label="enhancedForStatement\n for(Stringdoc:entry.getValue()){dataSet.add(category,doc);} "]
+10375[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+10376[label="variableDeclaratorId\n doc "]
+10377[label="methodInvocation_lfno_primary\n entry.getValue() "]
+11378[label="typeName\n entry "]
+10379[label="block\n {dataSet.add(category,doc);} "]
+11380[label="expressionStatement\n dataSet.add(category,doc); "]
+12381[label="methodInvocation\n dataSet.add(category,doc) "]
+13382[label="typeName\n dataSet "]
+13383[label="argumentList\n category,doc "]
+14384[label="expressionName\n category "]
+14385[label="expressionName\n doc "]
+9386[label="expressionStatement\n ++cur; "]
+10387[label="preIncrementExpression\n ++cur "]
+11388[label="expressionName\n cur "]
+9389[label="expressionStatement\n logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total)); "]
+10390[label="methodInvocation\n logger.out(\"%.2f%%...\",MathUtility.percentage(cur,total)) "]
+11391[label="typeName\n logger "]
+11392[label="argumentList\n \"%.2f%%...\",MathUtility.percentage(cur,total) "]
+12393[label="literal\n \"%.2f%%...\" "]
+12394[label="methodInvocation_lfno_primary\n MathUtility.percentage(cur,total) "]
+13395[label="typeName\n MathUtility "]
+13396[label="argumentList\n cur,total "]
+14397[label="expressionName\n cur "]
+14398[label="expressionName\n total "]
+6399[label="expressionStatement\n logger.finish(\" 加载完毕\n\"); "]
+7400[label="methodInvocation\n logger.finish(\" 加载完毕\n\") "]
+8401[label="typeName\n logger "]
+8402[label="literal\n \" 加载完毕\n\" "]
+6403[label="expressionStatement\n train(dataSet); "]
+7404[label="methodInvocation\n train(dataSet) "]
+8405[label="methodName\n train "]
+8406[label="expressionName\n dataSet "]
+3407[label="methodDeclaration\n @Overridepublicvoidtrain(StringfolderPath)throwsIOException{train(folderPath,\"UTF-8\");} "]
+4408[label="markerAnnotation\n @Override "]
+5409[label="typeName\n Override "]
+4410[label="methodModifier\n public "]
+4411[label="methodHeader\n voidtrain(StringfolderPath)throwsIOException "]
+5412[label="result\n void "]
+5413[label="methodDeclarator\n train(StringfolderPath) "]
+6414[label="formalParameter\n StringfolderPath "]
+7415[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+7416[label="variableDeclaratorId\n folderPath "]
+5417[label="throws_\n throwsIOException "]
+6418[label="classType\n IOException "]
+4419[label="block\n {train(folderPath,\"UTF-8\");} "]
+5420[label="expressionStatement\n train(folderPath,\"UTF-8\"); "]
+6421[label="methodInvocation\n train(folderPath,\"UTF-8\") "]
+7422[label="methodName\n train "]
+7423[label="argumentList\n folderPath,\"UTF-8\" "]
+8424[label="expressionName\n folderPath "]
+8425[label="literal\n \"UTF-8\" "]
+3426[label="methodDeclaration\n @OverridepublicMap<String,Double>predict(Documentdocument){AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);Map<String,Double>scoreMap=newTreeMap<String,Double>();for(inti=0;i<probs.length;i++){scoreMap.put(model.catalog[i],probs[i]);}returnscoreMap;} "]
+4427[label="markerAnnotation\n @Override "]
+5428[label="typeName\n Override "]
+4429[label="methodModifier\n public "]
+4430[label="methodHeader\n Map<String,Double>predict(Documentdocument) "]
+5431[label="unannClassType_lfno_unannClassOrInterfaceType\n Map<String,Double> "]
+6432[label="typeArguments\n <String,Double> "]
+7433[label="typeArgumentList\n String,Double "]
+8434[label="classType_lfno_classOrInterfaceType\n String "]
+8435[label="classType_lfno_classOrInterfaceType\n Double "]
+5436[label="methodDeclarator\n predict(Documentdocument) "]
+6437[label="formalParameter\n Documentdocument "]
+7438[label="unannClassType_lfno_unannClassOrInterfaceType\n Document "]
+7439[label="variableDeclaratorId\n document "]
+4440[label="block\n {AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);Map<String,Double>scoreMap=newTreeMap<String,Double>();for(inti=0;i<probs.length;i++){scoreMap.put(model.catalog[i],probs[i]);}returnscoreMap;} "]
+5441[label="blockStatements\n AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);Map<String,Double>scoreMap=newTreeMap<String,Double>();for(inti=0;i<probs.length;i++){scoreMap.put(model.catalog[i],probs[i]);}returnscoreMap; "]
+6442[label="localVariableDeclarationStatement\n AbstractModelmodel=getModel(); "]
+7443[label="localVariableDeclaration\n AbstractModelmodel=getModel() "]
+8444[label="unannClassType_lfno_unannClassOrInterfaceType\n AbstractModel "]
+8445[label="variableDeclarator\n model=getModel() "]
+9446[label="variableDeclaratorId\n model "]
+9447[label="methodInvocation_lfno_primary\n getModel() "]
+10448[label="methodName\n getModel "]
+6449[label="ifThenStatement\n if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");} "]
+7450[label="equalityExpression\n model==null "]
+8451[label="expressionName\n model "]
+8452[label="literal\n null "]
+7453[label="block\n {thrownewIllegalStateException(\"未训练模型！无法执行预测！\");} "]
+8454[label="throwStatement\n thrownewIllegalStateException(\"未训练模型！无法执行预测！\"); "]
+9455[label="classInstanceCreationExpression_lfno_primary\n newIllegalStateException(\"未训练模型！无法执行预测！\") "]
+10456[label="literal\n \"未训练模型！无法执行预测！\" "]
+6457[label="ifThenStatement\n if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");} "]
+7458[label="equalityExpression\n document==null "]
+8459[label="expressionName\n document "]
+8460[label="literal\n null "]
+7461[label="block\n {thrownewIllegalArgumentException(\"参数 text == null\");} "]
+8462[label="throwStatement\n thrownewIllegalArgumentException(\"参数 text == null\"); "]
+9463[label="classInstanceCreationExpression_lfno_primary\n newIllegalArgumentException(\"参数 text == null\") "]
+10464[label="literal\n \"参数 text == null\" "]
+6465[label="localVariableDeclarationStatement\n double[]probs=categorize(document); "]
+7466[label="localVariableDeclaration\n double[]probs=categorize(document) "]
+8467[label="unannArrayType\n double[] "]
+9468[label="floatingPointType\n double "]
+9469[label="dims\n [] "]
+8470[label="variableDeclarator\n probs=categorize(document) "]
+9471[label="variableDeclaratorId\n probs "]
+9472[label="methodInvocation_lfno_primary\n categorize(document) "]
+10473[label="methodName\n categorize "]
+10474[label="expressionName\n document "]
+6475[label="localVariableDeclarationStatement\n Map<String,Double>scoreMap=newTreeMap<String,Double>(); "]
+7476[label="localVariableDeclaration\n Map<String,Double>scoreMap=newTreeMap<String,Double>() "]
+8477[label="unannClassType_lfno_unannClassOrInterfaceType\n Map<String,Double> "]
+9478[label="typeArguments\n <String,Double> "]
+10479[label="typeArgumentList\n String,Double "]
+11480[label="classType_lfno_classOrInterfaceType\n String "]
+11481[label="classType_lfno_classOrInterfaceType\n Double "]
+8482[label="variableDeclarator\n scoreMap=newTreeMap<String,Double>() "]
+9483[label="variableDeclaratorId\n scoreMap "]
+9484[label="classInstanceCreationExpression_lfno_primary\n newTreeMap<String,Double>() "]
+10485[label="typeArguments\n <String,Double> "]
+11486[label="typeArgumentList\n String,Double "]
+12487[label="classType_lfno_classOrInterfaceType\n String "]
+12488[label="classType_lfno_classOrInterfaceType\n Double "]
+6489[label="basicForStatement\n for(inti=0;i<probs.length;i++){scoreMap.put(model.catalog[i],probs[i]);} "]
+7490[label="localVariableDeclaration\n inti=0 "]
+8491[label="integralType\n int "]
+8492[label="variableDeclarator\n i=0 "]
+9493[label="variableDeclaratorId\n i "]
+9494[label="literal\n 0 "]
+7495[label="relationalExpression\n i<probs.length "]
+8496[label="expressionName\n i "]
+8497[label="expressionName\n probs.length "]
+9498[label="ambiguousName\n probs "]
+7499[label="postIncrementExpression\n i++ "]
+8500[label="expressionName\n i "]
+7501[label="block\n {scoreMap.put(model.catalog[i],probs[i]);} "]
+8502[label="expressionStatement\n scoreMap.put(model.catalog[i],probs[i]); "]
+9503[label="methodInvocation\n scoreMap.put(model.catalog[i],probs[i]) "]
+10504[label="typeName\n scoreMap "]
+10505[label="argumentList\n model.catalog[i],probs[i] "]
+11506[label="arrayAccess_lfno_primary\n model.catalog[i] "]
+12507[label="expressionName\n model.catalog "]
+13508[label="ambiguousName\n model "]
+12509[label="expressionName\n i "]
+11510[label="arrayAccess_lfno_primary\n probs[i] "]
+12511[label="expressionName\n probs "]
+12512[label="expressionName\n i "]
+6513[label="returnStatement\n returnscoreMap; "]
+7514[label="expressionName\n scoreMap "]
+3515[label="methodDeclaration\n @Overridepublicintlabel(Documentdocument)throwsIllegalArgumentException,IllegalStateException{AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);doublemax=Double.NEGATIVE_INFINITY;intbest=-1;for(inti=0;i<probs.length;i++){if(probs[i]>max){max=probs[i];best=i;}}returnbest;} "]
+4516[label="markerAnnotation\n @Override "]
+5517[label="typeName\n Override "]
+4518[label="methodModifier\n public "]
+4519[label="methodHeader\n intlabel(Documentdocument)throwsIllegalArgumentException,IllegalStateException "]
+5520[label="integralType\n int "]
+5521[label="methodDeclarator\n label(Documentdocument) "]
+6522[label="formalParameter\n Documentdocument "]
+7523[label="unannClassType_lfno_unannClassOrInterfaceType\n Document "]
+7524[label="variableDeclaratorId\n document "]
+5525[label="throws_\n throwsIllegalArgumentException,IllegalStateException "]
+6526[label="exceptionTypeList\n IllegalArgumentException,IllegalStateException "]
+7527[label="classType\n IllegalArgumentException "]
+7528[label="classType\n IllegalStateException "]
+4529[label="block\n {AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);doublemax=Double.NEGATIVE_INFINITY;intbest=-1;for(inti=0;i<probs.length;i++){if(probs[i]>max){max=probs[i];best=i;}}returnbest;} "]
+5530[label="blockStatements\n AbstractModelmodel=getModel();if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");}if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");}double[]probs=categorize(document);doublemax=Double.NEGATIVE_INFINITY;intbest=-1;for(inti=0;i<probs.length;i++){if(probs[i]>max){max=probs[i];best=i;}}returnbest; "]
+6531[label="localVariableDeclarationStatement\n AbstractModelmodel=getModel(); "]
+7532[label="localVariableDeclaration\n AbstractModelmodel=getModel() "]
+8533[label="unannClassType_lfno_unannClassOrInterfaceType\n AbstractModel "]
+8534[label="variableDeclarator\n model=getModel() "]
+9535[label="variableDeclaratorId\n model "]
+9536[label="methodInvocation_lfno_primary\n getModel() "]
+10537[label="methodName\n getModel "]
+6538[label="ifThenStatement\n if(model==null){thrownewIllegalStateException(\"未训练模型！无法执行预测！\");} "]
+7539[label="equalityExpression\n model==null "]
+8540[label="expressionName\n model "]
+8541[label="literal\n null "]
+7542[label="block\n {thrownewIllegalStateException(\"未训练模型！无法执行预测！\");} "]
+8543[label="throwStatement\n thrownewIllegalStateException(\"未训练模型！无法执行预测！\"); "]
+9544[label="classInstanceCreationExpression_lfno_primary\n newIllegalStateException(\"未训练模型！无法执行预测！\") "]
+10545[label="literal\n \"未训练模型！无法执行预测！\" "]
+6546[label="ifThenStatement\n if(document==null){thrownewIllegalArgumentException(\"参数 text == null\");} "]
+7547[label="equalityExpression\n document==null "]
+8548[label="expressionName\n document "]
+8549[label="literal\n null "]
+7550[label="block\n {thrownewIllegalArgumentException(\"参数 text == null\");} "]
+8551[label="throwStatement\n thrownewIllegalArgumentException(\"参数 text == null\"); "]
+9552[label="classInstanceCreationExpression_lfno_primary\n newIllegalArgumentException(\"参数 text == null\") "]
+10553[label="literal\n \"参数 text == null\" "]
+6554[label="localVariableDeclarationStatement\n double[]probs=categorize(document); "]
+7555[label="localVariableDeclaration\n double[]probs=categorize(document) "]
+8556[label="unannArrayType\n double[] "]
+9557[label="floatingPointType\n double "]
+9558[label="dims\n [] "]
+8559[label="variableDeclarator\n probs=categorize(document) "]
+9560[label="variableDeclaratorId\n probs "]
+9561[label="methodInvocation_lfno_primary\n categorize(document) "]
+10562[label="methodName\n categorize "]
+10563[label="expressionName\n document "]
+6564[label="localVariableDeclarationStatement\n doublemax=Double.NEGATIVE_INFINITY; "]
+7565[label="localVariableDeclaration\n doublemax=Double.NEGATIVE_INFINITY "]
+8566[label="floatingPointType\n double "]
+8567[label="variableDeclarator\n max=Double.NEGATIVE_INFINITY "]
+9568[label="variableDeclaratorId\n max "]
+9569[label="expressionName\n Double.NEGATIVE_INFINITY "]
+10570[label="ambiguousName\n Double "]
+6571[label="localVariableDeclarationStatement\n intbest=-1; "]
+7572[label="localVariableDeclaration\n intbest=-1 "]
+8573[label="integralType\n int "]
+8574[label="variableDeclarator\n best=-1 "]
+9575[label="variableDeclaratorId\n best "]
+9576[label="unaryExpression\n -1 "]
+10577[label="literal\n 1 "]
+6578[label="basicForStatement\n for(inti=0;i<probs.length;i++){if(probs[i]>max){max=probs[i];best=i;}} "]
+7579[label="localVariableDeclaration\n inti=0 "]
+8580[label="integralType\n int "]
+8581[label="variableDeclarator\n i=0 "]
+9582[label="variableDeclaratorId\n i "]
+9583[label="literal\n 0 "]
+7584[label="relationalExpression\n i<probs.length "]
+8585[label="expressionName\n i "]
+8586[label="expressionName\n probs.length "]
+9587[label="ambiguousName\n probs "]
+7588[label="postIncrementExpression\n i++ "]
+8589[label="expressionName\n i "]
+7590[label="block\n {if(probs[i]>max){max=probs[i];best=i;}} "]
+8591[label="ifThenStatement\n if(probs[i]>max){max=probs[i];best=i;} "]
+9592[label="relationalExpression\n probs[i]>max "]
+10593[label="arrayAccess_lfno_primary\n probs[i] "]
+11594[label="expressionName\n probs "]
+11595[label="expressionName\n i "]
+10596[label="expressionName\n max "]
+9597[label="block\n {max=probs[i];best=i;} "]
+10598[label="blockStatements\n max=probs[i];best=i; "]
+11599[label="expressionStatement\n max=probs[i]; "]
+12600[label="assignment\n max=probs[i] "]
+13601[label="expressionName\n max "]
+13602[label="assignmentOperator\n = "]
+13603[label="arrayAccess_lfno_primary\n probs[i] "]
+14604[label="expressionName\n probs "]
+14605[label="expressionName\n i "]
+11606[label="expressionStatement\n best=i; "]
+12607[label="assignment\n best=i "]
+13608[label="expressionName\n best "]
+13609[label="assignmentOperator\n = "]
+13610[label="expressionName\n i "]
+6611[label="returnStatement\n returnbest; "]
+7612[label="expressionName\n best "]
+0613[label="compilationUnit\n packagecom.hankcs.hanlp.mining.word2vec;importjava.io.IOException;importjava.util.Scanner;publicabstractclassAbstractClosestVectors{staticfinalintN=40;protectedScannerscanner;protectedfinalVectorsReadervectorsReader;protectedAbstractClosestVectors(Stringfile){vectorsReader=newVectorsReader(file);}protectedString[]nextWords(intn,Stringmsg){System.out.println(msg+\" ('q' to break): \");String[]words=newString[n];for(inti=0;i<n;i++){Stringword=nextWord();if(word==null)returnnull;words[i]=word;}returnwords;}protectedStringnextWord(){Stringword=scanner.next();returnword==null||word.length()==0||word.equals(\"q\")?null:word;}protectedabstractResultgetTargetVector();finalprotectedvoidexecute()throwsIOException{vectorsReader.readVectorFile();finalintwords=vectorsReader.getNumWords();finalintsize=vectorsReader.getSize();try{scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);}}finally{scanner.close();}}protectedstaticclassResult{float[]vec;int[]bi;publicResult(float[]vec,int[]bi){this.vec=vec;this.bi=bi;}}}<EOF> "]
+1614[label="packageDeclaration\n packagecom.hankcs.hanlp.mining.word2vec; "]
+2615[label="packageName\n com.hankcs.hanlp.mining.word2vec "]
+3616[label="packageName\n com.hankcs.hanlp.mining "]
+4617[label="packageName\n com.hankcs.hanlp "]
+5618[label="packageName\n com.hankcs "]
+6619[label="packageName\n com "]
+1620[label="singleTypeImportDeclaration\n importjava.io.IOException; "]
+2621[label="typeName\n java.io.IOException "]
+3622[label="packageOrTypeName\n java.io "]
+4623[label="packageOrTypeName\n java "]
+1624[label="singleTypeImportDeclaration\n importjava.util.Scanner; "]
+2625[label="typeName\n java.util.Scanner "]
+3626[label="packageOrTypeName\n java.util "]
+4627[label="packageOrTypeName\n java "]
+1628[label="normalClassDeclaration\n publicabstractclassAbstractClosestVectors{staticfinalintN=40;protectedScannerscanner;protectedfinalVectorsReadervectorsReader;protectedAbstractClosestVectors(Stringfile){vectorsReader=newVectorsReader(file);}protectedString[]nextWords(intn,Stringmsg){System.out.println(msg+\" ('q' to break): \");String[]words=newString[n];for(inti=0;i<n;i++){Stringword=nextWord();if(word==null)returnnull;words[i]=word;}returnwords;}protectedStringnextWord(){Stringword=scanner.next();returnword==null||word.length()==0||word.equals(\"q\")?null:word;}protectedabstractResultgetTargetVector();finalprotectedvoidexecute()throwsIOException{vectorsReader.readVectorFile();finalintwords=vectorsReader.getNumWords();finalintsize=vectorsReader.getSize();try{scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);}}finally{scanner.close();}}protectedstaticclassResult{float[]vec;int[]bi;publicResult(float[]vec,int[]bi){this.vec=vec;this.bi=bi;}}} "]
+2629[label="classModifier\n public "]
+2630[label="classModifier\n abstract "]
+2631[label="classBody\n {staticfinalintN=40;protectedScannerscanner;protectedfinalVectorsReadervectorsReader;protectedAbstractClosestVectors(Stringfile){vectorsReader=newVectorsReader(file);}protectedString[]nextWords(intn,Stringmsg){System.out.println(msg+\" ('q' to break): \");String[]words=newString[n];for(inti=0;i<n;i++){Stringword=nextWord();if(word==null)returnnull;words[i]=word;}returnwords;}protectedStringnextWord(){Stringword=scanner.next();returnword==null||word.length()==0||word.equals(\"q\")?null:word;}protectedabstractResultgetTargetVector();finalprotectedvoidexecute()throwsIOException{vectorsReader.readVectorFile();finalintwords=vectorsReader.getNumWords();finalintsize=vectorsReader.getSize();try{scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);}}finally{scanner.close();}}protectedstaticclassResult{float[]vec;int[]bi;publicResult(float[]vec,int[]bi){this.vec=vec;this.bi=bi;}}} "]
+3632[label="fieldDeclaration\n staticfinalintN=40; "]
+4633[label="fieldModifier\n static "]
+4634[label="fieldModifier\n final "]
+4635[label="integralType\n int "]
+4636[label="variableDeclarator\n N=40 "]
+5637[label="variableDeclaratorId\n N "]
+5638[label="literal\n 40 "]
+3639[label="fieldDeclaration\n protectedScannerscanner; "]
+4640[label="fieldModifier\n protected "]
+4641[label="unannClassType_lfno_unannClassOrInterfaceType\n Scanner "]
+4642[label="variableDeclaratorId\n scanner "]
+3643[label="fieldDeclaration\n protectedfinalVectorsReadervectorsReader; "]
+4644[label="fieldModifier\n protected "]
+4645[label="fieldModifier\n final "]
+4646[label="unannClassType_lfno_unannClassOrInterfaceType\n VectorsReader "]
+4647[label="variableDeclaratorId\n vectorsReader "]
+3648[label="constructorDeclaration\n protectedAbstractClosestVectors(Stringfile){vectorsReader=newVectorsReader(file);} "]
+4649[label="constructorModifier\n protected "]
+4650[label="constructorDeclarator\n AbstractClosestVectors(Stringfile) "]
+5651[label="simpleTypeName\n AbstractClosestVectors "]
+5652[label="formalParameter\n Stringfile "]
+6653[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+6654[label="variableDeclaratorId\n file "]
+4655[label="constructorBody\n {vectorsReader=newVectorsReader(file);} "]
+5656[label="expressionStatement\n vectorsReader=newVectorsReader(file); "]
+6657[label="assignment\n vectorsReader=newVectorsReader(file) "]
+7658[label="expressionName\n vectorsReader "]
+7659[label="assignmentOperator\n = "]
+7660[label="classInstanceCreationExpression_lfno_primary\n newVectorsReader(file) "]
+8661[label="expressionName\n file "]
+3662[label="methodDeclaration\n protectedString[]nextWords(intn,Stringmsg){System.out.println(msg+\" ('q' to break): \");String[]words=newString[n];for(inti=0;i<n;i++){Stringword=nextWord();if(word==null)returnnull;words[i]=word;}returnwords;} "]
+4663[label="methodModifier\n protected "]
+4664[label="methodHeader\n String[]nextWords(intn,Stringmsg) "]
+5665[label="unannArrayType\n String[] "]
+6666[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+6667[label="dims\n [] "]
+5668[label="methodDeclarator\n nextWords(intn,Stringmsg) "]
+6669[label="formalParameterList\n intn,Stringmsg "]
+7670[label="formalParameter\n intn "]
+8671[label="integralType\n int "]
+8672[label="variableDeclaratorId\n n "]
+7673[label="formalParameter\n Stringmsg "]
+8674[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+8675[label="variableDeclaratorId\n msg "]
+4676[label="block\n {System.out.println(msg+\" ('q' to break): \");String[]words=newString[n];for(inti=0;i<n;i++){Stringword=nextWord();if(word==null)returnnull;words[i]=word;}returnwords;} "]
+5677[label="blockStatements\n System.out.println(msg+\" ('q' to break): \");String[]words=newString[n];for(inti=0;i<n;i++){Stringword=nextWord();if(word==null)returnnull;words[i]=word;}returnwords; "]
+6678[label="expressionStatement\n System.out.println(msg+\" ('q' to break): \"); "]
+7679[label="methodInvocation\n System.out.println(msg+\" ('q' to break): \") "]
+8680[label="typeName\n System.out "]
+9681[label="packageOrTypeName\n System "]
+8682[label="additiveExpression\n msg+\" ('q' to break): \" "]
+9683[label="expressionName\n msg "]
+9684[label="literal\n \" ('q' to break): \" "]
+6685[label="localVariableDeclarationStatement\n String[]words=newString[n]; "]
+7686[label="localVariableDeclaration\n String[]words=newString[n] "]
+8687[label="unannArrayType\n String[] "]
+9688[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+9689[label="dims\n [] "]
+8690[label="variableDeclarator\n words=newString[n] "]
+9691[label="variableDeclaratorId\n words "]
+9692[label="arrayCreationExpression\n newString[n] "]
+10693[label="classType_lfno_classOrInterfaceType\n String "]
+10694[label="dimExpr\n [n] "]
+11695[label="expressionName\n n "]
+6696[label="basicForStatement\n for(inti=0;i<n;i++){Stringword=nextWord();if(word==null)returnnull;words[i]=word;} "]
+7697[label="localVariableDeclaration\n inti=0 "]
+8698[label="integralType\n int "]
+8699[label="variableDeclarator\n i=0 "]
+9700[label="variableDeclaratorId\n i "]
+9701[label="literal\n 0 "]
+7702[label="relationalExpression\n i<n "]
+8703[label="expressionName\n i "]
+8704[label="expressionName\n n "]
+7705[label="postIncrementExpression\n i++ "]
+8706[label="expressionName\n i "]
+7707[label="block\n {Stringword=nextWord();if(word==null)returnnull;words[i]=word;} "]
+8708[label="blockStatements\n Stringword=nextWord();if(word==null)returnnull;words[i]=word; "]
+9709[label="localVariableDeclarationStatement\n Stringword=nextWord(); "]
+10710[label="localVariableDeclaration\n Stringword=nextWord() "]
+11711[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+11712[label="variableDeclarator\n word=nextWord() "]
+12713[label="variableDeclaratorId\n word "]
+12714[label="methodInvocation_lfno_primary\n nextWord() "]
+13715[label="methodName\n nextWord "]
+9716[label="ifThenStatement\n if(word==null)returnnull; "]
+10717[label="equalityExpression\n word==null "]
+11718[label="expressionName\n word "]
+11719[label="literal\n null "]
+10720[label="returnStatement\n returnnull; "]
+11721[label="literal\n null "]
+9722[label="expressionStatement\n words[i]=word; "]
+10723[label="assignment\n words[i]=word "]
+11724[label="arrayAccess\n words[i] "]
+12725[label="expressionName\n words "]
+12726[label="expressionName\n i "]
+11727[label="assignmentOperator\n = "]
+11728[label="expressionName\n word "]
+6729[label="returnStatement\n returnwords; "]
+7730[label="expressionName\n words "]
+3731[label="methodDeclaration\n protectedStringnextWord(){Stringword=scanner.next();returnword==null||word.length()==0||word.equals(\"q\")?null:word;} "]
+4732[label="methodModifier\n protected "]
+4733[label="methodHeader\n StringnextWord() "]
+5734[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+5735[label="methodDeclarator\n nextWord() "]
+4736[label="block\n {Stringword=scanner.next();returnword==null||word.length()==0||word.equals(\"q\")?null:word;} "]
+5737[label="blockStatements\n Stringword=scanner.next();returnword==null||word.length()==0||word.equals(\"q\")?null:word; "]
+6738[label="localVariableDeclarationStatement\n Stringword=scanner.next(); "]
+7739[label="localVariableDeclaration\n Stringword=scanner.next() "]
+8740[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+8741[label="variableDeclarator\n word=scanner.next() "]
+9742[label="variableDeclaratorId\n word "]
+9743[label="methodInvocation_lfno_primary\n scanner.next() "]
+10744[label="typeName\n scanner "]
+6745[label="returnStatement\n returnword==null||word.length()==0||word.equals(\"q\")?null:word; "]
+7746[label="conditionalExpression\n word==null||word.length()==0||word.equals(\"q\")?null:word "]
+8747[label="conditionalOrExpression\n word==null||word.length()==0||word.equals(\"q\") "]
+9748[label="conditionalOrExpression\n word==null||word.length()==0 "]
+10749[label="equalityExpression\n word==null "]
+11750[label="expressionName\n word "]
+11751[label="literal\n null "]
+10752[label="equalityExpression\n word.length()==0 "]
+11753[label="methodInvocation_lfno_primary\n word.length() "]
+12754[label="typeName\n word "]
+11755[label="literal\n 0 "]
+9756[label="methodInvocation_lfno_primary\n word.equals(\"q\") "]
+10757[label="typeName\n word "]
+10758[label="literal\n \"q\" "]
+8759[label="literal\n null "]
+8760[label="expressionName\n word "]
+3761[label="methodDeclaration\n protectedabstractResultgetTargetVector(); "]
+4762[label="methodModifier\n protected "]
+4763[label="methodModifier\n abstract "]
+4764[label="methodHeader\n ResultgetTargetVector() "]
+5765[label="unannClassType_lfno_unannClassOrInterfaceType\n Result "]
+5766[label="methodDeclarator\n getTargetVector() "]
+4767[label="methodBody\n ; "]
+3768[label="methodDeclaration\n finalprotectedvoidexecute()throwsIOException{vectorsReader.readVectorFile();finalintwords=vectorsReader.getNumWords();finalintsize=vectorsReader.getSize();try{scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);}}finally{scanner.close();}} "]
+4769[label="methodModifier\n final "]
+4770[label="methodModifier\n protected "]
+4771[label="methodHeader\n voidexecute()throwsIOException "]
+5772[label="result\n void "]
+5773[label="methodDeclarator\n execute() "]
+5774[label="throws_\n throwsIOException "]
+6775[label="classType\n IOException "]
+4776[label="block\n {vectorsReader.readVectorFile();finalintwords=vectorsReader.getNumWords();finalintsize=vectorsReader.getSize();try{scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);}}finally{scanner.close();}} "]
+5777[label="blockStatements\n vectorsReader.readVectorFile();finalintwords=vectorsReader.getNumWords();finalintsize=vectorsReader.getSize();try{scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);}}finally{scanner.close();} "]
+6778[label="expressionStatement\n vectorsReader.readVectorFile(); "]
+7779[label="methodInvocation\n vectorsReader.readVectorFile() "]
+8780[label="typeName\n vectorsReader "]
+6781[label="localVariableDeclarationStatement\n finalintwords=vectorsReader.getNumWords(); "]
+7782[label="localVariableDeclaration\n finalintwords=vectorsReader.getNumWords() "]
+8783[label="variableModifier\n final "]
+8784[label="integralType\n int "]
+8785[label="variableDeclarator\n words=vectorsReader.getNumWords() "]
+9786[label="variableDeclaratorId\n words "]
+9787[label="methodInvocation_lfno_primary\n vectorsReader.getNumWords() "]
+10788[label="typeName\n vectorsReader "]
+6789[label="localVariableDeclarationStatement\n finalintsize=vectorsReader.getSize(); "]
+7790[label="localVariableDeclaration\n finalintsize=vectorsReader.getSize() "]
+8791[label="variableModifier\n final "]
+8792[label="integralType\n int "]
+8793[label="variableDeclarator\n size=vectorsReader.getSize() "]
+9794[label="variableDeclaratorId\n size "]
+9795[label="methodInvocation_lfno_primary\n vectorsReader.getSize() "]
+10796[label="typeName\n vectorsReader "]
+6797[label="tryStatement\n try{scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);}}finally{scanner.close();} "]
+7798[label="block\n {scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);}} "]
+8799[label="blockStatements\n scanner=newScanner(System.in);Resultresult=null;while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);} "]
+9800[label="expressionStatement\n scanner=newScanner(System.in); "]
+10801[label="assignment\n scanner=newScanner(System.in) "]
+11802[label="expressionName\n scanner "]
+11803[label="assignmentOperator\n = "]
+11804[label="classInstanceCreationExpression_lfno_primary\n newScanner(System.in) "]
+12805[label="expressionName\n System.in "]
+13806[label="ambiguousName\n System "]
+9807[label="localVariableDeclarationStatement\n Resultresult=null; "]
+10808[label="localVariableDeclaration\n Resultresult=null "]
+11809[label="unannClassType_lfno_unannClassOrInterfaceType\n Result "]
+11810[label="variableDeclarator\n result=null "]
+12811[label="variableDeclaratorId\n result "]
+12812[label="literal\n null "]
+9813[label="whileStatement\n while((result=getTargetVector())!=null){double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);} "]
+10814[label="equalityExpression\n (result=getTargetVector())!=null "]
+11815[label="primaryNoNewArray_lfno_primary\n (result=getTargetVector()) "]
+12816[label="assignment\n result=getTargetVector() "]
+13817[label="expressionName\n result "]
+13818[label="assignmentOperator\n = "]
+13819[label="methodInvocation_lfno_primary\n getTargetVector() "]
+14820[label="methodName\n getTargetVector "]
+11821[label="literal\n null "]
+10822[label="block\n {double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]);} "]
+11823[label="blockStatements\n double[]bestd=newdouble[N];String[]bestw=newString[N];next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}}System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\");for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]); "]
+12824[label="localVariableDeclarationStatement\n double[]bestd=newdouble[N]; "]
+13825[label="localVariableDeclaration\n double[]bestd=newdouble[N] "]
+14826[label="unannArrayType\n double[] "]
+15827[label="floatingPointType\n double "]
+15828[label="dims\n [] "]
+14829[label="variableDeclarator\n bestd=newdouble[N] "]
+15830[label="variableDeclaratorId\n bestd "]
+15831[label="arrayCreationExpression\n newdouble[N] "]
+16832[label="floatingPointType\n double "]
+16833[label="dimExpr\n [N] "]
+17834[label="expressionName\n N "]
+12835[label="localVariableDeclarationStatement\n String[]bestw=newString[N]; "]
+13836[label="localVariableDeclaration\n String[]bestw=newString[N] "]
+14837[label="unannArrayType\n String[] "]
+15838[label="unannClassType_lfno_unannClassOrInterfaceType\n String "]
+15839[label="dims\n [] "]
+14840[label="variableDeclarator\n bestw=newString[N] "]
+15841[label="variableDeclaratorId\n bestw "]
+15842[label="arrayCreationExpression\n newString[N] "]
+16843[label="classType_lfno_classOrInterfaceType\n String "]
+16844[label="dimExpr\n [N] "]
+17845[label="expressionName\n N "]
+12846[label="labeledStatement\n next_word:for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}} "]
+13847[label="basicForStatement\n for(inti=0;i<words;i++){for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}} "]
+14848[label="localVariableDeclaration\n inti=0 "]
+15849[label="integralType\n int "]
+15850[label="variableDeclarator\n i=0 "]
+16851[label="variableDeclaratorId\n i "]
+16852[label="literal\n 0 "]
+14853[label="relationalExpression\n i<words "]
+15854[label="expressionName\n i "]
+15855[label="expressionName\n words "]
+14856[label="postIncrementExpression\n i++ "]
+15857[label="expressionName\n i "]
+14858[label="block\n {for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}}} "]
+15859[label="blockStatements\n for(intbi:result.bi){if(i==bi)continuenext_word;}doubledist=0;for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);}for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}} "]
+16860[label="enhancedForStatement\n for(intbi:result.bi){if(i==bi)continuenext_word;} "]
+17861[label="integralType\n int "]
+17862[label="variableDeclaratorId\n bi "]
+17863[label="expressionName\n result.bi "]
+18864[label="ambiguousName\n result "]
+17865[label="block\n {if(i==bi)continuenext_word;} "]
+18866[label="ifThenStatement\n if(i==bi)continuenext_word; "]
+19867[label="equalityExpression\n i==bi "]
+20868[label="expressionName\n i "]
+20869[label="expressionName\n bi "]
+19870[label="continueStatement\n continuenext_word; "]
+16871[label="localVariableDeclarationStatement\n doubledist=0; "]
+17872[label="localVariableDeclaration\n doubledist=0 "]
+18873[label="floatingPointType\n double "]
+18874[label="variableDeclarator\n dist=0 "]
+19875[label="variableDeclaratorId\n dist "]
+19876[label="literal\n 0 "]
+16877[label="basicForStatement\n for(intj=0;j<size;j++){dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);} "]
+17878[label="localVariableDeclaration\n intj=0 "]
+18879[label="integralType\n int "]
+18880[label="variableDeclarator\n j=0 "]
+19881[label="variableDeclaratorId\n j "]
+19882[label="literal\n 0 "]
+17883[label="relationalExpression\n j<size "]
+18884[label="expressionName\n j "]
+18885[label="expressionName\n size "]
+17886[label="postIncrementExpression\n j++ "]
+18887[label="expressionName\n j "]
+17888[label="block\n {dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j);} "]
+18889[label="expressionStatement\n dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j); "]
+19890[label="assignment\n dist+=result.vec[j]*vectorsReader.getMatrixElement(i,j) "]
+20891[label="expressionName\n dist "]
+20892[label="assignmentOperator\n += "]
+20893[label="multiplicativeExpression\n result.vec[j]*vectorsReader.getMatrixElement(i,j) "]
+21894[label="arrayAccess_lfno_primary\n result.vec[j] "]
+22895[label="expressionName\n result.vec "]
+23896[label="ambiguousName\n result "]
+22897[label="expressionName\n j "]
+21898[label="methodInvocation_lfno_primary\n vectorsReader.getMatrixElement(i,j) "]
+22899[label="typeName\n vectorsReader "]
+22900[label="argumentList\n i,j "]
+23901[label="expressionName\n i "]
+23902[label="expressionName\n j "]
+16903[label="basicForStatement\n for(intj=0;j<N;j++){if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}} "]
+17904[label="localVariableDeclaration\n intj=0 "]
+18905[label="integralType\n int "]
+18906[label="variableDeclarator\n j=0 "]
+19907[label="variableDeclaratorId\n j "]
+19908[label="literal\n 0 "]
+17909[label="relationalExpression\n j<N "]
+18910[label="expressionName\n j "]
+18911[label="expressionName\n N "]
+17912[label="postIncrementExpression\n j++ "]
+18913[label="expressionName\n j "]
+17914[label="block\n {if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;}} "]
+18915[label="ifThenStatement\n if(dist>bestd[j]){for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;} "]
+19916[label="relationalExpression\n dist>bestd[j] "]
+20917[label="expressionName\n dist "]
+20918[label="arrayAccess_lfno_primary\n bestd[j] "]
+21919[label="expressionName\n bestd "]
+21920[label="expressionName\n j "]
+19921[label="block\n {for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break;} "]
+20922[label="blockStatements\n for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];}bestd[j]=dist;bestw[j]=vectorsReader.getWord(i);break; "]
+21923[label="basicForStatement\n for(intk=N-1;k>j;k--){bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];} "]
+22924[label="localVariableDeclaration\n intk=N-1 "]
+23925[label="integralType\n int "]
+23926[label="variableDeclarator\n k=N-1 "]
+24927[label="variableDeclaratorId\n k "]
+24928[label="additiveExpression\n N-1 "]
+25929[label="expressionName\n N "]
+25930[label="literal\n 1 "]
+22931[label="relationalExpression\n k>j "]
+23932[label="expressionName\n k "]
+23933[label="expressionName\n j "]
+22934[label="postDecrementExpression\n k-- "]
+23935[label="expressionName\n k "]
+22936[label="block\n {bestd[k]=bestd[k-1];bestw[k]=bestw[k-1];} "]
+23937[label="blockStatements\n bestd[k]=bestd[k-1];bestw[k]=bestw[k-1]; "]
+24938[label="expressionStatement\n bestd[k]=bestd[k-1]; "]
+25939[label="assignment\n bestd[k]=bestd[k-1] "]
+26940[label="arrayAccess\n bestd[k] "]
+27941[label="expressionName\n bestd "]
+27942[label="expressionName\n k "]
+26943[label="assignmentOperator\n = "]
+26944[label="arrayAccess_lfno_primary\n bestd[k-1] "]
+27945[label="expressionName\n bestd "]
+27946[label="additiveExpression\n k-1 "]
+28947[label="expressionName\n k "]
+28948[label="literal\n 1 "]
+24949[label="expressionStatement\n bestw[k]=bestw[k-1]; "]
+25950[label="assignment\n bestw[k]=bestw[k-1] "]
+26951[label="arrayAccess\n bestw[k] "]
+27952[label="expressionName\n bestw "]
+27953[label="expressionName\n k "]
+26954[label="assignmentOperator\n = "]
+26955[label="arrayAccess_lfno_primary\n bestw[k-1] "]
+27956[label="expressionName\n bestw "]
+27957[label="additiveExpression\n k-1 "]
+28958[label="expressionName\n k "]
+28959[label="literal\n 1 "]
+21960[label="expressionStatement\n bestd[j]=dist; "]
+22961[label="assignment\n bestd[j]=dist "]
+23962[label="arrayAccess\n bestd[j] "]
+24963[label="expressionName\n bestd "]
+24964[label="expressionName\n j "]
+23965[label="assignmentOperator\n = "]
+23966[label="expressionName\n dist "]
+21967[label="expressionStatement\n bestw[j]=vectorsReader.getWord(i); "]
+22968[label="assignment\n bestw[j]=vectorsReader.getWord(i) "]
+23969[label="arrayAccess\n bestw[j] "]
+24970[label="expressionName\n bestw "]
+24971[label="expressionName\n j "]
+23972[label="assignmentOperator\n = "]
+23973[label="methodInvocation_lfno_primary\n vectorsReader.getWord(i) "]
+24974[label="typeName\n vectorsReader "]
+24975[label="expressionName\n i "]
+21976[label="breakStatement\n break; "]
+12977[label="expressionStatement\n System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\"); "]
+13978[label="methodInvocation\n System.out.printf(\"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\") "]
+14979[label="typeName\n System.out "]
+15980[label="packageOrTypeName\n System "]
+14981[label="literal\n \"\n                                              Word       Cosine cosine\n------------------------------------------------------------------------\n\" "]
+12982[label="basicForStatement\n for(intj=0;j<N;j++)System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]); "]
+13983[label="localVariableDeclaration\n intj=0 "]
+14984[label="integralType\n int "]
+14985[label="variableDeclarator\n j=0 "]
+15986[label="variableDeclaratorId\n j "]
+15987[label="literal\n 0 "]
+13988[label="relationalExpression\n j<N "]
+14989[label="expressionName\n j "]
+14990[label="expressionName\n N "]
+13991[label="postIncrementExpression\n j++ "]
+14992[label="expressionName\n j "]
+13993[label="expressionStatement\n System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]); "]
+14994[label="methodInvocation\n System.out.printf(\"%50s\t\t%f\n\",bestw[j],bestd[j]) "]
+15995[label="typeName\n System.out "]
+16996[label="packageOrTypeName\n System "]
+15997[label="argumentList\n \"%50s\t\t%f\n\",bestw[j],bestd[j] "]
+16998[label="literal\n \"%50s\t\t%f\n\" "]
+16999[label="arrayAccess_lfno_primary\n bestw[j] "]
+171000[label="expressionName\n bestw "]
+171001[label="expressionName\n j "]
+161002[label="arrayAccess_lfno_primary\n bestd[j] "]
+171003[label="expressionName\n bestd "]
+171004[label="expressionName\n j "]
+71005[label="finally_\n finally{scanner.close();} "]
+81006[label="block\n {scanner.close();} "]
+91007[label="expressionStatement\n scanner.close(); "]
+101008[label="methodInvocation\n scanner.close() "]
+111009[label="typeName\n scanner "]
+31010[label="normalClassDeclaration\n protectedstaticclassResult{float[]vec;int[]bi;publicResult(float[]vec,int[]bi){this.vec=vec;this.bi=bi;}} "]
+41011[label="classModifier\n protected "]
+41012[label="classModifier\n static "]
+41013[label="classBody\n {float[]vec;int[]bi;publicResult(float[]vec,int[]bi){this.vec=vec;this.bi=bi;}} "]
+51014[label="fieldDeclaration\n float[]vec; "]
+61015[label="unannArrayType\n float[] "]
+71016[label="floatingPointType\n float "]
+71017[label="dims\n [] "]
+61018[label="variableDeclaratorId\n vec "]
+51019[label="fieldDeclaration\n int[]bi; "]
+61020[label="unannArrayType\n int[] "]
+71021[label="integralType\n int "]
+71022[label="dims\n [] "]
+61023[label="variableDeclaratorId\n bi "]
+51024[label="constructorDeclaration\n publicResult(float[]vec,int[]bi){this.vec=vec;this.bi=bi;} "]
+61025[label="constructorModifier\n public "]
+61026[label="constructorDeclarator\n Result(float[]vec,int[]bi) "]
+71027[label="simpleTypeName\n Result "]
+71028[label="formalParameterList\n float[]vec,int[]bi "]
+81029[label="formalParameter\n float[]vec "]
+91030[label="unannArrayType\n float[] "]
+101031[label="floatingPointType\n float "]
+101032[label="dims\n [] "]
+91033[label="variableDeclaratorId\n vec "]
+81034[label="formalParameter\n int[]bi "]
+91035[label="unannArrayType\n int[] "]
+101036[label="integralType\n int "]
+101037[label="dims\n [] "]
+91038[label="variableDeclaratorId\n bi "]
+61039[label="constructorBody\n {this.vec=vec;this.bi=bi;} "]
+71040[label="blockStatements\n this.vec=vec;this.bi=bi; "]
+81041[label="expressionStatement\n this.vec=vec; "]
+91042[label="assignment\n this.vec=vec "]
+101043[label="fieldAccess\n this.vec "]
+111044[label="primaryNoNewArray_lfno_primary\n this "]
+101045[label="assignmentOperator\n = "]
+101046[label="expressionName\n vec "]
+81047[label="expressionStatement\n this.bi=bi; "]
+91048[label="assignment\n this.bi=bi "]
+101049[label="fieldAccess\n this.bi "]
+111050[label="primaryNoNewArray_lfno_primary\n this "]
+101051[label="assignmentOperator\n = "]
+101052[label="expressionName\n bi "]
+-10->01
+-10->02
+-10->03
+-10->04
+-10->05
+-10->06
+-10->07
+07->18
+18->29
+29->310
+310->411
+411->512
+512->613
+613->714
+07->115
+115->216
+115->217
+217->318
+115->219
+219->320
+320->421
+421->522
+115->223
+223->324
+324->425
+324->426
+426->527
+324->428
+223->329
+329->430
+430->531
+329->432
+329->433
+433->534
+433->535
+329->436
+436->537
+537->638
+-10->039
+039->140
+140->241
+241->342
+342->443
+443->544
+544->645
+645->746
+039->147
+147->248
+147->249
+249->350
+147->251
+251->352
+352->453
+453->554
+453->555
+352->456
+251->357
+357->458
+357->459
+251->360
+360->461
+360->462
+462->563
+462->564
+564->665
+665->766
+665->767
+564->668
+360->469
+469->570
+570->671
+671->772
+772->873
+671->774
+671->775
+251->376
+376->477
+376->478
+478->579
+478->580
+376->481
+481->582
+582->683
+683->784
+683->785
+785->886
+785->887
+251->388
+388->489
+388->490
+490->591
+388->492
+251->393
+393->494
+393->495
+495->596
+495->597
+597->698
+698->799
+799->8100
+799->8101
+698->7102
+393->4103
+4103->5104
+5104->6105
+6105->7106
+7106->8107
+8107->9108
+7106->8109
+7106->8110
+5104->6111
+6111->7112
+-10->0113
+0113->1114
+1114->2115
+2115->3116
+3116->4117
+4117->5118
+5118->6119
+0113->1120
+1120->2121
+2121->3122
+3122->4123
+4123->5124
+5124->6125
+6125->7126
+0113->1127
+1127->2128
+2128->3129
+3129->4130
+4130->5131
+5131->6132
+6132->7133
+0113->1134
+1134->2135
+2135->3136
+3136->4137
+4137->5138
+5138->6139
+6139->7140
+0113->1141
+1141->2142
+2142->3143
+3143->4144
+4144->5145
+5145->6146
+6146->7147
+0113->1148
+1148->2149
+2149->3150
+3150->4151
+4151->5152
+5152->6153
+6153->7154
+0113->1155
+1155->2156
+2156->3157
+3157->4158
+4158->5159
+5159->6160
+6160->7161
+0113->1162
+1162->2163
+2163->3164
+3164->4165
+0113->1166
+1166->2167
+2167->3168
+3168->4169
+0113->1170
+1170->2171
+2171->3172
+3172->4173
+0113->1174
+1174->2175
+2175->3176
+3176->4177
+4177->5178
+5178->6179
+6179->7180
+0113->1181
+1181->2182
+1181->2183
+1181->2184
+2184->3185
+1181->2186
+2186->3187
+3187->4188
+4188->5189
+3187->4190
+3187->4191
+4191->5192
+4191->5193
+5193->6194
+6194->7195
+6194->7196
+3187->4197
+4197->5198
+5198->6199
+2186->3200
+3200->4201
+3200->4202
+4202->5203
+4202->5204
+2186->3205
+3205->4206
+4206->5207
+3205->4208
+3205->4209
+4209->5210
+4209->5211
+5211->6212
+6212->7213
+6212->7214
+4209->5215
+5215->6216
+6216->7217
+6216->7218
+3205->4219
+4219->5220
+5220->6221
+6221->7222
+7222->8223
+8223->9224
+9224->10225
+10225->11226
+10225->11227
+7222->8228
+8228->9229
+8228->9230
+9230->10231
+9230->10232
+5220->6233
+6233->7234
+7234->8235
+7234->8236
+2186->3237
+3237->4238
+4238->5239
+3237->4240
+3237->4241
+4241->5242
+4241->5243
+5243->6244
+6244->7245
+6244->7246
+4241->5247
+5247->6248
+6248->7249
+6248->7250
+3237->4251
+4251->5252
+5252->6253
+6253->7254
+7254->8255
+8255->9256
+9256->10257
+10257->11258
+10257->11259
+7254->8260
+8260->9261
+8260->9262
+9262->10263
+9262->10264
+5252->6265
+6265->7266
+7266->8267
+7266->8268
+2186->3269
+3269->4270
+4270->5271
+3269->4272
+3269->4273
+4273->5274
+4273->5275
+5275->6276
+6276->7277
+7277->8278
+7277->8279
+6276->7280
+7280->8281
+7280->8282
+4273->5283
+5283->6284
+3269->4285
+4285->5286
+5286->6287
+6287->7288
+7288->8289
+7288->8290
+8290->9291
+8290->9292
+5286->6293
+6293->7294
+7294->8295
+7294->8296
+8296->9297
+8296->9298
+5286->6299
+6299->7300
+7300->8301
+7300->8302
+2186->3303
+3303->4304
+4304->5305
+3303->4306
+3303->4307
+4307->5308
+4307->5309
+5309->6310
+6310->7311
+7311->8312
+8312->9313
+9313->10314
+9313->10315
+10315->11316
+10315->11317
+6310->7318
+4307->5319
+5319->6320
+3303->4321
+4321->5322
+5322->6323
+6323->7324
+7324->8325
+7324->8326
+8326->9327
+8326->9328
+5322->6329
+6329->7330
+7330->8331
+7330->8332
+5322->6333
+6333->7334
+7334->8335
+7334->8336
+8336->9337
+8336->9338
+9338->10339
+5322->6340
+6340->7341
+7341->8342
+7341->8343
+8343->9344
+8343->9345
+5322->6346
+6346->7347
+7347->8348
+7347->8349
+8349->9350
+9350->10351
+10351->11352
+10351->11353
+11353->12354
+11353->12355
+6346->7356
+6346->7357
+7357->8358
+6346->7359
+7359->8360
+8360->9361
+9361->10362
+10362->11363
+10362->11364
+11364->12365
+11364->12366
+12366->13367
+8360->9368
+9368->10369
+10369->11370
+10369->11371
+11371->12372
+11371->12373
+8360->9374
+9374->10375
+9374->10376
+9374->10377
+10377->11378
+9374->10379
+10379->11380
+11380->12381
+12381->13382
+12381->13383
+13383->14384
+13383->14385
+8360->9386
+9386->10387
+10387->11388
+8360->9389
+9389->10390
+10390->11391
+10390->11392
+11392->12393
+11392->12394
+12394->13395
+12394->13396
+13396->14397
+13396->14398
+5322->6399
+6399->7400
+7400->8401
+7400->8402
+5322->6403
+6403->7404
+7404->8405
+7404->8406
+2186->3407
+3407->4408
+4408->5409
+3407->4410
+3407->4411
+4411->5412
+4411->5413
+5413->6414
+6414->7415
+6414->7416
+4411->5417
+5417->6418
+3407->4419
+4419->5420
+5420->6421
+6421->7422
+6421->7423
+7423->8424
+7423->8425
+2186->3426
+3426->4427
+4427->5428
+3426->4429
+3426->4430
+4430->5431
+5431->6432
+6432->7433
+7433->8434
+7433->8435
+4430->5436
+5436->6437
+6437->7438
+6437->7439
+3426->4440
+4440->5441
+5441->6442
+6442->7443
+7443->8444
+7443->8445
+8445->9446
+8445->9447
+9447->10448
+5441->6449
+6449->7450
+7450->8451
+7450->8452
+6449->7453
+7453->8454
+8454->9455
+9455->10456
+5441->6457
+6457->7458
+7458->8459
+7458->8460
+6457->7461
+7461->8462
+8462->9463
+9463->10464
+5441->6465
+6465->7466
+7466->8467
+8467->9468
+8467->9469
+7466->8470
+8470->9471
+8470->9472
+9472->10473
+9472->10474
+5441->6475
+6475->7476
+7476->8477
+8477->9478
+9478->10479
+10479->11480
+10479->11481
+7476->8482
+8482->9483
+8482->9484
+9484->10485
+10485->11486
+11486->12487
+11486->12488
+5441->6489
+6489->7490
+7490->8491
+7490->8492
+8492->9493
+8492->9494
+6489->7495
+7495->8496
+7495->8497
+8497->9498
+6489->7499
+7499->8500
+6489->7501
+7501->8502
+8502->9503
+9503->10504
+9503->10505
+10505->11506
+11506->12507
+12507->13508
+11506->12509
+10505->11510
+11510->12511
+11510->12512
+5441->6513
+6513->7514
+2186->3515
+3515->4516
+4516->5517
+3515->4518
+3515->4519
+4519->5520
+4519->5521
+5521->6522
+6522->7523
+6522->7524
+4519->5525
+5525->6526
+6526->7527
+6526->7528
+3515->4529
+4529->5530
+5530->6531
+6531->7532
+7532->8533
+7532->8534
+8534->9535
+8534->9536
+9536->10537
+5530->6538
+6538->7539
+7539->8540
+7539->8541
+6538->7542
+7542->8543
+8543->9544
+9544->10545
+5530->6546
+6546->7547
+7547->8548
+7547->8549
+6546->7550
+7550->8551
+8551->9552
+9552->10553
+5530->6554
+6554->7555
+7555->8556
+8556->9557
+8556->9558
+7555->8559
+8559->9560
+8559->9561
+9561->10562
+9561->10563
+5530->6564
+6564->7565
+7565->8566
+7565->8567
+8567->9568
+8567->9569
+9569->10570
+5530->6571
+6571->7572
+7572->8573
+7572->8574
+8574->9575
+8574->9576
+9576->10577
+5530->6578
+6578->7579
+7579->8580
+7579->8581
+8581->9582
+8581->9583
+6578->7584
+7584->8585
+7584->8586
+8586->9587
+6578->7588
+7588->8589
+6578->7590
+7590->8591
+8591->9592
+9592->10593
+10593->11594
+10593->11595
+9592->10596
+8591->9597
+9597->10598
+10598->11599
+11599->12600
+12600->13601
+12600->13602
+12600->13603
+13603->14604
+13603->14605
+10598->11606
+11606->12607
+12607->13608
+12607->13609
+12607->13610
+5530->6611
+6611->7612
+-10->0613
+0613->1614
+1614->2615
+2615->3616
+3616->4617
+4617->5618
+5618->6619
+0613->1620
+1620->2621
+2621->3622
+3622->4623
+0613->1624
+1624->2625
+2625->3626
+3626->4627
+0613->1628
+1628->2629
+1628->2630
+1628->2631
+2631->3632
+3632->4633
+3632->4634
+3632->4635
+3632->4636
+4636->5637
+4636->5638
+2631->3639
+3639->4640
+3639->4641
+3639->4642
+2631->3643
+3643->4644
+3643->4645
+3643->4646
+3643->4647
+2631->3648
+3648->4649
+3648->4650
+4650->5651
+4650->5652
+5652->6653
+5652->6654
+3648->4655
+4655->5656
+5656->6657
+6657->7658
+6657->7659
+6657->7660
+7660->8661
+2631->3662
+3662->4663
+3662->4664
+4664->5665
+5665->6666
+5665->6667
+4664->5668
+5668->6669
+6669->7670
+7670->8671
+7670->8672
+6669->7673
+7673->8674
+7673->8675
+3662->4676
+4676->5677
+5677->6678
+6678->7679
+7679->8680
+8680->9681
+7679->8682
+8682->9683
+8682->9684
+5677->6685
+6685->7686
+7686->8687
+8687->9688
+8687->9689
+7686->8690
+8690->9691
+8690->9692
+9692->10693
+9692->10694
+10694->11695
+5677->6696
+6696->7697
+7697->8698
+7697->8699
+8699->9700
+8699->9701
+6696->7702
+7702->8703
+7702->8704
+6696->7705
+7705->8706
+6696->7707
+7707->8708
+8708->9709
+9709->10710
+10710->11711
+10710->11712
+11712->12713
+11712->12714
+12714->13715
+8708->9716
+9716->10717
+10717->11718
+10717->11719
+9716->10720
+10720->11721
+8708->9722
+9722->10723
+10723->11724
+11724->12725
+11724->12726
+10723->11727
+10723->11728
+5677->6729
+6729->7730
+2631->3731
+3731->4732
+3731->4733
+4733->5734
+4733->5735
+3731->4736
+4736->5737
+5737->6738
+6738->7739
+7739->8740
+7739->8741
+8741->9742
+8741->9743
+9743->10744
+5737->6745
+6745->7746
+7746->8747
+8747->9748
+9748->10749
+10749->11750
+10749->11751
+9748->10752
+10752->11753
+11753->12754
+10752->11755
+8747->9756
+9756->10757
+9756->10758
+7746->8759
+7746->8760
+2631->3761
+3761->4762
+3761->4763
+3761->4764
+4764->5765
+4764->5766
+3761->4767
+2631->3768
+3768->4769
+3768->4770
+3768->4771
+4771->5772
+4771->5773
+4771->5774
+5774->6775
+3768->4776
+4776->5777
+5777->6778
+6778->7779
+7779->8780
+5777->6781
+6781->7782
+7782->8783
+7782->8784
+7782->8785
+8785->9786
+8785->9787
+9787->10788
+5777->6789
+6789->7790
+7790->8791
+7790->8792
+7790->8793
+8793->9794
+8793->9795
+9795->10796
+5777->6797
+6797->7798
+7798->8799
+8799->9800
+9800->10801
+10801->11802
+10801->11803
+10801->11804
+11804->12805
+12805->13806
+8799->9807
+9807->10808
+10808->11809
+10808->11810
+11810->12811
+11810->12812
+8799->9813
+9813->10814
+10814->11815
+11815->12816
+12816->13817
+12816->13818
+12816->13819
+13819->14820
+10814->11821
+9813->10822
+10822->11823
+11823->12824
+12824->13825
+13825->14826
+14826->15827
+14826->15828
+13825->14829
+14829->15830
+14829->15831
+15831->16832
+15831->16833
+16833->17834
+11823->12835
+12835->13836
+13836->14837
+14837->15838
+14837->15839
+13836->14840
+14840->15841
+14840->15842
+15842->16843
+15842->16844
+16844->17845
+11823->12846
+12846->13847
+13847->14848
+14848->15849
+14848->15850
+15850->16851
+15850->16852
+13847->14853
+14853->15854
+14853->15855
+13847->14856
+14856->15857
+13847->14858
+14858->15859
+15859->16860
+16860->17861
+16860->17862
+16860->17863
+17863->18864
+16860->17865
+17865->18866
+18866->19867
+19867->20868
+19867->20869
+18866->19870
+15859->16871
+16871->17872
+17872->18873
+17872->18874
+18874->19875
+18874->19876
+15859->16877
+16877->17878
+17878->18879
+17878->18880
+18880->19881
+18880->19882
+16877->17883
+17883->18884
+17883->18885
+16877->17886
+17886->18887
+16877->17888
+17888->18889
+18889->19890
+19890->20891
+19890->20892
+19890->20893
+20893->21894
+21894->22895
+22895->23896
+21894->22897
+20893->21898
+21898->22899
+21898->22900
+22900->23901
+22900->23902
+15859->16903
+16903->17904
+17904->18905
+17904->18906
+18906->19907
+18906->19908
+16903->17909
+17909->18910
+17909->18911
+16903->17912
+17912->18913
+16903->17914
+17914->18915
+18915->19916
+19916->20917
+19916->20918
+20918->21919
+20918->21920
+18915->19921
+19921->20922
+20922->21923
+21923->22924
+22924->23925
+22924->23926
+23926->24927
+23926->24928
+24928->25929
+24928->25930
+21923->22931
+22931->23932
+22931->23933
+21923->22934
+22934->23935
+21923->22936
+22936->23937
+23937->24938
+24938->25939
+25939->26940
+26940->27941
+26940->27942
+25939->26943
+25939->26944
+26944->27945
+26944->27946
+27946->28947
+27946->28948
+23937->24949
+24949->25950
+25950->26951
+26951->27952
+26951->27953
+25950->26954
+25950->26955
+26955->27956
+26955->27957
+27957->28958
+27957->28959
+20922->21960
+21960->22961
+22961->23962
+23962->24963
+23962->24964
+22961->23965
+22961->23966
+20922->21967
+21967->22968
+22968->23969
+23969->24970
+23969->24971
+22968->23972
+22968->23973
+23973->24974
+23973->24975
+20922->21976
+11823->12977
+12977->13978
+13978->14979
+14979->15980
+13978->14981
+11823->12982
+12982->13983
+13983->14984
+13983->14985
+14985->15986
+14985->15987
+12982->13988
+13988->14989
+13988->14990
+12982->13991
+13991->14992
+12982->13993
+13993->14994
+14994->15995
+15995->16996
+14994->15997
+15997->16998
+15997->16999
+16999->171000
+16999->171001
+15997->161002
+161002->171003
+161002->171004
+6797->71005
+71005->81006
+81006->91007
+91007->101008
+101008->111009
+2631->31010
+31010->41011
+31010->41012
+31010->41013
+41013->51014
+51014->61015
+61015->71016
+61015->71017
+51014->61018
+41013->51019
+51019->61020
+61020->71021
+61020->71022
+51019->61023
+41013->51024
+51024->61025
+51024->61026
+61026->71027
+61026->71028
+71028->81029
+81029->91030
+91030->101031
+91030->101032
+81029->91033
+71028->81034
+81034->91035
+91035->101036
+91035->101037
+81034->91038
+51024->61039
+61039->71040
+71040->81041
+81041->91042
+91042->101043
+101043->111044
+91042->101045
+91042->101046
+71040->81047
+81047->91048
+91048->101049
+101049->111050
+91048->101051
+91048->101052
+}

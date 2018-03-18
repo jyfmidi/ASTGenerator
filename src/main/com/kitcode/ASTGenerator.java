@@ -27,6 +27,7 @@ public class ASTGenerator {
     static ArrayList<String> LineNum = new ArrayList<String>();
     static ArrayList<String> Type = new ArrayList<String>();
     static ArrayList<String> Content = new ArrayList<String>();
+    static int apiCount;
     
     private static String readFile(String fileName) throws IOException {
         File file = new File(fileName);
@@ -58,6 +59,8 @@ public class ASTGenerator {
         File invocationFile = new File(fileName + ".invoc");
         Writer out = new FileWriter(outputFile);
         Writer invocation = new FileWriter(invocationFile);
+
+        apiCount = 0;
        
         out.write("digraph G {\n");
         printDOT(out, invocation);
@@ -96,16 +99,30 @@ public class ASTGenerator {
     }
     
     private static void printLabel(Writer writer, Writer invocationWriter) throws IOException {
+        TreeMap treeMap = new TreeMap();　
         for(int i =0; i<LineNum.size(); i++){
             String label = Type.get(i);
             String content = Content.get(i).replace("\"","\\\"");
             writer.write(LineNum.get(i)+i+"[label=\""+label+"\\n "+content+" \"]\n");
-           
+            
+
             if (label == "methodDeclarator")
                 invocationWriter.write("\n>" + content + "\n");
             if (label.indexOf("methodInvocation") != -1 && content.indexOf("System") == -1)
                 //System.out.println(label);
-                invocationWriter.write(content.split("\\(")[0] + "\n");
+                String apiName = content.split("\\(")[0];
+                if(!treeMap.containsKey(apiName)) {
+                    treeMap.put(apiName, apiCount)；
+                }
+                invocationWriter.write(apiName + "\n");
+        }
+
+        invocationFile.write("\n-----\n");
+        Iterator tit = treeMap.entrySet().iterator();
+        while (tit.hasNext()) {
+            Map.Entry e = (Map.Entry) tit.next();
+            invocationFile.write(e.getKey() + "--Value: "
+                    + e.getValue());
         }
     }
     
