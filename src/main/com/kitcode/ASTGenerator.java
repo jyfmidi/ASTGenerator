@@ -40,6 +40,8 @@ public class ASTGenerator {
         //File root = new File("resource/java");
         File[] fs = root.listFiles();
         for (int i = 0; i < fs.length; i++) {
+            if (fs.split('.').size() != 2)
+                continue;
             System.out.println("Parsing " + fs[i]);
             parseFile(fs[i].toString());
         }
@@ -99,7 +101,7 @@ public class ASTGenerator {
     }
     
     private static void printLabel(Writer writer, Writer invocationWriter) throws IOException {
-        TreeMap treeMap = new TreeMap();　
+        TreeMap treeMap = new TreeMap();
         for(int i =0; i<LineNum.size(); i++){
             String label = Type.get(i);
             String content = Content.get(i).replace("\"","\\\"");
@@ -108,13 +110,14 @@ public class ASTGenerator {
 
             if (label == "methodDeclarator")
                 invocationWriter.write("\n>" + content + "\n");
-            if (label.indexOf("methodInvocation") != -1 && content.indexOf("System") == -1)
+            if (label.indexOf("methodInvocation") != -1 && content.indexOf("System") == -1){
                 //System.out.println(label);
                 String apiName = content.split("\\(")[0];
                 if(!treeMap.containsKey(apiName)) {
-                    treeMap.put(apiName, apiCount)；
+                    treeMap.put(apiName, apiCount);
                 }
                 invocationWriter.write(apiName + "\n");
+            }
         }
 
         invocationFile.write("\n-----\n");
