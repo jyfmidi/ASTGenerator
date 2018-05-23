@@ -1,227 +1,215 @@
 digraph G {
 00[label="compilationUnit\n Bud1%@@@@E%DSDB@@@ "]
-01[label="compilationUnit\n digraphG{00[label=\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \"]} "]
-02[label="compilationUnit\n digraphG{00[label=\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \"]01[label=\"compilationUnit\n digraphG{00[label=\\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \\"]} \"]-10->01} "]
-03[label="compilationUnit\n <EOF> "]
-04[label="compilationUnit\n <EOF> "]
-05[label="compilationUnit\n digraphG{00[label=\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \"]01[label=\"compilationUnit\n digraphG{00[label=\\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \\"]} \"]02[label=\"compilationUnit\n digraphG{00[label=\\"compilationUnit\n Bud1%@@@@E%DSDB@@@ \\"]01[label=\\"compilationUnit\n digraphG{00[label=\\\"compilationUnitnBud1%@@@@E%DSDB@@@\"]} \\"]-10->01} \"]03[label=\"compilationUnit\n <EOF> \"]04[label=\"compilationUnit\n <EOF> \"]-10->01-10->02-10->03-10->04} "]
-06[label="compilationUnit\n <EOF> "]
-07[label="compilationUnit\n packagecom.hankcs.hanlp.collection.trie.bintrie;publicclass_EmptyValueArray<V>extends_ValueArray<V>{public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}}<EOF> "]
-18[label="packageDeclaration\n packagecom.hankcs.hanlp.collection.trie.bintrie; "]
-29[label="packageName\n com.hankcs.hanlp.collection.trie.bintrie "]
-310[label="packageName\n com.hankcs.hanlp.collection.trie "]
-411[label="packageName\n com.hankcs.hanlp.collection "]
-512[label="packageName\n com.hankcs.hanlp "]
-613[label="packageName\n com.hankcs "]
-714[label="packageName\n com "]
-115[label="normalClassDeclaration\n publicclass_EmptyValueArray<V>extends_ValueArray<V>{public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}} "]
-216[label="classModifier\n public "]
-217[label="typeParameters\n <V> "]
-318[label="typeParameter\n V "]
-219[label="superclass\n extends_ValueArray<V> "]
-320[label="classType\n _ValueArray<V> "]
-421[label="typeArguments\n <V> "]
-522[label="classType_lfno_classOrInterfaceType\n V "]
-223[label="classBody\n {public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}} "]
-324[label="constructorDeclaration\n public_EmptyValueArray(){} "]
-425[label="constructorModifier\n public "]
-426[label="constructorDeclarator\n _EmptyValueArray() "]
-527[label="simpleTypeName\n _EmptyValueArray "]
-428[label="constructorBody\n {} "]
-329[label="methodDeclaration\n @OverridepublicVnextValue(){returnnull;} "]
-430[label="markerAnnotation\n @Override "]
-531[label="typeName\n Override "]
-432[label="methodModifier\n public "]
-433[label="methodHeader\n VnextValue() "]
-534[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
-535[label="methodDeclarator\n nextValue() "]
-436[label="block\n {returnnull;} "]
-537[label="returnStatement\n returnnull; "]
-638[label="literal\n null "]
-039[label="compilationUnit\n packagecom.hankcs.hanlp.collection.trie.bintrie;publicclass_ValueArray<V>{V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}}<EOF> "]
-140[label="packageDeclaration\n packagecom.hankcs.hanlp.collection.trie.bintrie; "]
-241[label="packageName\n com.hankcs.hanlp.collection.trie.bintrie "]
-342[label="packageName\n com.hankcs.hanlp.collection.trie "]
-443[label="packageName\n com.hankcs.hanlp.collection "]
-544[label="packageName\n com.hankcs.hanlp "]
-645[label="packageName\n com.hankcs "]
-746[label="packageName\n com "]
-147[label="normalClassDeclaration\n publicclass_ValueArray<V>{V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}} "]
-248[label="classModifier\n public "]
-249[label="typeParameters\n <V> "]
-350[label="typeParameter\n V "]
-251[label="classBody\n {V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}} "]
-352[label="fieldDeclaration\n V[]value; "]
-453[label="unannArrayType\n V[] "]
-554[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
-555[label="dims\n [] "]
-456[label="variableDeclaratorId\n value "]
-357[label="fieldDeclaration\n intoffset; "]
-458[label="integralType\n int "]
-459[label="variableDeclaratorId\n offset "]
-360[label="constructorDeclaration\n public_ValueArray(V[]value){this.value=value;} "]
-461[label="constructorModifier\n public "]
-462[label="constructorDeclarator\n _ValueArray(V[]value) "]
-563[label="simpleTypeName\n _ValueArray "]
-564[label="formalParameter\n V[]value "]
-665[label="unannArrayType\n V[] "]
-766[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
-767[label="dims\n [] "]
-668[label="variableDeclaratorId\n value "]
-469[label="constructorBody\n {this.value=value;} "]
-570[label="expressionStatement\n this.value=value; "]
-671[label="assignment\n this.value=value "]
-772[label="fieldAccess\n this.value "]
-873[label="primaryNoNewArray_lfno_primary\n this "]
-774[label="assignmentOperator\n = "]
-775[label="expressionName\n value "]
-376[label="methodDeclaration\n publicVnextValue(){returnvalue[offset++];} "]
-477[label="methodModifier\n public "]
-478[label="methodHeader\n VnextValue() "]
-579[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
-580[label="methodDeclarator\n nextValue() "]
-481[label="block\n {returnvalue[offset++];} "]
-582[label="returnStatement\n returnvalue[offset++]; "]
-683[label="arrayAccess_lfno_primary\n value[offset++] "]
-784[label="expressionName\n value "]
-785[label="postfixExpression\n offset++ "]
-886[label="expressionName\n offset "]
-887[label="postIncrementExpression_lf_postfixExpression\n ++ "]
-388[label="constructorDeclaration\n protected_ValueArray(){} "]
-489[label="constructorModifier\n protected "]
-490[label="constructorDeclarator\n _ValueArray() "]
-591[label="simpleTypeName\n _ValueArray "]
-492[label="constructorBody\n {} "]
-393[label="methodDeclaration\n public_ValueArraysetValue(V[]value){this.value=value;returnthis;} "]
-494[label="methodModifier\n public "]
-495[label="methodHeader\n _ValueArraysetValue(V[]value) "]
-596[label="unannClassType_lfno_unannClassOrInterfaceType\n _ValueArray "]
-597[label="methodDeclarator\n setValue(V[]value) "]
-698[label="formalParameter\n V[]value "]
-799[label="unannArrayType\n V[] "]
-8100[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
-8101[label="dims\n [] "]
-7102[label="variableDeclaratorId\n value "]
-4103[label="block\n {this.value=value;returnthis;} "]
-5104[label="blockStatements\n this.value=value;returnthis; "]
-6105[label="expressionStatement\n this.value=value; "]
-7106[label="assignment\n this.value=value "]
-8107[label="fieldAccess\n this.value "]
-9108[label="primaryNoNewArray_lfno_primary\n this "]
-8109[label="assignmentOperator\n = "]
-8110[label="expressionName\n value "]
-6111[label="returnStatement\n returnthis; "]
-7112[label="primaryNoNewArray_lfno_primary\n this "]
+01[label="compilationUnit\n packagecom.hankcs.hanlp.collection.trie.bintrie;publicclass_EmptyValueArray<V>extends_ValueArray<V>{public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}}<EOF> "]
+12[label="packageDeclaration\n packagecom.hankcs.hanlp.collection.trie.bintrie; "]
+23[label="packageName\n com.hankcs.hanlp.collection.trie.bintrie "]
+34[label="packageName\n com.hankcs.hanlp.collection.trie "]
+45[label="packageName\n com.hankcs.hanlp.collection "]
+56[label="packageName\n com.hankcs.hanlp "]
+67[label="packageName\n com.hankcs "]
+78[label="packageName\n com "]
+19[label="normalClassDeclaration\n publicclass_EmptyValueArray<V>extends_ValueArray<V>{public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}} "]
+210[label="classModifier\n public "]
+211[label="typeParameters\n <V> "]
+312[label="typeParameter\n V "]
+213[label="superclass\n extends_ValueArray<V> "]
+314[label="classType\n _ValueArray<V> "]
+415[label="typeArguments\n <V> "]
+516[label="classType_lfno_classOrInterfaceType\n V "]
+217[label="classBody\n {public_EmptyValueArray(){}@OverridepublicVnextValue(){returnnull;}} "]
+318[label="constructorDeclaration\n public_EmptyValueArray(){} "]
+419[label="constructorModifier\n public "]
+420[label="constructorDeclarator\n _EmptyValueArray() "]
+521[label="simpleTypeName\n _EmptyValueArray "]
+422[label="constructorBody\n {} "]
+323[label="methodDeclaration\n @OverridepublicVnextValue(){returnnull;} "]
+424[label="markerAnnotation\n @Override "]
+525[label="typeName\n Override "]
+426[label="methodModifier\n public "]
+427[label="methodHeader\n VnextValue() "]
+528[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+529[label="methodDeclarator\n nextValue() "]
+430[label="block\n {returnnull;} "]
+531[label="returnStatement\n returnnull; "]
+632[label="literal\n null "]
+033[label="compilationUnit\n packagecom.hankcs.hanlp.collection.trie.bintrie;publicclass_ValueArray<V>{V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}}<EOF> "]
+134[label="packageDeclaration\n packagecom.hankcs.hanlp.collection.trie.bintrie; "]
+235[label="packageName\n com.hankcs.hanlp.collection.trie.bintrie "]
+336[label="packageName\n com.hankcs.hanlp.collection.trie "]
+437[label="packageName\n com.hankcs.hanlp.collection "]
+538[label="packageName\n com.hankcs.hanlp "]
+639[label="packageName\n com.hankcs "]
+740[label="packageName\n com "]
+141[label="normalClassDeclaration\n publicclass_ValueArray<V>{V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}} "]
+242[label="classModifier\n public "]
+243[label="typeParameters\n <V> "]
+344[label="typeParameter\n V "]
+245[label="classBody\n {V[]value;intoffset;public_ValueArray(V[]value){this.value=value;}publicVnextValue(){returnvalue[offset++];}protected_ValueArray(){}public_ValueArraysetValue(V[]value){this.value=value;returnthis;}} "]
+346[label="fieldDeclaration\n V[]value; "]
+447[label="unannArrayType\n V[] "]
+548[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+549[label="dims\n [] "]
+450[label="variableDeclaratorId\n value "]
+351[label="fieldDeclaration\n intoffset; "]
+452[label="integralType\n int "]
+453[label="variableDeclaratorId\n offset "]
+354[label="constructorDeclaration\n public_ValueArray(V[]value){this.value=value;} "]
+455[label="constructorModifier\n public "]
+456[label="constructorDeclarator\n _ValueArray(V[]value) "]
+557[label="simpleTypeName\n _ValueArray "]
+558[label="formalParameter\n V[]value "]
+659[label="unannArrayType\n V[] "]
+760[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+761[label="dims\n [] "]
+662[label="variableDeclaratorId\n value "]
+463[label="constructorBody\n {this.value=value;} "]
+564[label="expressionStatement\n this.value=value; "]
+665[label="assignment\n this.value=value "]
+766[label="fieldAccess\n this.value "]
+867[label="primaryNoNewArray_lfno_primary\n this "]
+768[label="assignmentOperator\n = "]
+769[label="expressionName\n value "]
+370[label="methodDeclaration\n publicVnextValue(){returnvalue[offset++];} "]
+471[label="methodModifier\n public "]
+472[label="methodHeader\n VnextValue() "]
+573[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+574[label="methodDeclarator\n nextValue() "]
+475[label="block\n {returnvalue[offset++];} "]
+576[label="returnStatement\n returnvalue[offset++]; "]
+677[label="arrayAccess_lfno_primary\n value[offset++] "]
+778[label="expressionName\n value "]
+779[label="postfixExpression\n offset++ "]
+880[label="expressionName\n offset "]
+881[label="postIncrementExpression_lf_postfixExpression\n ++ "]
+382[label="constructorDeclaration\n protected_ValueArray(){} "]
+483[label="constructorModifier\n protected "]
+484[label="constructorDeclarator\n _ValueArray() "]
+585[label="simpleTypeName\n _ValueArray "]
+486[label="constructorBody\n {} "]
+387[label="methodDeclaration\n public_ValueArraysetValue(V[]value){this.value=value;returnthis;} "]
+488[label="methodModifier\n public "]
+489[label="methodHeader\n _ValueArraysetValue(V[]value) "]
+590[label="unannClassType_lfno_unannClassOrInterfaceType\n _ValueArray "]
+591[label="methodDeclarator\n setValue(V[]value) "]
+692[label="formalParameter\n V[]value "]
+793[label="unannArrayType\n V[] "]
+894[label="unannClassType_lfno_unannClassOrInterfaceType\n V "]
+895[label="dims\n [] "]
+796[label="variableDeclaratorId\n value "]
+497[label="block\n {this.value=value;returnthis;} "]
+598[label="blockStatements\n this.value=value;returnthis; "]
+699[label="expressionStatement\n this.value=value; "]
+7100[label="assignment\n this.value=value "]
+8101[label="fieldAccess\n this.value "]
+9102[label="primaryNoNewArray_lfno_primary\n this "]
+8103[label="assignmentOperator\n = "]
+8104[label="expressionName\n value "]
+6105[label="returnStatement\n returnthis; "]
+7106[label="primaryNoNewArray_lfno_primary\n this "]
 -10->01
--10->02
--10->03
--10->04
--10->05
--10->06
--10->07
-07->18
-18->29
-29->310
-310->411
-411->512
-512->613
-613->714
-07->115
-115->216
-115->217
+01->12
+12->23
+23->34
+34->45
+45->56
+56->67
+67->78
+01->19
+19->210
+19->211
+211->312
+19->213
+213->314
+314->415
+415->516
+19->217
 217->318
-115->219
-219->320
-320->421
-421->522
-115->223
-223->324
-324->425
-324->426
-426->527
-324->428
-223->329
-329->430
+318->419
+318->420
+420->521
+318->422
+217->323
+323->424
+424->525
+323->426
+323->427
+427->528
+427->529
+323->430
 430->531
-329->432
-329->433
-433->534
-433->535
-329->436
-436->537
-537->638
--10->039
-039->140
-140->241
-241->342
-342->443
-443->544
-544->645
-645->746
-039->147
-147->248
-147->249
-249->350
-147->251
-251->352
-352->453
-453->554
-453->555
-352->456
-251->357
-357->458
-357->459
-251->360
-360->461
-360->462
-462->563
-462->564
+531->632
+-10->033
+033->134
+134->235
+235->336
+336->437
+437->538
+538->639
+639->740
+033->141
+141->242
+141->243
+243->344
+141->245
+245->346
+346->447
+447->548
+447->549
+346->450
+245->351
+351->452
+351->453
+245->354
+354->455
+354->456
+456->557
+456->558
+558->659
+659->760
+659->761
+558->662
+354->463
+463->564
 564->665
 665->766
-665->767
-564->668
-360->469
-469->570
-570->671
-671->772
-772->873
-671->774
-671->775
-251->376
-376->477
-376->478
-478->579
-478->580
-376->481
-481->582
-582->683
-683->784
-683->785
-785->886
-785->887
-251->388
-388->489
-388->490
-490->591
-388->492
-251->393
-393->494
-393->495
-495->596
-495->597
-597->698
-698->799
-799->8100
-799->8101
-698->7102
-393->4103
-4103->5104
-5104->6105
+766->867
+665->768
+665->769
+245->370
+370->471
+370->472
+472->573
+472->574
+370->475
+475->576
+576->677
+677->778
+677->779
+779->880
+779->881
+245->382
+382->483
+382->484
+484->585
+382->486
+245->387
+387->488
+387->489
+489->590
+489->591
+591->692
+692->793
+793->894
+793->895
+692->796
+387->497
+497->598
+598->699
+699->7100
+7100->8101
+8101->9102
+7100->8103
+7100->8104
+598->6105
 6105->7106
-7106->8107
-8107->9108
-7106->8109
-7106->8110
-5104->6111
-6111->7112
 }

@@ -8,65 +8,65 @@
 >enableProbability(booleanenable)
 
 >classify(Stringtext)
-predict
-CollectionUtility.max
+0
+1
 
 >classify(Documentdocument)
-predict
-CollectionUtility.max
+0
+1
 
 >train(StringfolderPath,StringcharsetName)
-dataSet.load
-train
+2
+3
 
 >train(Map<String,String[]>trainingDataSet)
-logger.start
-trainingDataSet.size
-trainingDataSet.entrySet
-entry.getKey
-logger.out
-entry.getValue
-dataSet.add
-logger.out
-MathUtility.percentage
-logger.finish
-train
+4
+5
+6
+7
+8
+9
+10
+8
+11
+12
+3
 
 >train(StringfolderPath)
-train
+3
 
 >predict(Documentdocument)
-getModel
-categorize
-scoreMap.put
+13
+14
+15
 
 >label(Documentdocument)
-getModel
-categorize
+13
+14
 
 >nextWords(intn,Stringmsg)
-nextWord
+16
 
 >nextWord()
-scanner.next
-word.length
-word.equals
+17
+18
+19
 
 >getTargetVector()
 
 >execute()
-vectorsReader.readVectorFile
-vectorsReader.getNumWords
-vectorsReader.getSize
-getTargetVector
-vectorsReader.getMatrixElement
-vectorsReader.getWord
-scanner.close
+20
+21
+22
+23
+24
+25
+26
 
 >setTokenizer(ITokenizertokenizer)
 
 >convert(Stringcategory,Stringtext)
-tokenizer.segment
+27
 
 >getTokenizer()
 
@@ -75,53 +75,53 @@ tokenizer.segment
 >getLexicon()
 
 >load(StringfolderPath,StringcharsetName)
-load
+28
 
 >load(StringfolderPath)
-load
+28
 
 >isTestingDataSet()
 
 >load(StringfolderPath,StringcharsetName,doublepercentage)
-root.exists
-String.format
-root.getAbsolutePath
-root.isDirectory
-String.format
-root.getAbsolutePath
-root.listFiles
-logger.start
-folder.isFile
-folder.listFiles
-folder.getName
-logger.out
-Math.ceil
-add
-folder.getName
-TextProcessUtility.readTxt
-logger.out
-MathUtility.percentage
-logger.out
-logger.finish
-getCatalog
-.size
-size
+29
+30
+31
+32
+30
+31
+33
+4
+34
+35
+36
+8
+37
+38
+36
+39
+8
+11
+8
+12
+40
+41
+42
 
 >load(StringfolderPath,doublerate)
 
 >add(Map<String,String[]>testingDataSet)
-testingDataSet.entrySet
-entry.getValue
-add
-entry.getKey
-HanLP.newSegment
-.enablePartOfSpeechTagging
+43
+9
+38
+7
+44
+45
 
 >parse(Stringsentence)
-parse
-segment.seg
-sentence.toCharArray
-deprelTranslater.get
+46
+47
+48
+49
 
 >getSegment()
 
@@ -132,21 +132,81 @@ deprelTranslater.get
 >setDeprelTranslator(Map<String,String>deprelTranslator)
 
 >setDeprelTranslater(StringdeprelTranslatorPath)
-GlobalObjectPool.get
-iterator.hasNext
-iterator.next
-.split
-deprelTranslater.put
-deprelTranslater.size
-GlobalObjectPool.put
+50
+51
+52
+53
+54
+55
+56
 
 >enableDeprelTranslator(booleanenable)
 
 >compareTo(AbstractInexactActiono)
-.compareTo
+57
 
 >equals(Objectobj)
 
 >name()
 
 >rel()
+
+<Api
+0 predict
+1 CollectionUtility.max
+2 dataSet.load
+3 train
+4 logger.start
+5 trainingDataSet.size
+6 trainingDataSet.entrySet
+7 entry.getKey
+8 logger.out
+9 entry.getValue
+10 dataSet.add
+11 MathUtility.percentage
+12 logger.finish
+13 getModel
+14 categorize
+15 scoreMap.put
+16 nextWord
+17 scanner.next
+18 word.length
+19 word.equals
+20 vectorsReader.readVectorFile
+21 vectorsReader.getNumWords
+22 vectorsReader.getSize
+23 getTargetVector
+24 vectorsReader.getMatrixElement
+25 vectorsReader.getWord
+26 scanner.close
+27 tokenizer.segment
+28 load
+29 root.exists
+30 String.format
+31 root.getAbsolutePath
+32 root.isDirectory
+33 root.listFiles
+34 folder.isFile
+35 folder.listFiles
+36 folder.getName
+37 Math.ceil
+38 add
+39 TextProcessUtility.readTxt
+40 getCatalog
+41 .size
+42 size
+43 testingDataSet.entrySet
+44 HanLP.newSegment
+45 .enablePartOfSpeechTagging
+46 parse
+47 segment.seg
+48 sentence.toCharArray
+49 deprelTranslater.get
+50 GlobalObjectPool.get
+51 iterator.hasNext
+52 iterator.next
+53 .split
+54 deprelTranslater.put
+55 deprelTranslater.size
+56 GlobalObjectPool.put
+57 .compareTo

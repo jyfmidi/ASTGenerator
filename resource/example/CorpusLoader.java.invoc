@@ -1,0 +1,3989 @@
+
+>nextValue()
+
+>nextValue()
+
+>setValue(V[]value)
+
+>enableProbability(booleanenable)
+
+>classify(Stringtext)
+0
+1
+
+>classify(Documentdocument)
+0
+1
+
+>train(StringfolderPath,StringcharsetName)
+2
+3
+
+>train(Map<String,String[]>trainingDataSet)
+4
+5
+6
+7
+8
+9
+10
+8
+11
+12
+3
+
+>train(StringfolderPath)
+3
+
+>predict(Documentdocument)
+13
+14
+15
+
+>label(Documentdocument)
+13
+14
+
+>nextWords(intn,Stringmsg)
+16
+
+>nextWord()
+17
+18
+19
+
+>getTargetVector()
+
+>execute()
+20
+21
+22
+23
+24
+25
+26
+
+>setTokenizer(ITokenizertokenizer)
+
+>convert(Stringcategory,Stringtext)
+27
+
+>getTokenizer()
+
+>getCatalog()
+
+>getLexicon()
+
+>load(StringfolderPath,StringcharsetName)
+28
+
+>load(StringfolderPath)
+28
+
+>isTestingDataSet()
+
+>load(StringfolderPath,StringcharsetName,doublepercentage)
+29
+30
+31
+32
+30
+31
+33
+4
+34
+35
+36
+8
+37
+38
+36
+39
+8
+11
+8
+12
+40
+41
+42
+
+>load(StringfolderPath,doublerate)
+
+>add(Map<String,String[]>testingDataSet)
+43
+9
+38
+7
+44
+45
+
+>parse(Stringsentence)
+46
+47
+48
+49
+
+>getSegment()
+
+>setSegment(Segmentsegment)
+
+>getDeprelTranslator()
+
+>setDeprelTranslator(Map<String,String>deprelTranslator)
+
+>setDeprelTranslater(StringdeprelTranslatorPath)
+50
+51
+52
+53
+54
+55
+56
+
+>enableDeprelTranslator(booleanenable)
+
+>compareTo(AbstractInexactActiono)
+57
+
+>equals(Objectobj)
+
+>name()
+
+>rel()
+
+>localUsage()
+
+>paramDesc(Stringparam,Stringdesc)
+
+>usage()
+58
+58
+58
+58
+58
+58
+58
+58
+58
+58
+58
+59
+
+>argPos(Stringparam,String[]args)
+60
+
+>argPos(Stringparam,String[]args,booleancheckArgNum)
+61
+30
+
+>setConfig(String[]args,Configconfig)
+60
+62
+63
+60
+64
+60
+65
+63
+66
+67
+60
+67
+68
+60
+69
+63
+60
+70
+68
+60
+71
+63
+60
+72
+63
+60
+73
+63
+60
+74
+63
+60
+75
+63
+
+>vector(Kkey)
+76
+
+>similarity(Kwhat,Kwith)
+76
+76
+77
+
+>nearest(Kkey,intsize)
+76
+78
+79
+
+>nearest(Kkey,Vectorvector,intsize)
+
+>compare(Map.Entry<K,Float>o1,Map.Entry<K,Float>o2)
+80
+57
+81
+82
+7
+83
+84
+7
+9
+85
+86
+
+>nearest(Vectorvector,intsize)
+
+>compare(Map.Entry<K,Float>o1,Map.Entry<K,Float>o2)
+80
+57
+81
+82
+84
+7
+9
+85
+86
+
+>nearest(Vectorvector)
+79
+
+>nearest(Kkey)
+79
+
+>queryNearest(Stringquery,intsize)
+87
+78
+79
+88
+78
+
+>query(Stringquery)
+
+>size()
+89
+
+>dimension()
+90
+91
+92
+93
+41
+
+>remove(Kkey)
+94
+
+>make_shift()
+
+>make_left_arc(finalintrel)
+
+>make_right_arc(finalintrel)
+
+>is_shift(finalActionact)
+95
+
+>is_left_arc(finalActionact,int[]deprel)
+95
+96
+
+>is_right_arc(finalActionact,int[]deprel)
+95
+96
+
+>get_oracle_actions(List<Integer>heads,List<Integer>deprels,List<Action>actions)
+97
+98
+99
+100
+100
+101
+
+>get_oracle_actions_travel(introot,List<Integer>heads,List<Integer>deprels,List<List<Integer>>tree,List<Action>actions)
+100
+102
+103
+101
+103
+104
+105
+102
+103
+101
+104
+106
+107
+103
+104
+108
+107
+
+>get_oracle_actions2(Dependencyinstance,List<Action>actions)
+109
+
+>get_oracle_actions2(List<Integer>heads,List<Integer>deprels,List<Action>actions)
+98
+97
+110
+111
+112
+
+>get_oracle_actions_onestep(List<Integer>heads,List<Integer>deprels,List<Integer>sigma,int[]beta,List<Integer>output,List<Action>actions)
+111
+113
+111
+111
+113
+111
+97
+99
+114
+99
+104
+108
+107
+115
+116
+111
+117
+111
+99
+104
+106
+107
+115
+116
+111
+97
+104
+105
+118
+
+>testAdjust()
+119
+120
+
+>handle(Filefile)
+121
+122
+123
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+123
+125
+126
+127
+
+>addW(Stringtext,Stringc)
+128
+128
+
+>testPlay()
+129
+
+>handle(Documentdocument)
+130
+131
+83
+132
+133
+134
+
+>testAdjustNGram()
+51
+52
+135
+53
+53
+63
+136
+137
+138
+125
+139
+126
+
+>testRemoveLabelD()
+140
+141
+135
+53
+83
+142
+143
+144
+7
+9
+145
+146
+136
+147
+148
+9
+9
+149
+150
+
+>parseText(Stringtext)
+123
+151
+152
+153
+
+>parseText(Stringtext,IHit<V>processor)
+123
+151
+152
+154
+
+>parseText(char[]text,IHit<V>processor)
+151
+154
+
+>parseText(char[]text,IHitFull<V>processor)
+151
+154
+
+>save(DataOutputStreamout)
+155
+155
+155
+155
+155
+155
+155
+155
+155
+
+>save(ObjectOutputStreamout)
+156
+156
+156
+156
+156
+
+>load(ObjectInputStreamin,V[]value)
+157
+157
+157
+157
+157
+
+>load(ByteArraybyteArray,V[]value)
+158
+158
+158
+158
+158
+158
+158
+158
+
+>get(Stringkey)
+159
+
+>set(Stringkey,Vvalue)
+159
+
+>get(intindex)
+
+>hit(intbegin,intend,Vvalue)
+
+>hit(intbegin,intend,Vvalue,intindex)
+
+>toString()
+30
+
+>getState(intcurrentState,charcharacter)
+160
+160
+
+>storeEmits(intposition,intcurrentState,List<Hit<V>>collectedEmits)
+161
+
+>transition(intcurrent,charc)
+
+>transitionWithRoot(intnodePos,charc)
+
+>build(TreeMap<String,V>map)
+162
+
+>fetch(Stateparent,List<Map.Entry<Integer,State>>siblings)
+163
+164
+165
+166
+167
+168
+169
+167
+7
+9
+170
+
+>exactMatchSearch(Stringkey)
+159
+
+>exactMatchSearch(Stringkey,intpos,intlen,intnodePos)
+146
+171
+
+>exactMatchSearch(char[]keyChars,intpos,intlen,intnodePos)
+
+>add(Stringname,intvalue)
+172
+30
+173
+
+>toString()
+174
+7
+9
+30
+
+>println()
+
+>size()
+
+>build(TreeMap<String,V>map)
+175
+176
+177
+178
+179
+180
+181
+
+>addKeyword(Stringkeyword,intindex)
+182
+183
+184
+185
+
+>addAllKeyword(Collection<String>keywordSet)
+186
+
+>constructFailureStates()
+187
+188
+189
+190
+191
+192
+193
+194
+189
+195
+196
+197
+196
+198
+199
+200
+190
+
+>constructOutput(StatetargetState)
+201
+202
+202
+203
+204
+205
+
+>buildDoubleArrayTrie(Set<String>keySet)
+206
+207
+208
+169
+41
+209
+210
+
+>resize(intnewSize)
+
+>insert(List<Map.Entry<Integer,State>>siblings)
+211
+212
+213
+207
+207
+212
+213
+212
+170
+213
+207
+170
+212
+213
+212
+170
+213
+212
+170
+213
+214
+215
+216
+169
+41
+209
+215
+214
+215
+217
+210
+214
+215
+215
+214
+
+>loseWeight()
+
+>segSentence(char[]sentence)
+218
+78
+219
+220
+
+>hit(intbegin,intend,CoreDictionary.Attributevalue)
+221
+222
+222
+223
+224
+225
+226
+
+>enableCustomDictionary(booleanenable)
+
+>getTrie()
+
+>setTrie(AhoCorasickDoubleArrayTrie<CoreDictionary.Attribute>trie)
+
+>loadDictionary(String...pathArray)
+227
+218
+228
+229
+225
+
+>testAC()
+230
+230
+230
+230
+220
+
+>testBuild()
+231
+232
+
+>hit(intbegin,intend,Stringvalue)
+
+>testDatFromFile()
+51
+52
+231
+225
+177
+233
+234
+
+>testDat()
+231
+225
+235
+
+>testTwoStruct()
+
+>testTwoAC()
+51
+52
+53
+231
+236
+177
+232
+177
+220
+237
+238
+239
+240
+241
+233
+
+>testSegment()
+51
+52
+53
+231
+236
+177
+232
+242
+240
+233
+243
+
+>testHasKeyword()
+231
+236
+177
+244
+245
+244
+245
+246
+245
+
+>labelOf(intid)
+
+>build(TreeMap<String,Integer>keyValueMap)
+247
+248
+9
+7
+225
+
+>idOf(char[]label)
+234
+
+>idOf(Stringlabel)
+234
+
+>size()
+249
+
+>save(DataOutputStreamout)
+155
+250
+
+>load(ByteArraybyteArray)
+158
+251
+231
+225
+
+>parseOrExit(Objecttarget,String[]args)
+46
+252
+253
+
+>parse(Objecttarget,String[]args)
+46
+
+>parse(Objecttarget,String[]args,booleanfailOnExtraFlags)
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+
+>processField(Objecttarget,Fieldfield,List<String>arguments)
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+276
+277
+278
+279
+280
+281
+282
+271
+268
+
+>addArgument(Classtype,Fieldfield,Objecttarget,Objectvalue,Stringdelimiter)
+283
+284
+285
+286
+287
+288
+
+>addPropertyArgument(Classtype,PropertyDescriptorproperty,Objecttarget,Objectvalue,Stringdelimiter)
+289
+290
+284
+285
+286
+291
+291
+288
+
+>processProperty(Objecttarget,PropertyDescriptorproperty,List<String>arguments)
+291
+292
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+293
+276
+276
+277
+278
+294
+295
+281
+282
+271
+
+>usage(Objecttarget)
+
+>usage(PrintStreamerrStream,Objecttarget)
+256
+296
+297
+298
+299
+260
+261
+300
+257
+258
+301
+
+>fieldUsage(PrintStreamerrStream,Objecttarget,Fieldfield)
+264
+271
+272
+268
+269
+302
+303
+283
+275
+301
+
+>propertyUsage(PrintStreamerrStream,Objecttarget,PropertyDescriptorfield)
+304
+292
+271
+272
+268
+269
+302
+305
+306
+307
+301
+
+>propertyUsage(PrintStreamerrStream,Stringprefix,Stringname,Stringalias,Class<?>type,Stringdelimiter,Stringdescription,ObjectdefaultValue)
+308
+308
+308
+308
+308
+308
+308
+308
+308
+281
+309
+286
+308
+308
+308
+308
+309
+308
+308
+308
+308
+281
+310
+311
+312
+308
+308
+308
+299
+
+>getTypeName(Class<?>type)
+288
+313
+314
+
+>getName(Argumentargument,PropertyDescriptorproperty)
+315
+316
+317
+
+>consumeArgumentValue(Stringname,Class<?>type,Argumentargument,Iterator<String>i)
+266
+267
+277
+268
+
+>setProperty(Class<?>type,PropertyDescriptorproperty,Objecttarget,Objectvalue,Stringdelimiter)
+284
+291
+291
+288
+
+>getAlias(Argumentargument)
+318
+319
+
+>getName(Argumentargument,Fieldfield)
+315
+316
+320
+
+>setField(Class<?>type,Fieldfield,Objecttarget,Objectvalue,Stringdelimiter)
+303
+284
+287
+288
+
+>getValue(Class<?>type,Objectvalue,Stringdelimiter)
+281
+321
+286
+285
+322
+322
+
+>createValue(Class<?>type,StringvalueAsString)
+323
+30
+324
+
+>makeAccessible(AccessibleObjectao)
+325
+326
+327
+
+>createValue(Class<?>type,Stringvalue)
+
+>byStaticMethodInvocation(finalClass<?>compatibleType,finalStringmethodName)
+
+>createValue(Class<?>type,Stringvalue)
+328
+329
+330
+30
+324
+
+>createValue(Class<?>type,Stringvalue)
+331
+332
+288
+
+>createValue(Classtype,Stringvalue)
+333
+334
+255
+
+>registerValueCreator(ValueCreatorvc)
+335
+
+>resetValueCreators()
+336
+337
+
+>compare(Long[]arrayA,Long[]arrayB)
+338
+339
+340
+
+>computeMinimumDistance(TreeSet<Long>setA,TreeSet<Long>setB)
+341
+342
+343
+
+>computeMinimumDistance(Long[]arrayA,Long[]arrayB)
+344
+344
+344
+
+>computeAverageDistance(Long[]arrayA,Long[]arrayB)
+344
+
+>binarySearch(BaseNode[]branches,BaseNodenode)
+57
+
+>binarySearch(BaseNode[]branches,charnode)
+57
+345
+
+>getNature()
+346
+347
+
+>toString()
+
+>convert(Stringword,inttype)
+
+>getBuffer()
+
+>get(intid)
+
+>set(intid,bytevalue)
+
+>empty()
+
+>size()
+
+>clear()
+207
+
+>add(bytevalue)
+348
+
+>deleteLast()
+
+>resize(intsize)
+348
+
+>resize(intsize,bytevalue)
+348
+
+>reserve(intsize)
+348
+
+>resizeBuf(intsize)
+
+>getBuffer()
+
+>get(intid)
+
+>set(intid,intvalue)
+
+>empty()
+
+>size()
+
+>clear()
+207
+
+>add(intvalue)
+348
+
+>deleteLast()
+
+>resize(intsize)
+348
+
+>resize(intsize,intvalue)
+348
+
+>reserve(intsize)
+348
+
+>resizeBuf(intsize)
+
+>update(int[]goldIndex,int[]predictIndex,double[]total,int[]timestamp,intiter)
+349
+349
+
+>update(intindex,floatvalue,double[]total,int[]timestamp,intcurrent)
+
+>average(double[]total,int[]timestamp,intcurrent)
+
+>getTfMap()
+
+>isEmpty()
+350
+
+>combineChain(TreeMap<String,String>s2t,TreeMap<String,String>t2x)
+351
+352
+9
+353
+354
+355
+7
+356
+357
+9
+
+>combineReverseChain(TreeMap<String,String>t2s,TreeMap<String,String>tw2t,booleanconvert)
+358
+7
+359
+9
+355
+9
+9
+360
+
+>load(Map<String,String>storage,booleanreverse,String...pathArray)
+361
+362
+144
+363
+7
+9
+
+>load(Stringpath,AhoCorasickDoubleArrayTrie<String>trie)
+28
+
+>load(Stringpath,AhoCorasickDoubleArrayTrie<String>trie,booleanreverse)
+364
+28
+365
+225
+365
+366
+367
+
+>loadDat(Stringpath,AhoCorasickDoubleArrayTrie<String>trie)
+368
+158
+251
+369
+
+>saveDat(Stringpath,AhoCorasickDoubleArrayTrie<String>trie,Set<Map.Entry<String,String>>entrySet)
+249
+370
+218
+371
+155
+370
+9
+372
+155
+373
+374
+375
+218
+
+>getSearcher(char[]charArray,DoubleArrayTrie<String>trie)
+
+>segLongest(char[]charArray,DoubleArrayTrie<String>trie)
+376
+377
+378
+308
+308
+9
+7
+379
+308
+380
+
+>segLongest(char[]charArray,AhoCorasickDoubleArrayTrie<String>trie)
+220
+
+>hit(intbegin,intend,Stringvalue)
+308
+308
+380
+
+>next()
+381
+382
+383
+384
+379
+385
+386
+387
+388
+389
+389
+390
+7
+391
+
+>transition(char[]path,intbegin)
+392
+
+>transition(charpath)
+392
+
+>addChild(BaseNodenode)
+
+>hasChild(charc)
+393
+
+>getChar()
+
+>getChild(charc)
+
+>getValue()
+
+>setValue(Vvalue)
+
+>compareTo(BaseNodeother)
+394
+395
+
+>compareTo(charother)
+
+>getStatus()
+
+>walk(StringBuildersb,Set<Map.Entry<String,V>>entrySet)
+308
+396
+380
+397
+380
+
+>walkToSave(DataOutputStreamout)
+373
+155
+398
+155
+399
+
+>walkToSave(ObjectOutputout)
+373
+155
+398
+156
+155
+399
+
+>walkToLoad(ByteArraybyteArray,_ValueArray<V>valueArray)
+400
+158
+401
+158
+402
+
+>walkToLoad(ObjectInputbyteArray)
+403
+404
+405
+404
+402
+
+>compareTo(TrieEntryo)
+406
+57
+407
+
+>toString()
+
+>setBoost(doubleboost)
+
+>addSentence(Stringsentence)
+408
+76
+363
+409
+
+>generateKey(Stringsentence)
+
+>computeScore(StringouterSentence)
+410
+408
+82
+7
+411
+9
+412
+
+>removeAllSentences()
+413
+414
+
+>next()
+
+>getOffset()
+44
+415
+416
+
+>segment(Stringtext)
+417
+414
+
+>segment(char[]text)
+417
+
+>seg2sentence(Stringtext)
+418
+28
+
+>load(Stringpath)
+364
+419
+135
+420
+231
+421
+225
+366
+218
+
+>loadDat(Stringpath)
+368
+158
+422
+369
+
+>saveDat(Stringpath,TreeMap<String,String>map)
+175
+371
+155
+423
+424
+374
+375
+218
+
+>get(Stringkey)
+234
+
+>get(StringfromWord,StringfromPos,StringtoWord,StringtoPos)
+425
+425
+426
+425
+426
+425
+426
+426
+28
+
+>load(Stringpath)
+365
+364
+427
+428
+135
+63
+231
+429
+365
+430
+430
+225
+365
+365
+249
+371
+175
+155
+431
+155
+374
+375
+218
+228
+
+>loadDat(Stringpath)
+368
+158
+158
+369
+
+>_findSpecialString()
+427
+428
+135
+432
+433
+434
+429
+127
+127
+
+>getBiFrequency(Stringfrom,Stringto)
+435
+
+>getBiFrequency(StringtwoWord)
+234
+
+>reSaveDictionary(TreeMap<String,Integer>map,Stringpath)
+367
+436
+7
+436
+436
+9
+436
+437
+438
+
+>sortListForBuildTrie(List<String>wordList,List<Integer>freqList,Stringpath)
+439
+440
+441
+442
+443
+371
+125
+444
+139
+126
+127
+127
+
+>segment(Stringtext)
+123
+414
+445
+446
+446
+447
+446
+447
+447
+448
+449
+450
+52
+51
+52
+451
+451
+452
+
+>put(Stringkey,Vvalue)
+146
+171
+453
+454
+453
+
+>put(char[]key,Vvalue)
+453
+454
+453
+
+>set(Stringkey,Vvalue)
+455
+171
+
+>remove(Stringkey)
+171
+454
+453
+
+>containsKey(Stringkey)
+171
+454
+
+>get(Stringkey)
+171
+454
+456
+
+>get(char[]key)
+454
+456
+
+>getValueArray(V[]a)
+457
+458
+459
+460
+9
+
+>entrySet()
+397
+380
+
+>keySet()
+460
+461
+7
+
+>prefixSearch(Stringkey)
+462
+146
+171
+454
+463
+
+>commonPrefixSearchWithValue(Stringkey)
+171
+464
+
+>commonPrefixSearchWithValue(char[]chars,intbegin)
+454
+308
+465
+380
+
+>addChild(BaseNodenode)
+466
+393
+467
+468
+469
+
+>size()
+
+>getChar()
+
+>getChild(charc)
+
+>save(Stringpath)
+371
+155
+155
+399
+375
+218
+228
+
+>build(TreeMap<String,V>keyValueMap)
+248
+455
+7
+9
+
+>save(DataOutputStreamout)
+155
+155
+399
+218
+228
+
+>load(Stringpath,V[]value)
+470
+158
+402
+
+>load(Stringpath)
+470
+158
+402
+
+>load(ByteArraybyteArray,_ValueArrayvalueArray)
+158
+402
+
+>load(ByteArraybyteArray,V[]value)
+28
+471
+472
+
+>newValueArray()
+
+>writeExternal(ObjectOutputout)
+155
+155
+155
+399
+
+>readExternal(ObjectInputin)
+473
+473
+402
+
+>parseLongestText(Stringtext,AhoCorasickDoubleArrayTrie.IHit<V>processor)
+123
+474
+152
+475
+476
+152
+475
+475
+154
+
+>parseLongestText(char[]text,AhoCorasickDoubleArrayTrie.IHit<V>processor)
+474
+475
+476
+475
+475
+154
+
+>parseText(Stringtext,AhoCorasickDoubleArrayTrie.IHit<V>processor)
+123
+476
+152
+475
+154
+
+>parseText(char[]text,AhoCorasickDoubleArrayTrie.IHit<V>processor)
+476
+475
+154
+
+>testParseText()
+477
+
+>hit(intbegin,intend,Stringvalue)
+233
+478
+220
+
+>get(intid)
+479
+
+>set(intid,booleanbit)
+480
+479
+
+>rank(intid)
+481
+479
+
+>empty()
+482
+
+>numOnes()
+
+>size()
+
+>append()
+483
+
+>build()
+484
+484
+481
+479
+
+>clear()
+485
+
+>popCount(intunit)
+
+>segment(Stringtext)
+486
+487
+488
+489
+
+>init()
+490
+491
+492
+7
+493
+494
+495
+7
+9
+496
+497
+497
+
+>sim(List<String>sentence,intindex)
+498
+499
+41
+500
+501
+
+>simAll(List<String>sentence)
+502
+
+>createByteArray(Stringpath)
+470
+
+>getBytes()
+
+>nextInt()
+503
+
+>nextDouble()
+504
+
+>nextChar()
+505
+
+>nextByte()
+
+>hasMore()
+
+>nextString()
+506
+507
+
+>nextFloat()
+508
+
+>nextUnsignedShort()
+509
+509
+
+>nextUTF()
+510
+509
+430
+430
+430
+430
+430
+
+>getOffset()
+
+>getLength()
+
+>close()
+
+>finalize()
+511
+
+>createByteArrayFileStream(Stringpath)
+512
+218
+228
+
+>createByteArrayFileStream(FileInputStreamfileInputStream)
+513
+514
+338
+515
+516
+517
+518
+519
+
+>hasMore()
+
+>ensureAvailableBytes(intsize)
+520
+521
+515
+338
+522
+523
+518
+519
+
+>close()
+524
+523
+218
+228
+
+>createByteArrayOtherStream(Stringpath)
+525
+526
+218
+228
+
+>createByteArrayOtherStream(InputStreamis)
+527
+211
+338
+528
+
+>ensureAvailableBytes(intsize)
+211
+527
+338
+528
+
+>close()
+524
+529
+218
+228
+
+>createByteArrayStream(Stringpath)
+530
+525
+530
+531
+218
+
+>nextInt()
+532
+533
+
+>nextChar()
+532
+534
+
+>nextDouble()
+532
+535
+
+>nextByte()
+532
+536
+
+>nextFloat()
+532
+537
+
+>ensureAvailableBytes(intsize)
+
+>bytesToChar(byte[]b)
+
+>bytesToDouble(byte[]b)
+538
+539
+
+>bytesHighFirstToDouble(byte[]bytes,intstart)
+538
+
+>bytesToFloat(byte[]b)
+540
+541
+
+>bytesToInt(byte[]b)
+
+>bytesToLong(byte[]b)
+
+>bytesHighFirstToLong(byte[]b)
+
+>charToBytes(charc)
+
+>doubleToBytes(doubled)
+542
+543
+
+>floatToBytes(floatf)
+544
+545
+
+>intToBytes(inti)
+
+>longToBytes(longl)
+
+>bytesToInt(byte[]bytes,intstart)
+
+>bytesHighFirstToInt(byte[]bytes,intstart)
+
+>bytesHighFirstToChar(byte[]bytes,intstart)
+
+>bytesHighFirstToFloat(byte[]bytes,intstart)
+546
+540
+
+>writeUnsignedInt(DataOutputStreamout,intuint)
+547
+547
+
+>convertTwoCharToInt(charhigh,charlow)
+
+>convertIntToTwoChar(intn)
+
+>testReadDouble()
+548
+155
+368
+549
+158
+
+>testReadUTF()
+424
+368
+422
+
+>testReadUnsignedShort()
+547
+547
+368
+550
+
+>testConvertCharToInt()
+551
+233
+552
+
+>nextWord()
+
+>readWordIndex()
+553
+553
+
+>nextId()
+554
+555
+556
+
+>rewind(intnumThreads,intid)
+557
+558
+554
+559
+560
+
+>addCategory(Stringcategory)
+561
+562
+559
+563
+560
+
+>getId(Stringcategory)
+561
+
+>getCategory(intid)
+563
+564
+
+>size()
+563
+
+>toArray()
+563
+565
+
+>learn(List<Word>wordList)
+566
+18
+567
+568
+567
+568
+18
+567
+568
+567
+568
+18
+569
+569
+569
+569
+569
+
+>train()
+570
+146
+571
+571
+571
+571
+571
+571
+572
+490
+490
+572
+490
+490
+572
+490
+573
+490
+171
+490
+171
+490
+171
+572
+572
+572
+
+>log_prob(chars1,inti1,chars2,inti2,chars3,inti3)
+574
+572
+490
+490
+572
+490
+490
+497
+
+>tag(char[]charArray)
+575
+575
+575
+
+>div(intv1,intv2)
+
+>div(doublev1,doublev2)
+
+>save(DataOutputStreamout)
+548
+548
+548
+576
+
+>load(ByteArraybyteArray)
+549
+549
+549
+577
+
+>guessAttribute(Termterm)
+136
+578
+136
+579
+379
+
+>segSentence(char[]sentence)
+78
+580
+581
+582
+583
+584
+585
+586
+
+>roughSegSentence(char[]sentence)
+
+>toVertexList(List<Term>wordList,booleanappendStart)
+439
+587
+588
+589
+587
+587
+590
+
+>convert(List<Vertex>vertexList,booleanoffsetEnabled)
+591
+592
+591
+593
+52
+52
+586
+594
+595
+52
+586
+595
+
+>convert(Vertexvertex)
+596
+
+>isSpaceLetter(charinput)
+
+>isEnglishLetter(charinput)
+
+>isArabicNumber(charinput)
+
+>isCJKCharacter(charinput)
+597
+
+>regularize(charinput)
+
+>getInitSize()
+
+>getCharsetSize()
+
+>zeroId()
+
+>toIdList(Stringkey)
+
+>toIdList(intcodePoint)
+
+>toString(int[]ids)
+
+>compareTo(CharArrayother)
+338
+
+>similarity(CharArrayother)
+598
+28
+
+>load(Stringpath)
+599
+51
+52
+600
+601
+601
+365
+602
+
+>loadBin(Stringpath)
+427
+157
+603
+218
+
+>convert(charc)
+
+>convert(char[]charArray)
+
+>convert(StringcharArray)
+604
+604
+605
+
+>normalization(char[]charArray)
+365
+368
+606
+228
+607
+400
+400
+608
+
+>generate()
+609
+610
+610
+373
+373
+547
+375
+368
+
+>get(charc)
+
+>extractBasicFeatureData(IDataSetdataSet)
+
+>chi_square(BaseFeatureDatastats)
+611
+612
+613
+614
+
+>compare(Map.Entry<Integer,Double>o1,Map.Entry<Integer,Double>o2)
+80
+57
+81
+615
+84
+616
+86
+613
+7
+9
+
+>getChisquareCriticalValue()
+
+>setChisquareCriticalValue(doublechisquareCriticalValue)
+
+>setALevel(doubleaLevel)
+617
+
+>getALevel()
+618
+
+>sortMapByValue(Map<K,V>input,finalbooleandesc)
+619
+619
+443
+
+>compare(Map.Entry<K,V>o1,Map.Entry<K,V>o2)
+81
+57
+80
+80
+57
+81
+620
+7
+9
+
+>sortMapByValue(Map<K,V>input)
+621
+
+>max(Map<String,Double>scoreMap)
+622
+9
+7
+
+>spiltArray(String[]src,doublerate)
+
+>splitMap(Map<String,String[]>src,doublerate)
+623
+624
+9
+620
+7
+353
+
+>segment(Stringtext)
+625
+
+>segment(char[]text)
+625
+
+>segment(Stringtext,AhoCorasickDoubleArrayTrie<V>trie)
+626
+414
+
+>segment(finalchar[]charArray,AhoCorasickDoubleArrayTrie<V>trie)
+220
+
+>hit(intbegin,intend,Vvalue)
+379
+627
+224
+628
+224
+379
+
+>segmentReverseOrder(Stringtext,AhoCorasickDoubleArrayTrie<V>trie)
+629
+414
+
+>segmentReverseOrder(finalchar[]charArray,AhoCorasickDoubleArrayTrie<V>trie)
+220
+
+>hit(intbegin,intend,Vvalue)
+379
+446
+446
+627
+446
+630
+631
+452
+630
+379
+
+>loadValueArray(ByteArraybyteArray)
+
+>load(Stringpath)
+364
+368
+427
+428
+135
+231
+322
+429
+218
+632
+367
+370
+370
+633
+7
+634
+9
+225
+218
+366
+
+>loadDat(ByteArraybyteArray)
+635
+369
+636
+637
+
+>saveDat(Stringpath,List<V>valueArray)
+371
+155
+638
+639
+374
+375
+218
+228
+
+>saveValue(Vvalue,DataOutputStreamout)
+
+>get(Stringkey)
+234
+
+>contains(Stringkey)
+425
+
+>size()
+249
+
+>createValue(String[]params)
+
+>onLoaded(TreeMap<String,V>map)
+
+>saveTxtTo(Stringpath)
+640
+641
+
+>compute(List<List<IWord>>sentenceList)
+642
+643
+
+>addToDictionary(List<List<IWord>>sentenceList)
+
+>roleTag(List<List<IWord>>sentenceList)
+
+>load(Stringpath)
+364
+427
+644
+477
+126
+218
+374
+218
+
+>loadDat(Stringpath)
+369
+
+>keySet()
+645
+461
+7
+
+>add(Stringkey)
+132
+
+>extractSuffixExtended(intlength,intsize)
+646
+
+>extractSuffix(intlength,intsize,booleanextend)
+647
+146
+648
+462
+146
+146
+648
+462
+146
+146
+649
+
+>extract(TFDictionarysuffixTreeSet,intsize)
+650
+651
+652
+653
+
+>extractSuffixByWords(intlength,intsize,booleanextend)
+647
+654
+655
+648
+656
+657
+655
+655
+648
+656
+657
+655
+655
+649
+
+>combine(List<Term>termList)
+658
+659
+
+>create(InputStreaminputStream)
+361
+
+>load(InputStreaminputStream)
+644
+135
+660
+661
+379
+662
+126
+663
+664
+663
+665
+225
+218
+218
+
+>get(Stringkey)
+234
+
+>getMaxSynonymItemIdDistance()
+
+>distance(Stringa,Stringb)
+425
+425
+666
+
+>rewriteQuickly(Stringtext)
+123
+123
+667
+152
+123
+667
+152
+668
+669
+436
+478
+436
+345
+152
+436
+152
+345
+152
+436
+152
+438
+
+>rewrite(Stringtext)
+654
+414
+123
+425
+670
+436
+436
+671
+672
+438
+
+>randomSynonym(Typetype,StringpreWord)
+673
+674
+675
+676
+677
+678
+678
+
+>randomSynonym()
+679
+
+>toString()
+308
+308
+308
+308
+308
+380
+
+>distance(SynonymItemother)
+680
+
+>createUndefined(Stringword)
+681
+
+>create(InputStreaminputStream)
+361
+
+>load(InputStreaminputStream)
+644
+135
+660
+682
+662
+683
+126
+684
+685
+633
+684
+686
+634
+687
+225
+218
+218
+
+>get(Stringkey)
+234
+
+>distance(Stringa,Stringb)
+425
+425
+688
+
+>toString()
+308
+689
+308
+308
+380
+
+>getValue()
+308
+380
+
+>getLabel()
+
+>setLabel(Stringlabel)
+
+>setValue(Stringvalue)
+690
+691
+
+>length()
+284
+379
+
+>toString()
+308
+308
+692
+131
+308
+308
+693
+308
+308
+308
+380
+
+>toWord()
+284
+694
+
+>create(Stringparam)
+695
+696
+697
+698
+699
+700
+218
+701
+697
+702
+703
+
+>iterator()
+704
+
+>main(String[]argv)
+705
+63
+705
+127
+706
+53
+63
+63
+706
+53
+707
+708
+709
+710
+705
+705
+705
+711
+600
+712
+53
+600
+713
+713
+705
+705
+600
+705
+83
+713
+714
+715
+716
+716
+705
+
+>printf(Stringformat,Object...args)
+
+>fix(Stringpath)
+419
+717
+379
+436
+436
+135
+436
+436
+437
+438
+338
+63
+
+>toString()
+308
+308
+718
+719
+452
+
+>loadSentenceList(Stringpath)
+419
+717
+379
+465
+720
+135
+721
+722
+63
+
+>toString()
+308
+308
+380
+
+>getEdgeArray()
+
+>getWordArrayWithRoot()
+
+>getWordArray()
+
+>iterator()
+
+>hasNext()
+
+>next()
+
+>remove()
+723
+724
+724
+
+>compile()
+671
+724
+
+>toString()
+308
+308
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+308
+308
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+451
+380
+
+>out(Stringformat,Object...args)
+
+>err(Stringformat,Object...args)
+
+>start(Stringformat,Object...args)
+725
+
+>finish(Stringformat,Object...args)
+
+>getOutcomes()
+
+>getParameters()
+
+>ChisquareCdf(doublex,intdf)
+726
+
+>GaussCdf(doublez)
+344
+
+>LogGamma(doubleZ)
+497
+497
+
+>Gcf(doublex,doubleA)
+344
+727
+497
+728
+
+>Gser(doublex,doubleA)
+727
+497
+728
+
+>GammaCdf(doublex,doublea)
+709
+729
+709
+727
+730
+731
+
+>ChisquareInverseCdf(doublep,intdf)
+709
+732
+365
+28
+
+>load(Stringpath)
+364
+427
+428
+135
+53
+733
+308
+733
+63
+231
+380
+734
+429
+365
+225
+430
+430
+365
+366
+218
+
+>saveDat(Stringpath,TreeMap<String,Integer>map)
+371
+175
+155
+431
+155
+374
+375
+735
+
+>loadDat(Stringpath)
+368
+158
+158
+369
+
+>binarySearch(int[][]a,intkey)
+
+>buildID(Stringword,StringBuildersbStorage)
+736
+737
+551
+737
+
+>getWordID(Stringa)
+736
+365
+28
+
+>load(Stringpath)
+364
+427
+738
+428
+135
+53
+736
+736
+63
+739
+231
+740
+429
+739
+741
+7
+9
+365
+430
+430
+365
+366
+218
+
+>saveDat(Stringpath)
+371
+156
+156
+375
+735
+
+>loadDat(Stringpath)
+427
+157
+738
+603
+157
+603
+218
+
+>binarySearch(int[]a,intfromIndex,intlength,intkey)
+
+>getBiFrequency(Stringa,Stringb)
+736
+736
+742
+
+>getBiFrequency(intidA,intidB)
+742
+
+>getWordID(Stringa)
+736
+
+>reload()
+743
+28
+
+>testReload()
+676
+744
+233
+676
+28
+249
+745
+745
+745
+745
+745
+745
+745
+
+>load(Stringpath)
+365
+364
+427
+428
+135
+334
+63
+231
+421
+429
+225
+365
+249
+371
+175
+155
+746
+155
+155
+155
+747
+155
+374
+375
+218
+218
+218
+
+>loadDat(Stringpath)
+368
+158
+748
+158
+158
+158
+158
+369
+607
+218
+
+>get(Stringkey)
+234
+
+>get(intwordID)
+234
+
+>getTermFrequency(Stringterm)
+425
+
+>contains(Stringkey)
+234
+
+>create(StringnatureWithFrequency)
+749
+750
+63
+218
+228
+
+>create(ByteArraybyteArray,Nature[]natureIndexArray)
+158
+158
+158
+158
+
+>getNatureFrequency(Stringnature)
+334
+751
+
+>getNatureFrequency(finalNaturenature)
+
+>hasNature(Naturenature)
+751
+
+>hasNatureStartsWith(Stringprefix)
+752
+
+>toString()
+308
+308
+451
+451
+380
+
+>save(DataOutputStreamout)
+155
+155
+155
+747
+155
+
+>getWordID(Stringa)
+736
+753
+368
+371
+754
+375
+430
+228
+361
+
+>contains(Stringkey)
+755
+
+>shouldInclude(Termterm)
+672
+756
+757
+
+>shouldInclude(Termterm)
+758
+
+>shouldRemove(Termterm)
+759
+
+>add(StringstopWord)
+760
+
+>remove(StringstopWord)
+761
+
+>apply(List<Term>termList)
+762
+674
+763
+675
+677
+764
+427
+
+>get(Stringkey)
+765
+
+>rewriteQuickly(Stringtext)
+766
+
+>rewrite(Stringtext)
+767
+
+>distance(CommonSynonymDictionary.SynonymItemitemA,CommonSynonymDictionary.SynonymItemitemB)
+666
+
+>distance(StringA,StringB)
+425
+425
+768
+
+>similarity(StringA,StringB)
+768
+769
+769
+769
+
+>convert(List<Term>sentence,booleanwithUndefinedItem)
+488
+425
+770
+771
+771
+
+>getLexemeArray(List<CommonSynonymDictionary.SynonymItem>synonymItemList)
+772
+
+>distance(List<CommonSynonymDictionary.SynonymItem>synonymItemListA,List<CommonSynonymDictionary.SynonymItem>synonymItemListB)
+598
+
+>distance(long[]arrayA,long[]arrayB)
+598
+773
+427
+430
+
+>get(Stringkey)
+765
+
+>distance(CommonSynonymDictionary.SynonymItemitemA,CommonSynonymDictionary.SynonymItemitemB)
+666
+
+>convert(List<Term>sentence,booleanwithUndefinedItem)
+488
+672
+756
+774
+757
+425
+771
+771
+
+>getLexemeArray(List<CommonSynonymDictionary.SynonymItem>synonymItemList)
+772
+
+>distance(List<CommonSynonymDictionary.SynonymItem>synonymItemListA,List<CommonSynonymDictionary.SynonymItem>synonymItemListB)
+598
+
+>distance(long[]arrayA,long[]arrayB)
+598
+775
+
+>endOfCorpus()
+
+>addWordToVocab(Stringword)
+776
+
+>getTrainWords()
+
+>getVocabSize()
+
+>getVocab()
+
+>getVocabIndexMap()
+
+>rewind(intnumThreads,intid)
+
+>readWordIndex()
+16
+777
+
+>nextWord()
+
+>close()
+778
+779
+
+>shutdown()
+
+>searchVocab(Stringword)
+780
+781
+
+>sortVocab()
+782
+783
+780
+780
+784
+
+>setVocabIndexMap(VocabWordsrc,intpos)
+
+>createBinaryTree()
+
+>walk(StringfolderPath,Handlerhandler)
+119
+785
+786
+787
+
+>walk(StringfolderPath,HandlerThread[]threadArray)
+119
+788
+786
+786
+789
+788
+786
+786
+790
+791
+218
+
+>convert2DocumentList(StringfolderPath)
+119
+785
+792
+786
+793
+
+>loadCorpus(Stringpath)
+794
+
+>saveCorpus(List<Document>documentList,Stringpath)
+602
+
+>loadSentenceList(Stringpath)
+794
+
+>saveSentenceList(List<List<IWord>>sentenceList,Stringpath)
+602
+
+>convert2SentenceList(Stringpath)
+795
+796
+
+>convert2SimpleSentenceList(Stringpath)
+795
+797
+798
+
+>convert2Document(Filefile)
+799
+121
+122
+122
+
+>handle(Documentdocument)
+
+>run()
+271
+785
+786
+120
+271
+
+<Api
+0 predict
+1 CollectionUtility.max
+2 dataSet.load
+3 train
+4 logger.start
+5 trainingDataSet.size
+6 trainingDataSet.entrySet
+7 entry.getKey
+8 logger.out
+9 entry.getValue
+10 dataSet.add
+11 MathUtility.percentage
+12 logger.finish
+13 getModel
+14 categorize
+15 scoreMap.put
+16 nextWord
+17 scanner.next
+18 word.length
+19 word.equals
+20 vectorsReader.readVectorFile
+21 vectorsReader.getNumWords
+22 vectorsReader.getSize
+23 getTargetVector
+24 vectorsReader.getMatrixElement
+25 vectorsReader.getWord
+26 scanner.close
+27 tokenizer.segment
+28 load
+29 root.exists
+30 String.format
+31 root.getAbsolutePath
+32 root.isDirectory
+33 root.listFiles
+34 folder.isFile
+35 folder.listFiles
+36 folder.getName
+37 Math.ceil
+38 add
+39 TextProcessUtility.readTxt
+40 getCatalog
+41 .size
+42 size
+43 testingDataSet.entrySet
+44 HanLP.newSegment
+45 .enablePartOfSpeechTagging
+46 parse
+47 segment.seg
+48 sentence.toCharArray
+49 deprelTranslater.get
+50 GlobalObjectPool.get
+51 iterator.hasNext
+52 iterator.next
+53 .split
+54 deprelTranslater.put
+55 deprelTranslater.size
+56 GlobalObjectPool.put
+57 .compareTo
+58 paramDesc
+59 localUsage
+60 argPos
+61 param.equals
+62 config.setLayer1Size
+63 Integer.parseInt
+64 config.setOutputFile
+65 config.setUseContinuousBagOfWords
+66 config.useContinuousBagOfWords
+67 config.setAlpha
+68 Float.parseFloat
+69 config.setWindow
+70 config.setSample
+71 config.setUseHierarchicalSoftmax
+72 config.setNegative
+73 config.setNumThreads
+74 config.setIter
+75 config.setMinCount
+76 storage.get
+77 vectorWhat.cosineForUnitVector
+78 Collections.emptyList
+79 nearest
+80 o1.getValue
+81 o2.getValue
+82 storage.entrySet
+83 .equals
+84 maxHeap.add
+85 .cosineForUnitVector
+86 maxHeap.toList
+87 query.length
+88 query
+89 storage.size
+90 storage.isEmpty
+91 storage.values
+92 .iterator
+93 .next
+94 storage.remove
+95 act.name
+96 act.rel
+97 heads.size
+98 actions.clear
+99 heads.get
+100 tree.get
+101 get_oracle_actions_travel
+102 children.size
+103 children.get
+104 actions.add
+105 ActionFactory.make_shift
+106 ActionFactory.make_right_arc
+107 deprels.get
+108 ActionFactory.make_left_arc
+109 get_oracle_actions2
+110 output.add
+111 sigma.size
+112 get_oracle_actions_onestep
+113 sigma.get
+114 output.get
+115 output.set
+116 sigma.remove
+117 sigma.set
+118 sigma.add
+119 FolderWalker.open
+120 handle
+121 IOUtil.readTxt
+122 file.getPath
+123 text.length
+124 addW
+125 bw.write
+126 bw.close
+127 e.printStackTrace
+128 text.replaceAll
+129 CorpusLoader.walk
+130 document.getComplexSentenceList
+131 word.getLabel
+132 tfDictionary.add
+133 word.toString
+134 tfDictionary.saveTxtTo
+135 line.split
+136 CoreDictionary.get
+137 first.length
+138 second.length
+139 bw.newLine
+140 lineIterator.hasNext
+141 lineIterator.next
+142 nameFollowers.add
+143 DictionaryMaker.load
+144 dictionary.entrySet
+145 .getFrequency
+146 key.length
+147 nameFollowers.contains
+148 attribute.hasNatureStartsWith
+149 dictionary.saveTxtTo
+150 build
+151 getState
+152 text.charAt
+153 storeEmits
+154 processor.hit
+155 out.writeInt
+156 out.writeObject
+157 in.readObject
+158 byteArray.nextInt
+159 exactMatchSearch
+160 transitionWithRoot
+161 collectedEmits.add
+162 newBuilder
+163 parent.isAcceptable
+164 parent.getDepth
+165 fakeNode.addEmit
+166 parent.getLargestValueId
+167 siblings.add
+168 parent.getSuccess
+169 .entrySet
+170 siblings.size
+171 key.toCharArray
+172 nameValueMap.get
+173 nameValueMap.put
+174 nameValueMap.entrySet
+175 map.values
+176 .toArray
+177 map.keySet
+178 addAllKeyword
+179 buildDoubleArrayTrie
+180 constructFailureStates
+181 loseWeight
+182 keyword.toCharArray
+183 currentState.addState
+184 currentState.addEmit
+185 keyword.length
+186 addKeyword
+187 .getStates
+188 depthOneState.setFailure
+189 queue.add
+190 constructOutput
+191 queue.isEmpty
+192 queue.remove
+193 currentState.getTransitions
+194 currentState.nextState
+195 currentState.failure
+196 traceFailureState.nextState
+197 traceFailureState.failure
+198 targetState.setFailure
+199 targetState.addEmit
+200 newFailureState.emit
+201 targetState.emit
+202 emit.size
+203 emit.iterator
+204 it.next
+205 targetState.getIndex
+206 keySet.size
+207 resize
+208 root_node.getSuccess
+209 fetch
+210 insert
+211 Math.max
+212 siblings.get
+213 .getKey
+214 sibling.getKey
+215 sibling.getValue
+216 .getSuccess
+217 .getLargestValueId
+218 logger.warning
+219 Arrays.fill
+220 trie.parseText
+221 quickAtomSegment
+222 atomNode.sWord.length
+223 atomNode.getNature
+224 termList.add
+225 trie.build
+226 setTrie
+227 IOUtil.loadDictionary
+228 TextUtility.exceptionToString
+229 map.isEmpty
+230 trie.addKeyword
+231 map.put
+232 act.build
+233 assertEquals
+234 trie.get
+235 trie.exactMatchSearch
+236 trie.addAllKeyword
+237 otherSet.add
+238 emit.getKeyword
+239 emit.getEnd
+240 act.parseText
+241 mySet.add
+242 IOUtil.readLineList
+243 sentence.substring
+244 assertTrue
+245 trie.hasKeyword
+246 assertFalse
+247 keyValueMap.size
+248 keyValueMap.entrySet
+249 trie.size
+250 TextUtility.writeString
+251 byteArray.nextString
+252 e.getMessage
+253 Args.usage
+254 arguments.addAll
+255 Arrays.asList
+256 target.getClass
+257 Introspector.getBeanInfo
+258 info.getPropertyDescriptors
+259 processProperty
+260 currentClazz.getSuperclass
+261 currentClazz.getDeclaredFields
+262 processField
+263 argument.startsWith
+264 field.getAnnotation
+265 arguments.iterator
+266 i.hasNext
+267 i.next
+268 argument.prefix
+269 argument.delimiter
+270 arg.startsWith
+271 getName
+272 getAlias
+273 arg.substring
+274 prefix.length
+275 field.getType
+276 arg.equals
+277 i.remove
+278 consumeArgumentValue
+279 setField
+280 addArgument
+281 type.isArray
+282 argument.required
+283 field.get
+284 getValue
+285 Array.newInstance
+286 type.getComponentType
+287 field.set
+288 type.getName
+289 property.getReadMethod
+290 .invoke
+291 property.getWriteMethod
+292 writeMethod.getAnnotation
+293 property.getPropertyType
+294 setProperty
+295 addPropertyArgument
+296 clazz.getName
+297 clazzName.lastIndexOf
+298 clazzName.substring
+299 errStream.println
+300 fieldUsage
+301 propertyUsage
+302 argument.description
+303 makeAccessible
+304 field.getWriteMethod
+305 field.getReadMethod
+306 readMethod.invoke
+307 field.getPropertyType
+308 sb.append
+309 getTypeName
+310 Array.getLength
+311 list.add
+312 Array.get
+313 typeName.lastIndexOf
+314 typeName.substring
+315 argument.value
+316 name.equals
+317 property.getName
+318 argument.alias
+319 alias.equals
+320 field.getName
+321 string.split
+322 createValue
+323 valueCreator.createValue
+324 type.toString
+325 Modifier.isPublic
+326 member.getModifiers
+327 ao.setAccessible
+328 compatibleType.isAssignableFrom
+329 type.getMethod
+330 m.invoke
+331 type.getDeclaredConstructor
+332 init.newInstance
+333 .isAssignableFrom
+334 Enum.valueOf
+335 valueCreators.add
+336 valueCreators.clear
+337 valueCreators.addAll
+338 Math.min
+339 c1.equals
+340 c1.compareTo
+341 setA.toArray
+342 setB.toArray
+343 computeMinimumDistance
+344 Math.abs
+345 String.valueOf
+346 Predefine.PATTERN_FLOAT_NUMBER.matcher
+347 .matches
+348 resizeBuf
+349 update
+350 tfMap.isEmpty
+351 s2t.entrySet
+352 t2x.get
+353 entry.setValue
+354 t2x.entrySet
+355 CharTable.convert
+356 s2t.containsKey
+357 s2t.put
+358 tw2t.entrySet
+359 t2s.get
+360 t2s.put
+361 dictionary.load
+362 dictionary.reverse
+363 storage.put
+364 loadDat
+365 logger.info
+366 saveDat
+367 map.entrySet
+368 ByteArray.createByteArray
+369 trie.load
+370 entrySet.size
+371 IOUtil.newOutputStream
+372 .toCharArray
+373 out.writeChar
+374 trie.save
+375 out.close
+376 getSearcher
+377 searcher.next
+378 searcher.getOffset
+379 .length
+380 sb.toString
+381 trie.commonPrefixSearchWithValue
+382 entryList.size
+383 entryList.getLast
+384 result.getKey
+385 dataSet.getCatalog
+386 dataSet.getLexicon
+387 dataSet.size
+388 lexicon.size
+389 catalog.size
+390 document.tfMap.entrySet
+391 Status.values
+392 cur.getChild
+393 getChild
+394 compareTo
+395 other.getChar
+396 entrySet.add
+397 node.walk
+398 status.ordinal
+399 node.walkToSave
+400 byteArray.nextChar
+401 valueArray.nextValue
+402 child[i].walkToLoad
+403 byteArray.readChar
+404 byteArray.readInt
+405 byteArray.readObject
+406 getKey
+407 o.getKey
+408 generateKey
+409 set.add
+410 Collections.reverseOrder
+411 keyOuter.similarity
+412 result.put
+413 storage.clear
+414 text.toCharArray
+415 .enableAllNamedEntityRecognize
+416 .enableCustomDictionary
+417 SEGMENT.seg
+418 SEGMENT.seg2sentence
+419 IOUtil.readLineListWithLessMemory
+420 .endsWith
+421 map.size
+422 byteArray.nextUTF
+423 dependencyList.size
+424 out.writeUTF
+425 get
+426 WordNatureWeightModelMaker.wrapTag
+427 IOUtil.newInputStream
+428 br.readLine
+429 br.close
+430 logger.severe
+431 freqList.size
+432 twoWord.split
+433 w.contains
+434 stringSet.add
+435 getBiFrequency
+436 sbOut.append
+437 IOUtil.saveTxt
+438 sbOut.toString
+439 wordList.size
+440 binTrie.put
+441 wordList.get
+442 freqList.get
+443 Collections.sort
+444 binTrie.get
+445 CharTable.normalization
+446 CharType.get
+447 atomList.add
+448 atomList.isEmpty
+449 atomList.size
+450 atomList.iterator
+451 .append
+452 .toString
+453 branch.addChild
+454 branch.getChild
+455 put
+456 branch.getValue
+457 java.lang.reflect.Array.newInstance
+458 a.getClass
+459 .getComponentType
+460 entrySet
+461 keySet.add
+462 key.substring
+463 branch.walk
+464 commonPrefixSearchWithValue
+465 result.add
+466 node.getChar
+467 target.getValue
+468 target.setValue
+469 node.getValue
+470 IOUtil.readBytes
+471 newValueArray
+472 .setValue
+473 in.readInt
+474 transition
+475 state.getValue
+476 state.transition
+477 trie.put
+478 text.substring
+479 _units.get
+480 _units.set
+481 popCount
+482 _units.empty
+483 _units.add
+484 _units.size
+485 _units.clear
+486 text.split
+487 docs.size
+488 sentence.size
+489 init
+490 tf.get
+491 tf.put
+492 tf.entrySet
+493 df.get
+494 df.put
+495 df.entrySet
+496 idf.put
+497 Math.log
+498 .containsKey
+499 docs.get
+500 .get
+501 idf.get
+502 sim
+503 ByteUtil.bytesHighFirstToInt
+504 ByteUtil.bytesHighFirstToDouble
+505 ByteUtil.bytesHighFirstToChar
+506 nextInt
+507 nextChar
+508 ByteUtil.bytesHighFirstToFloat
+509 nextByte
+510 nextUnsignedShort
+511 close
+512 createByteArrayFileStream
+513 fileInputStream.getChannel
+514 channel.size
+515 ByteBuffer.allocate
+516 channel.read
+517 channel.close
+518 byteBuffer.flip
+519 byteBuffer.array
+520 fileChannel.size
+521 fileChannel.position
+522 fileChannel.read
+523 fileChannel.close
+524 super.close
+525 IOAdapter.open
+526 createByteArrayOtherStream
+527 is.available
+528 IOUtil.readBytesFromOtherInputStream
+529 is.close
+530 ByteArrayFileStream.createByteArrayFileStream
+531 ByteArrayOtherStream.createByteArrayOtherStream
+532 ensureAvailableBytes
+533 super.nextInt
+534 super.nextChar
+535 super.nextDouble
+536 super.nextByte
+537 super.nextFloat
+538 Double.longBitsToDouble
+539 bytesToLong
+540 Float.intBitsToFloat
+541 bytesToInt
+542 longToBytes
+543 Double.doubleToLongBits
+544 intToBytes
+545 Float.floatToIntBits
+546 bytesHighFirstToInt
+547 out.writeByte
+548 out.writeDouble
+549 byteArray.nextDouble
+550 byteArray.nextUnsignedShort
+551 ByteUtil.convertIntToTwoChar
+552 ByteUtil.convertTwoCharToInt
+553 nextId
+554 raf.length
+555 raf.getFilePointer
+556 raf.readInt
+557 super.rewind
+558 raf.seek
+559 categoryId.put
+560 idCategory.add
+561 categoryId.get
+562 categoryId.size
+563 idCategory.size
+564 idCategory.get
+565 idCategory.toArray
+566 iWord.getValue
+567 sentence.add
+568 word.charAt
+569 tf.add
+570 tf.d.keySet
+571 key.charAt
+572 div
+573 tf.getsum
+574 tf.freq
+575 log_prob
+576 tf.save
+577 tf.load
+578 CustomDictionary.get
+579 term.word.trim
+580 roughSegSentence
+581 toVertexList
+582 Viterbi.compute
+583 vertexList.get
+584 .guessNature
+585 combineByCustomDictionary
+586 convert
+587 vertexList.add
+588 Vertex.newB
+589 guessAttribute
+590 Vertex.newE
+591 vertexList.size
+592 vertexList.toString
+593 vertexList.iterator
+594 term.length
+595 resultList.add
+596 vertex.guessNature
+597 Character.UnicodeBlock.of
+598 EditDistance.compute
+599 loadBin
+600 line.length
+601 line.charAt
+602 IOUtil.saveObjectTo
+603 in.close
+604 charArray.length
+605 charArray.charAt
+606 generate
+607 byteArray.hasMore
+608 byteArray.nextByte
+609 TextUtility.charType
+610 typeList.add
+611 Math.pow
+612 selectedFeatures.get
+613 selectedFeatures.put
+614 selectedFeatures.size
+615 selectedFeatures.entrySet
+616 selectedFeatures.clear
+617 ContinuousDistributions.ChisquareInverseCdf
+618 ContinuousDistributions.ChisquareCdf
+619 input.size
+620 output.put
+621 sortMapByValue
+622 scoreMap.entrySet
+623 src.entrySet
+624 spiltArray
+625 CommonAhoCorasickSegmentUtil.segment
+626 segment
+627 sbTerm.append
+628 sbTerm.toString
+629 segmentReverseOrder
+630 termList.addFirst
+631 sbTerm.reverse
+632 onLoaded
+633 keyList.add
+634 valueList.add
+635 loadValueArray
+636 byteArray.getBytes
+637 byteArray.getOffset
+638 valueArray.size
+639 saveValue
+640 dictionaryMaker.saveTxtTo
+641 nGramDictionaryMaker.saveTxtTo
+642 roleTag
+643 addToDictionary
+644 bw.readLine
+645 trie.entrySet
+646 extractSuffix
+647 tfDictionary.keySet
+648 suffixTreeSet.add
+649 extract
+650 suffixTreeSet.values
+651 suffixList.size
+652 suffixList.add
+653 termFrequency.getKey
+654 StandardTokenizer.segment
+655 termList.size
+656 combine
+657 termList.subList
+658 sbResult.append
+659 sbResult.toString
+660 Synonym.create
+661 .charAt
+662 treeMap.put
+663 synonymList.size
+664 synonymList.get
+665 SynonymHelper.convertString2IdWithIndex
+666 itemA.distance
+667 trie.transition
+668 trie.output
+669 value.randomSynonym
+670 synonymItem.randomSynonym
+671 PosTagCompiler.compile
+672 term.nature.toString
+673 synonymArrayList.listIterator
+674 listIterator.hasNext
+675 listIterator.next
+676 CoreBiGramTableDictionary.getBiFrequency
+677 listIterator.remove
+678 synonymArrayList.size
+679 randomSynonym
+680 entry.distance
+681 word.hashCode
+682 treeMap.get
+683 idSet.add
+684 treeMap.size
+685 treeMap.keySet
+686 treeMap.values
+687 idSet.toArray
+688 ArrayDistance.computeAverageDistance
+689 super.toString
+690 innerList.clear
+691 innerList.add
+692 word.getValue
+693 innerList.size
+694 getLabel
+695 param.lastIndexOf
+696 param.length
+697 param.substring
+698 wordParam.split
+699 single.length
+700 Word.create
+701 wordList.add
+702 labelParam.startsWith
+703 labelParam.substring
+704 innerList.iterator
+705 printf
+706 f.readLine
+707 .toUpperCase
+708 Double.parseDouble
+709 Math.sqrt
+710 f.close
+711 stdin.readLine
+712 line.toUpperCase
+713 st1.equals
+714 st2.equals
+715 st3.equals
+716 st4.equals
+717 line.trim
+718 sb.deleteCharAt
+719 sb.length
+720 lineList.add
+721 lineList.toArray
+722 lineList.size
+723 POSTAG.substring
+724 compile
+725 out
+726 GammaCdf
+727 Math.exp
+728 LogGamma
+729 GaussCdf
+730 Gser
+731 Gcf
+732 ChisquareCdf
+733 buildID
+734 sb.setLength
+735 logger.log
+736 CoreDictionary.trie.exactMatchSearch
+737 sbStorage.append
+738 CoreDictionary.trie.size
+739 map.get
+740 biMap.put
+741 bMap.entrySet
+742 binarySearch
+743 IOUtil.deleteFile
+744 CoreBiGramTableDictionary.reload
+745 getWordID
+746 attributeList.size
+747 .ordinal
+748 Nature.values
+749 natureWithFrequency.split
+750 LexiconUtility.convertStringToNature
+751 getNatureFrequency
+752 n.startsWith
+753 transformMatrixDictionary.load
+754 dictionary.save
+755 dictionary.contains
+756 nature.charAt
+757 CoreStopWordDictionary.contains
+758 FILTER.shouldInclude
+759 shouldInclude
+760 dictionary.add
+761 dictionary.remove
+762 termList.listIterator
+763 shouldRemove
+764 CommonSynonymDictionary.create
+765 dictionary.get
+766 dictionary.rewriteQuickly
+767 dictionary.rewrite
+768 distance
+769 dictionary.getMaxSynonymItemIdDistance
+770 CommonSynonymDictionary.SynonymItem.createUndefined
+771 synonymItemList.add
+772 synonymItemList.size
+773 CommonSynonymDictionaryEx.create
+774 TextUtility.isAllChinese
+775 Charset.forName
+776 vocabIndexMap.put
+777 searchVocab
+778 shutdown
+779 cacheFile.delete
+780 vocabIndexMap.get
+781 pos.intValue
+782 Arrays.sort
+783 config.getMinCount
+784 setVocabIndexMap
+785 convert2Document
+786 fileList.size
+787 handler.handle
+788 fileList.subList
+789 threadArray[i].start
+790 threadArray[threadArray.length-1].start
+791 handlerThread.join
+792 documentList.add
+793 documentList.size
+794 IOUtil.readObjectFrom
+795 CorpusLoader.convert2DocumentList
+796 simpleList.add
+797 simpleList.addAll
+798 document.getSimpleSentenceList
+799 Document.create

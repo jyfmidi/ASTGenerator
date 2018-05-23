@@ -8,38 +8,56 @@
 >enableProbability(booleanenable)
 
 >classify(Stringtext)
-predict
-CollectionUtility.max
+0
+1
 
 >classify(Documentdocument)
-predict
-CollectionUtility.max
+0
+1
 
 >train(StringfolderPath,StringcharsetName)
-dataSet.load
-train
+2
+3
 
 >train(Map<String,String[]>trainingDataSet)
-logger.start
-trainingDataSet.size
-trainingDataSet.entrySet
-entry.getKey
-logger.out
-entry.getValue
-dataSet.add
-logger.out
-MathUtility.percentage
-logger.finish
-train
+4
+5
+6
+7
+8
+9
+10
+8
+11
+12
+3
 
 >train(StringfolderPath)
-train
+3
 
 >predict(Documentdocument)
-getModel
-categorize
-scoreMap.put
+13
+14
+15
 
 >label(Documentdocument)
-getModel
-categorize
+13
+14
+
+<Api
+0 predict
+1 CollectionUtility.max
+2 dataSet.load
+3 train
+4 logger.start
+5 trainingDataSet.size
+6 trainingDataSet.entrySet
+7 entry.getKey
+8 logger.out
+9 entry.getValue
+10 dataSet.add
+11 MathUtility.percentage
+12 logger.finish
+13 getModel
+14 categorize
+15 scoreMap.put

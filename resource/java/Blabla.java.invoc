@@ -1,17 +1,8 @@
-trainOrLoadModel
-printNearest
-docVectorModel.similarity
-docVectorModel.similarity
-docVectorModel.addDocument
-printNearestDocument
-model.nearest
-entry.getKey
-entry.getValue
-printHeader
-model.nearest
-entry.getKey
-entry.getValue
-IOUtil.isFileExisted
-IOUtil.isFileExisted
-trainerBuilder.train
-loadModel
+
+>main(String[]args)
+0
+1
+
+<Api
+0 CRFModel.loadTxt
+1 GlobalObjectPool.put

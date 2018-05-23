@@ -8,65 +8,65 @@
 >enableProbability(booleanenable)
 
 >classify(Stringtext)
-predict
-CollectionUtility.max
+0
+1
 
 >classify(Documentdocument)
-predict
-CollectionUtility.max
+0
+1
 
 >train(StringfolderPath,StringcharsetName)
-dataSet.load
-train
+2
+3
 
 >train(Map<String,String[]>trainingDataSet)
-logger.start
-trainingDataSet.size
-trainingDataSet.entrySet
-entry.getKey
-logger.out
-entry.getValue
-dataSet.add
-logger.out
-MathUtility.percentage
-logger.finish
-train
+4
+5
+6
+7
+8
+9
+10
+8
+11
+12
+3
 
 >train(StringfolderPath)
-train
+3
 
 >predict(Documentdocument)
-getModel
-categorize
-scoreMap.put
+13
+14
+15
 
 >label(Documentdocument)
-getModel
-categorize
+13
+14
 
 >nextWords(intn,Stringmsg)
-nextWord
+16
 
 >nextWord()
-scanner.next
-word.length
-word.equals
+17
+18
+19
 
 >getTargetVector()
 
 >execute()
-vectorsReader.readVectorFile
-vectorsReader.getNumWords
-vectorsReader.getSize
-getTargetVector
-vectorsReader.getMatrixElement
-vectorsReader.getWord
-scanner.close
+20
+21
+22
+23
+24
+25
+26
 
 >setTokenizer(ITokenizertokenizer)
 
 >convert(Stringcategory,Stringtext)
-tokenizer.segment
+27
 
 >getTokenizer()
 
@@ -75,53 +75,53 @@ tokenizer.segment
 >getLexicon()
 
 >load(StringfolderPath,StringcharsetName)
-load
+28
 
 >load(StringfolderPath)
-load
+28
 
 >isTestingDataSet()
 
 >load(StringfolderPath,StringcharsetName,doublepercentage)
-root.exists
-String.format
-root.getAbsolutePath
-root.isDirectory
-String.format
-root.getAbsolutePath
-root.listFiles
-logger.start
-folder.isFile
-folder.listFiles
-folder.getName
-logger.out
-Math.ceil
-add
-folder.getName
-TextProcessUtility.readTxt
-logger.out
-MathUtility.percentage
-logger.out
-logger.finish
-getCatalog
-.size
-size
+29
+30
+31
+32
+30
+31
+33
+4
+34
+35
+36
+8
+37
+38
+36
+39
+8
+11
+8
+12
+40
+41
+42
 
 >load(StringfolderPath,doublerate)
 
 >add(Map<String,String[]>testingDataSet)
-testingDataSet.entrySet
-entry.getValue
-add
-entry.getKey
-HanLP.newSegment
-.enablePartOfSpeechTagging
+43
+9
+38
+7
+44
+45
 
 >parse(Stringsentence)
-parse
-segment.seg
-sentence.toCharArray
-deprelTranslater.get
+46
+47
+48
+49
 
 >getSegment()
 
@@ -132,18 +132,18 @@ deprelTranslater.get
 >setDeprelTranslator(Map<String,String>deprelTranslator)
 
 >setDeprelTranslater(StringdeprelTranslatorPath)
-GlobalObjectPool.get
-iterator.hasNext
-iterator.next
-.split
-deprelTranslater.put
-deprelTranslater.size
-GlobalObjectPool.put
+50
+51
+52
+53
+54
+55
+56
 
 >enableDeprelTranslator(booleanenable)
 
 >compareTo(AbstractInexactActiono)
-.compareTo
+57
 
 >equals(Objectobj)
 
@@ -156,130 +156,130 @@ GlobalObjectPool.put
 >paramDesc(Stringparam,Stringdesc)
 
 >usage()
-paramDesc
-paramDesc
-paramDesc
-paramDesc
-paramDesc
-paramDesc
-paramDesc
-paramDesc
-paramDesc
-paramDesc
-paramDesc
-localUsage
+58
+58
+58
+58
+58
+58
+58
+58
+58
+58
+58
+59
 
 >argPos(Stringparam,String[]args)
-argPos
+60
 
 >argPos(Stringparam,String[]args,booleancheckArgNum)
-param.equals
-String.format
+61
+30
 
 >setConfig(String[]args,Configconfig)
-argPos
-config.setLayer1Size
-Integer.parseInt
-argPos
-config.setOutputFile
-argPos
-config.setUseContinuousBagOfWords
-Integer.parseInt
-config.useContinuousBagOfWords
-config.setAlpha
-argPos
-config.setAlpha
-Float.parseFloat
-argPos
-config.setWindow
-Integer.parseInt
-argPos
-config.setSample
-Float.parseFloat
-argPos
-config.setUseHierarchicalSoftmax
-Integer.parseInt
-argPos
-config.setNegative
-Integer.parseInt
-argPos
-config.setNumThreads
-Integer.parseInt
-argPos
-config.setIter
-Integer.parseInt
-argPos
-config.setMinCount
-Integer.parseInt
+60
+62
+63
+60
+64
+60
+65
+63
+66
+67
+60
+67
+68
+60
+69
+63
+60
+70
+68
+60
+71
+63
+60
+72
+63
+60
+73
+63
+60
+74
+63
+60
+75
+63
 
 >vector(Kkey)
-storage.get
+76
 
 >similarity(Kwhat,Kwith)
-storage.get
-storage.get
-vectorWhat.cosineForUnitVector
+76
+76
+77
 
 >nearest(Kkey,intsize)
-storage.get
-Collections.emptyList
-nearest
+76
+78
+79
 
 >nearest(Kkey,Vectorvector,intsize)
 
 >compare(Map.Entry<K,Float>o1,Map.Entry<K,Float>o2)
-o1.getValue
-.compareTo
-o2.getValue
-storage.entrySet
-entry.getKey
-.equals
-maxHeap.add
-entry.getKey
-entry.getValue
-.cosineForUnitVector
-maxHeap.toList
+80
+57
+81
+82
+7
+83
+84
+7
+9
+85
+86
 
 >nearest(Vectorvector,intsize)
 
 >compare(Map.Entry<K,Float>o1,Map.Entry<K,Float>o2)
-o1.getValue
-.compareTo
-o2.getValue
-storage.entrySet
-maxHeap.add
-entry.getKey
-entry.getValue
-.cosineForUnitVector
-maxHeap.toList
+80
+57
+81
+82
+84
+7
+9
+85
+86
 
 >nearest(Vectorvector)
-nearest
+79
 
 >nearest(Kkey)
-nearest
+79
 
 >queryNearest(Stringquery,intsize)
-query.length
-Collections.emptyList
-nearest
-query
-Collections.emptyList
+87
+78
+79
+88
+78
 
 >query(Stringquery)
 
 >size()
-storage.size
+89
 
 >dimension()
-storage.isEmpty
-storage.values
-.iterator
-.next
-.size
+90
+91
+92
+93
+41
 
 >remove(Kkey)
-storage.remove
+94
 
 >make_shift()
 
@@ -288,226 +288,226 @@ storage.remove
 >make_right_arc(finalintrel)
 
 >is_shift(finalActionact)
-act.name
+95
 
 >is_left_arc(finalActionact,int[]deprel)
-act.name
-act.rel
+95
+96
 
 >is_right_arc(finalActionact,int[]deprel)
-act.name
-act.rel
+95
+96
 
 >get_oracle_actions(List<Integer>heads,List<Integer>deprels,List<Action>actions)
-heads.size
-actions.clear
-heads.get
-tree.get
-tree.get
-get_oracle_actions_travel
+97
+98
+99
+100
+100
+101
 
 >get_oracle_actions_travel(introot,List<Integer>heads,List<Integer>deprels,List<List<Integer>>tree,List<Action>actions)
-tree.get
-children.size
-children.get
-get_oracle_actions_travel
-children.get
-actions.add
-ActionFactory.make_shift
-children.size
-children.get
-get_oracle_actions_travel
-actions.add
-ActionFactory.make_right_arc
-deprels.get
-children.get
-actions.add
-ActionFactory.make_left_arc
-deprels.get
+100
+102
+103
+101
+103
+104
+105
+102
+103
+101
+104
+106
+107
+103
+104
+108
+107
 
 >get_oracle_actions2(Dependencyinstance,List<Action>actions)
-get_oracle_actions2
+109
 
 >get_oracle_actions2(List<Integer>heads,List<Integer>deprels,List<Action>actions)
-actions.clear
-heads.size
-output.add
-sigma.size
-get_oracle_actions_onestep
+98
+97
+110
+111
+112
 
 >get_oracle_actions_onestep(List<Integer>heads,List<Integer>deprels,List<Integer>sigma,int[]beta,List<Integer>output,List<Action>actions)
-sigma.size
-sigma.get
-sigma.size
-sigma.size
-sigma.get
-sigma.size
-heads.size
-heads.get
-output.get
-heads.get
-actions.add
-ActionFactory.make_left_arc
-deprels.get
-output.set
-sigma.remove
-sigma.size
-sigma.set
-sigma.size
-heads.get
-actions.add
-ActionFactory.make_right_arc
-deprels.get
-output.set
-sigma.remove
-sigma.size
-heads.size
-actions.add
-ActionFactory.make_shift
-sigma.add
+111
+113
+111
+111
+113
+111
+97
+99
+114
+99
+104
+108
+107
+115
+116
+111
+117
+111
+99
+104
+106
+107
+115
+116
+111
+97
+104
+105
+118
 
 >testAdjust()
-FolderWalker.open
-handle
+119
+120
 
 >handle(Filefile)
-IOUtil.readTxt
-file.getPath
-text.length
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-addW
-text.length
-bw.write
-bw.close
-e.printStackTrace
+121
+122
+123
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+124
+123
+125
+126
+127
 
 >addW(Stringtext,Stringc)
-text.replaceAll
-text.replaceAll
+128
+128
 
 >testPlay()
-CorpusLoader.walk
+129
 
 >handle(Documentdocument)
-document.getComplexSentenceList
-word.getLabel
-.equals
-tfDictionary.add
-word.toString
-tfDictionary.saveTxtTo
+130
+131
+83
+132
+133
+134
 
 >testAdjustNGram()
-iterator.hasNext
-iterator.next
-line.split
-.split
-.split
-Integer.parseInt
-CoreDictionary.get
-first.length
-second.length
-bw.write
-bw.newLine
-bw.close
+51
+52
+135
+53
+53
+63
+136
+137
+138
+125
+139
+126
 
 >testRemoveLabelD()
-lineIterator.hasNext
-lineIterator.next
-line.split
-.split
-.equals
-nameFollowers.add
-DictionaryMaker.load
-dictionary.entrySet
-entry.getKey
-entry.getValue
-.getFrequency
-key.length
-CoreDictionary.get
-nameFollowers.contains
-attribute.hasNatureStartsWith
-entry.getValue
-entry.getValue
-dictionary.saveTxtTo
-build
+140
+141
+135
+53
+83
+142
+143
+144
+7
+9
+145
+146
+136
+147
+148
+9
+9
+149
+150
 
 >parseText(Stringtext)
-text.length
-getState
-text.charAt
-storeEmits
+123
+151
+152
+153
 
 >parseText(Stringtext,IHit<V>processor)
-text.length
-getState
-text.charAt
-processor.hit
+123
+151
+152
+154
 
 >parseText(char[]text,IHit<V>processor)
-getState
-processor.hit
+151
+154
 
 >parseText(char[]text,IHitFull<V>processor)
-getState
-processor.hit
+151
+154
 
 >save(DataOutputStreamout)
-out.writeInt
-out.writeInt
-out.writeInt
-out.writeInt
-out.writeInt
-out.writeInt
-out.writeInt
-out.writeInt
-out.writeInt
+155
+155
+155
+155
+155
+155
+155
+155
+155
 
 >save(ObjectOutputStreamout)
-out.writeObject
-out.writeObject
-out.writeObject
-out.writeObject
-out.writeObject
+156
+156
+156
+156
+156
 
 >load(ObjectInputStreamin,V[]value)
-in.readObject
-in.readObject
-in.readObject
-in.readObject
-in.readObject
+157
+157
+157
+157
+157
 
 >load(ByteArraybyteArray,V[]value)
-byteArray.nextInt
-byteArray.nextInt
-byteArray.nextInt
-byteArray.nextInt
-byteArray.nextInt
-byteArray.nextInt
-byteArray.nextInt
-byteArray.nextInt
+158
+158
+158
+158
+158
+158
+158
+158
 
 >get(Stringkey)
-exactMatchSearch
+159
 
 >set(Stringkey,Vvalue)
-exactMatchSearch
+159
 
 >get(intindex)
 
@@ -516,168 +516,168 @@ exactMatchSearch
 >hit(intbegin,intend,Vvalue,intindex)
 
 >toString()
-String.format
+30
 
 >getState(intcurrentState,charcharacter)
-transitionWithRoot
-transitionWithRoot
+160
+160
 
 >storeEmits(intposition,intcurrentState,List<Hit<V>>collectedEmits)
-collectedEmits.add
+161
 
 >transition(intcurrent,charc)
 
 >transitionWithRoot(intnodePos,charc)
 
 >build(TreeMap<String,V>map)
-newBuilder
+162
 
 >fetch(Stateparent,List<Map.Entry<Integer,State>>siblings)
-parent.isAcceptable
-parent.getDepth
-fakeNode.addEmit
-parent.getLargestValueId
-siblings.add
-parent.getSuccess
-.entrySet
-siblings.add
-entry.getKey
-entry.getValue
-siblings.size
+163
+164
+165
+166
+167
+168
+169
+167
+7
+9
+170
 
 >exactMatchSearch(Stringkey)
-exactMatchSearch
+159
 
 >exactMatchSearch(Stringkey,intpos,intlen,intnodePos)
-key.length
-key.toCharArray
+146
+171
 
 >exactMatchSearch(char[]keyChars,intpos,intlen,intnodePos)
 
 >add(Stringname,intvalue)
-nameValueMap.get
-String.format
-nameValueMap.put
+172
+30
+173
 
 >toString()
-nameValueMap.entrySet
-entry.getKey
-entry.getValue
-String.format
+174
+7
+9
+30
 
 >println()
 
 >size()
 
 >build(TreeMap<String,V>map)
-map.values
-.toArray
-map.keySet
-addAllKeyword
-buildDoubleArrayTrie
-constructFailureStates
-loseWeight
+175
+176
+177
+178
+179
+180
+181
 
 >addKeyword(Stringkeyword,intindex)
-keyword.toCharArray
-currentState.addState
-currentState.addEmit
-keyword.length
+182
+183
+184
+185
 
 >addAllKeyword(Collection<String>keywordSet)
-addKeyword
+186
 
 >constructFailureStates()
-.getStates
-depthOneState.setFailure
-queue.add
-constructOutput
-queue.isEmpty
-queue.remove
-currentState.getTransitions
-currentState.nextState
-queue.add
-currentState.failure
-traceFailureState.nextState
-traceFailureState.failure
-traceFailureState.nextState
-targetState.setFailure
-targetState.addEmit
-newFailureState.emit
-constructOutput
+187
+188
+189
+190
+191
+192
+193
+194
+189
+195
+196
+197
+196
+198
+199
+200
+190
 
 >constructOutput(StatetargetState)
-targetState.emit
-emit.size
-emit.size
-emit.iterator
-it.next
-targetState.getIndex
+201
+202
+202
+203
+204
+205
 
 >buildDoubleArrayTrie(Set<String>keySet)
-keySet.size
-resize
-root_node.getSuccess
-.entrySet
-.size
-fetch
-insert
+206
+207
+208
+169
+41
+209
+210
 
 >resize(intnewSize)
 
 >insert(List<Map.Entry<Integer,State>>siblings)
-Math.max
-siblings.get
-.getKey
-resize
-resize
-siblings.get
-.getKey
-siblings.get
-siblings.size
-.getKey
-resize
-siblings.size
-siblings.get
-.getKey
-siblings.get
-siblings.size
-.getKey
-siblings.get
-siblings.size
-.getKey
-sibling.getKey
-sibling.getValue
-.getSuccess
-.entrySet
-.size
-fetch
-sibling.getValue
-sibling.getKey
-sibling.getValue
-.getLargestValueId
-insert
-sibling.getKey
-sibling.getValue
-sibling.getValue
-sibling.getKey
+211
+212
+213
+207
+207
+212
+213
+212
+170
+213
+207
+170
+212
+213
+212
+170
+213
+212
+170
+213
+214
+215
+216
+169
+41
+209
+215
+214
+215
+217
+210
+214
+215
+215
+214
 
 >loseWeight()
 
 >segSentence(char[]sentence)
-logger.warning
-Collections.emptyList
-Arrays.fill
-trie.parseText
+218
+78
+219
+220
 
 >hit(intbegin,intend,CoreDictionary.Attributevalue)
-quickAtomSegment
-atomNode.sWord.length
-atomNode.sWord.length
-atomNode.getNature
-termList.add
-trie.build
-setTrie
+221
+222
+222
+223
+224
+225
+226
 
 >enableCustomDictionary(booleanenable)
 
@@ -686,375 +686,729 @@ setTrie
 >setTrie(AhoCorasickDoubleArrayTrie<CoreDictionary.Attribute>trie)
 
 >loadDictionary(String...pathArray)
-IOUtil.loadDictionary
-logger.warning
-TextUtility.exceptionToString
-map.isEmpty
-trie.build
+227
+218
+228
+229
+225
 
 >testAC()
-trie.addKeyword
-trie.addKeyword
-trie.addKeyword
-trie.addKeyword
-trie.parseText
+230
+230
+230
+230
+220
 
 >testBuild()
-map.put
-act.build
+231
+232
 
 >hit(intbegin,intend,Stringvalue)
 
 >testDatFromFile()
-iterator.hasNext
-iterator.next
-map.put
-trie.build
-map.keySet
-assertEquals
-trie.get
+51
+52
+231
+225
+177
+233
+234
 
 >testDat()
-map.put
-trie.build
-trie.exactMatchSearch
+231
+225
+235
 
 >testTwoStruct()
 
 >testTwoAC()
-iterator.hasNext
-iterator.next
-.split
-map.put
-trie.addAllKeyword
-map.keySet
-act.build
-map.keySet
-trie.parseText
-otherSet.add
-emit.getKeyword
-emit.getEnd
-act.parseText
-mySet.add
-assertEquals
+51
+52
+53
+231
+236
+177
+232
+177
+220
+237
+238
+239
+240
+241
+233
 
 >testSegment()
-iterator.hasNext
-iterator.next
-.split
-map.put
-trie.addAllKeyword
-map.keySet
-act.build
-IOUtil.readLineList
-act.parseText
-assertEquals
-sentence.substring
+51
+52
+53
+231
+236
+177
+232
+242
+240
+233
+243
 
 >testHasKeyword()
-map.put
-trie.addAllKeyword
-map.keySet
-assertTrue
-trie.hasKeyword
-assertTrue
-trie.hasKeyword
-assertFalse
-trie.hasKeyword
+231
+236
+177
+244
+245
+244
+245
+246
+245
 
 >labelOf(intid)
 
 >build(TreeMap<String,Integer>keyValueMap)
-keyValueMap.size
-keyValueMap.entrySet
-entry.getValue
-entry.getKey
-trie.build
+247
+248
+9
+7
+225
 
 >idOf(char[]label)
-trie.get
+234
 
 >idOf(Stringlabel)
-trie.get
+234
 
 >size()
-trie.size
+249
 
 >save(DataOutputStreamout)
-out.writeInt
-TextUtility.writeString
+155
+250
 
 >load(ByteArraybyteArray)
-byteArray.nextInt
-byteArray.nextString
-map.put
-trie.build
+158
+251
+231
+225
 
 >parseOrExit(Objecttarget,String[]args)
-parse
-e.getMessage
-Args.usage
+46
+252
+253
 
 >parse(Objecttarget,String[]args)
-parse
+46
 
 >parse(Objecttarget,String[]args,booleanfailOnExtraFlags)
-arguments.addAll
-Arrays.asList
-target.getClass
-Introspector.getBeanInfo
-info.getPropertyDescriptors
-processProperty
-currentClazz.getSuperclass
-currentClazz.getDeclaredFields
-processField
-argument.startsWith
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
 
 >processField(Objecttarget,Fieldfield,List<String>arguments)
-field.getAnnotation
-arguments.iterator
-i.hasNext
-i.next
-argument.prefix
-argument.delimiter
-arg.startsWith
-getName
-getAlias
-arg.substring
-prefix.length
-field.getType
-arg.equals
-arg.equals
-i.remove
-consumeArgumentValue
-setField
-addArgument
-type.isArray
-argument.required
-getName
-argument.prefix
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+276
+277
+278
+279
+280
+281
+282
+271
+268
 
 >addArgument(Classtype,Fieldfield,Objecttarget,Objectvalue,Stringdelimiter)
-field.get
-getValue
-Array.newInstance
-type.getComponentType
-field.set
-type.getName
+283
+284
+285
+286
+287
+288
 
 >addPropertyArgument(Classtype,PropertyDescriptorproperty,Objecttarget,Objectvalue,Stringdelimiter)
-property.getReadMethod
-.invoke
-getValue
-Array.newInstance
-type.getComponentType
-property.getWriteMethod
-property.getWriteMethod
-type.getName
+289
+290
+284
+285
+286
+291
+291
+288
 
 >processProperty(Objecttarget,PropertyDescriptorproperty,List<String>arguments)
-property.getWriteMethod
-writeMethod.getAnnotation
-arguments.iterator
-i.hasNext
-i.next
-argument.prefix
-argument.delimiter
-arg.startsWith
-getName
-getAlias
-arg.substring
-prefix.length
-property.getPropertyType
-arg.equals
-arg.equals
-i.remove
-consumeArgumentValue
-setProperty
-addPropertyArgument
-type.isArray
-argument.required
-getName
+291
+292
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+293
+276
+276
+277
+278
+294
+295
+281
+282
+271
 
 >usage(Objecttarget)
 
 >usage(PrintStreamerrStream,Objecttarget)
-target.getClass
-clazz.getName
-clazzName.lastIndexOf
-clazzName.substring
-errStream.println
-currentClazz.getSuperclass
-currentClazz.getDeclaredFields
-fieldUsage
-Introspector.getBeanInfo
-info.getPropertyDescriptors
-propertyUsage
+256
+296
+297
+298
+299
+260
+261
+300
+257
+258
+301
 
 >fieldUsage(PrintStreamerrStream,Objecttarget,Fieldfield)
-field.getAnnotation
-getName
-getAlias
-argument.prefix
-argument.delimiter
-argument.description
-makeAccessible
-field.get
-field.getType
-propertyUsage
+264
+271
+272
+268
+269
+302
+303
+283
+275
+301
 
 >propertyUsage(PrintStreamerrStream,Objecttarget,PropertyDescriptorfield)
-field.getWriteMethod
-writeMethod.getAnnotation
-getName
-getAlias
-argument.prefix
-argument.delimiter
-argument.description
-field.getReadMethod
-readMethod.invoke
-field.getPropertyType
-propertyUsage
+304
+292
+271
+272
+268
+269
+302
+305
+306
+307
+301
 
 >propertyUsage(PrintStreamerrStream,Stringprefix,Stringname,Stringalias,Class<?>type,Stringdelimiter,Stringdescription,ObjectdefaultValue)
-sb.append
-sb.append
-sb.append
-sb.append
-sb.append
-sb.append
-sb.append
-sb.append
-sb.append
-type.isArray
-getTypeName
-type.getComponentType
-sb.append
-sb.append
-sb.append
-sb.append
-getTypeName
-sb.append
-sb.append
-sb.append
-sb.append
-type.isArray
-Array.getLength
-list.add
-Array.get
-sb.append
-sb.append
-sb.append
-errStream.println
+308
+308
+308
+308
+308
+308
+308
+308
+308
+281
+309
+286
+308
+308
+308
+308
+309
+308
+308
+308
+308
+281
+310
+311
+312
+308
+308
+308
+299
 
 >getTypeName(Class<?>type)
-type.getName
-typeName.lastIndexOf
-typeName.substring
+288
+313
+314
 
 >getName(Argumentargument,PropertyDescriptorproperty)
-argument.value
-name.equals
-property.getName
+315
+316
+317
 
 >consumeArgumentValue(Stringname,Class<?>type,Argumentargument,Iterator<String>i)
-i.hasNext
-i.next
-i.remove
-argument.prefix
+266
+267
+277
+268
 
 >setProperty(Class<?>type,PropertyDescriptorproperty,Objecttarget,Objectvalue,Stringdelimiter)
-getValue
-property.getWriteMethod
-property.getWriteMethod
-type.getName
+284
+291
+291
+288
 
 >getAlias(Argumentargument)
-argument.alias
-alias.equals
+318
+319
 
 >getName(Argumentargument,Fieldfield)
-argument.value
-name.equals
-field.getName
+315
+316
+320
 
 >setField(Class<?>type,Fieldfield,Objecttarget,Objectvalue,Stringdelimiter)
-makeAccessible
-getValue
-field.set
-type.getName
+303
+284
+287
+288
 
 >getValue(Class<?>type,Objectvalue,Stringdelimiter)
-type.isArray
-string.split
-type.getComponentType
-Array.newInstance
-createValue
-createValue
+281
+321
+286
+285
+322
+322
 
 >createValue(Class<?>type,StringvalueAsString)
-valueCreator.createValue
-String.format
-type.toString
+323
+30
+324
 
 >makeAccessible(AccessibleObjectao)
-Modifier.isPublic
-member.getModifiers
-ao.setAccessible
+325
+326
+327
 
 >createValue(Class<?>type,Stringvalue)
 
 >byStaticMethodInvocation(finalClass<?>compatibleType,finalStringmethodName)
 
 >createValue(Class<?>type,Stringvalue)
-compatibleType.isAssignableFrom
-type.getMethod
-m.invoke
-String.format
-type.toString
+328
+329
+330
+30
+324
 
 >createValue(Class<?>type,Stringvalue)
-type.getDeclaredConstructor
-init.newInstance
-type.getName
+331
+332
+288
 
 >createValue(Classtype,Stringvalue)
-.isAssignableFrom
-Enum.valueOf
-Arrays.asList
+333
+334
+255
 
 >registerValueCreator(ValueCreatorvc)
-valueCreators.add
+335
 
 >resetValueCreators()
-valueCreators.clear
-valueCreators.addAll
+336
+337
 
 >compare(Long[]arrayA,Long[]arrayB)
-Math.min
-c1.equals
-c1.compareTo
+338
+339
+340
 
 >computeMinimumDistance(TreeSet<Long>setA,TreeSet<Long>setB)
-setA.toArray
-setB.toArray
-computeMinimumDistance
+341
+342
+343
 
 >computeMinimumDistance(Long[]arrayA,Long[]arrayB)
-Math.abs
-Math.abs
-Math.abs
+344
+344
+344
 
 >computeAverageDistance(Long[]arrayA,Long[]arrayB)
-Math.abs
+344
 
 >binarySearch(BaseNode[]branches,BaseNodenode)
-.compareTo
+57
 
 >binarySearch(BaseNode[]branches,charnode)
-.compareTo
-String.valueOf
+57
+345
 
 >getNature()
-Predefine.PATTERN_FLOAT_NUMBER.matcher
-.matches
+346
+347
+
+>toString()
+
+>convert(Stringword,inttype)
+
+<Api
+0 predict
+1 CollectionUtility.max
+2 dataSet.load
+3 train
+4 logger.start
+5 trainingDataSet.size
+6 trainingDataSet.entrySet
+7 entry.getKey
+8 logger.out
+9 entry.getValue
+10 dataSet.add
+11 MathUtility.percentage
+12 logger.finish
+13 getModel
+14 categorize
+15 scoreMap.put
+16 nextWord
+17 scanner.next
+18 word.length
+19 word.equals
+20 vectorsReader.readVectorFile
+21 vectorsReader.getNumWords
+22 vectorsReader.getSize
+23 getTargetVector
+24 vectorsReader.getMatrixElement
+25 vectorsReader.getWord
+26 scanner.close
+27 tokenizer.segment
+28 load
+29 root.exists
+30 String.format
+31 root.getAbsolutePath
+32 root.isDirectory
+33 root.listFiles
+34 folder.isFile
+35 folder.listFiles
+36 folder.getName
+37 Math.ceil
+38 add
+39 TextProcessUtility.readTxt
+40 getCatalog
+41 .size
+42 size
+43 testingDataSet.entrySet
+44 HanLP.newSegment
+45 .enablePartOfSpeechTagging
+46 parse
+47 segment.seg
+48 sentence.toCharArray
+49 deprelTranslater.get
+50 GlobalObjectPool.get
+51 iterator.hasNext
+52 iterator.next
+53 .split
+54 deprelTranslater.put
+55 deprelTranslater.size
+56 GlobalObjectPool.put
+57 .compareTo
+58 paramDesc
+59 localUsage
+60 argPos
+61 param.equals
+62 config.setLayer1Size
+63 Integer.parseInt
+64 config.setOutputFile
+65 config.setUseContinuousBagOfWords
+66 config.useContinuousBagOfWords
+67 config.setAlpha
+68 Float.parseFloat
+69 config.setWindow
+70 config.setSample
+71 config.setUseHierarchicalSoftmax
+72 config.setNegative
+73 config.setNumThreads
+74 config.setIter
+75 config.setMinCount
+76 storage.get
+77 vectorWhat.cosineForUnitVector
+78 Collections.emptyList
+79 nearest
+80 o1.getValue
+81 o2.getValue
+82 storage.entrySet
+83 .equals
+84 maxHeap.add
+85 .cosineForUnitVector
+86 maxHeap.toList
+87 query.length
+88 query
+89 storage.size
+90 storage.isEmpty
+91 storage.values
+92 .iterator
+93 .next
+94 storage.remove
+95 act.name
+96 act.rel
+97 heads.size
+98 actions.clear
+99 heads.get
+100 tree.get
+101 get_oracle_actions_travel
+102 children.size
+103 children.get
+104 actions.add
+105 ActionFactory.make_shift
+106 ActionFactory.make_right_arc
+107 deprels.get
+108 ActionFactory.make_left_arc
+109 get_oracle_actions2
+110 output.add
+111 sigma.size
+112 get_oracle_actions_onestep
+113 sigma.get
+114 output.get
+115 output.set
+116 sigma.remove
+117 sigma.set
+118 sigma.add
+119 FolderWalker.open
+120 handle
+121 IOUtil.readTxt
+122 file.getPath
+123 text.length
+124 addW
+125 bw.write
+126 bw.close
+127 e.printStackTrace
+128 text.replaceAll
+129 CorpusLoader.walk
+130 document.getComplexSentenceList
+131 word.getLabel
+132 tfDictionary.add
+133 word.toString
+134 tfDictionary.saveTxtTo
+135 line.split
+136 CoreDictionary.get
+137 first.length
+138 second.length
+139 bw.newLine
+140 lineIterator.hasNext
+141 lineIterator.next
+142 nameFollowers.add
+143 DictionaryMaker.load
+144 dictionary.entrySet
+145 .getFrequency
+146 key.length
+147 nameFollowers.contains
+148 attribute.hasNatureStartsWith
+149 dictionary.saveTxtTo
+150 build
+151 getState
+152 text.charAt
+153 storeEmits
+154 processor.hit
+155 out.writeInt
+156 out.writeObject
+157 in.readObject
+158 byteArray.nextInt
+159 exactMatchSearch
+160 transitionWithRoot
+161 collectedEmits.add
+162 newBuilder
+163 parent.isAcceptable
+164 parent.getDepth
+165 fakeNode.addEmit
+166 parent.getLargestValueId
+167 siblings.add
+168 parent.getSuccess
+169 .entrySet
+170 siblings.size
+171 key.toCharArray
+172 nameValueMap.get
+173 nameValueMap.put
+174 nameValueMap.entrySet
+175 map.values
+176 .toArray
+177 map.keySet
+178 addAllKeyword
+179 buildDoubleArrayTrie
+180 constructFailureStates
+181 loseWeight
+182 keyword.toCharArray
+183 currentState.addState
+184 currentState.addEmit
+185 keyword.length
+186 addKeyword
+187 .getStates
+188 depthOneState.setFailure
+189 queue.add
+190 constructOutput
+191 queue.isEmpty
+192 queue.remove
+193 currentState.getTransitions
+194 currentState.nextState
+195 currentState.failure
+196 traceFailureState.nextState
+197 traceFailureState.failure
+198 targetState.setFailure
+199 targetState.addEmit
+200 newFailureState.emit
+201 targetState.emit
+202 emit.size
+203 emit.iterator
+204 it.next
+205 targetState.getIndex
+206 keySet.size
+207 resize
+208 root_node.getSuccess
+209 fetch
+210 insert
+211 Math.max
+212 siblings.get
+213 .getKey
+214 sibling.getKey
+215 sibling.getValue
+216 .getSuccess
+217 .getLargestValueId
+218 logger.warning
+219 Arrays.fill
+220 trie.parseText
+221 quickAtomSegment
+222 atomNode.sWord.length
+223 atomNode.getNature
+224 termList.add
+225 trie.build
+226 setTrie
+227 IOUtil.loadDictionary
+228 TextUtility.exceptionToString
+229 map.isEmpty
+230 trie.addKeyword
+231 map.put
+232 act.build
+233 assertEquals
+234 trie.get
+235 trie.exactMatchSearch
+236 trie.addAllKeyword
+237 otherSet.add
+238 emit.getKeyword
+239 emit.getEnd
+240 act.parseText
+241 mySet.add
+242 IOUtil.readLineList
+243 sentence.substring
+244 assertTrue
+245 trie.hasKeyword
+246 assertFalse
+247 keyValueMap.size
+248 keyValueMap.entrySet
+249 trie.size
+250 TextUtility.writeString
+251 byteArray.nextString
+252 e.getMessage
+253 Args.usage
+254 arguments.addAll
+255 Arrays.asList
+256 target.getClass
+257 Introspector.getBeanInfo
+258 info.getPropertyDescriptors
+259 processProperty
+260 currentClazz.getSuperclass
+261 currentClazz.getDeclaredFields
+262 processField
+263 argument.startsWith
+264 field.getAnnotation
+265 arguments.iterator
+266 i.hasNext
+267 i.next
+268 argument.prefix
+269 argument.delimiter
+270 arg.startsWith
+271 getName
+272 getAlias
+273 arg.substring
+274 prefix.length
+275 field.getType
+276 arg.equals
+277 i.remove
+278 consumeArgumentValue
+279 setField
+280 addArgument
+281 type.isArray
+282 argument.required
+283 field.get
+284 getValue
+285 Array.newInstance
+286 type.getComponentType
+287 field.set
+288 type.getName
+289 property.getReadMethod
+290 .invoke
+291 property.getWriteMethod
+292 writeMethod.getAnnotation
+293 property.getPropertyType
+294 setProperty
+295 addPropertyArgument
+296 clazz.getName
+297 clazzName.lastIndexOf
+298 clazzName.substring
+299 errStream.println
+300 fieldUsage
+301 propertyUsage
+302 argument.description
+303 makeAccessible
+304 field.getWriteMethod
+305 field.getReadMethod
+306 readMethod.invoke
+307 field.getPropertyType
+308 sb.append
+309 getTypeName
+310 Array.getLength
+311 list.add
+312 Array.get
+313 typeName.lastIndexOf
+314 typeName.substring
+315 argument.value
+316 name.equals
+317 property.getName
+318 argument.alias
+319 alias.equals
+320 field.getName
+321 string.split
+322 createValue
+323 valueCreator.createValue
+324 type.toString
+325 Modifier.isPublic
+326 member.getModifiers
+327 ao.setAccessible
+328 compatibleType.isAssignableFrom
+329 type.getMethod
+330 m.invoke
+331 type.getDeclaredConstructor
+332 init.newInstance
+333 .isAssignableFrom
+334 Enum.valueOf
+335 valueCreators.add
+336 valueCreators.clear
+337 valueCreators.addAll
+338 Math.min
+339 c1.equals
+340 c1.compareTo
+341 setA.toArray
+342 setB.toArray
+343 computeMinimumDistance
+344 Math.abs
+345 String.valueOf
+346 Predefine.PATTERN_FLOAT_NUMBER.matcher
+347 .matches

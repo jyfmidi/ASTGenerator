@@ -11,7 +11,7 @@ import java.io.FileWriter;
 import java.io.OutputStream;
 import java.io.Writer;
 
-import java.util.ArrayList;
+import java.util.*;
 
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -27,7 +27,9 @@ public class ASTGenerator {
     static ArrayList<String> LineNum = new ArrayList<String>();
     static ArrayList<String> Type = new ArrayList<String>();
     static ArrayList<String> Content = new ArrayList<String>();
-    static int apiCount;
+
+    static LinkedHashMap Api = new LinkedHashMap();
+    static int apiCount = 0;
     
     private static String readFile(String fileName) throws IOException {
         File file = new File(fileName);
@@ -36,12 +38,14 @@ public class ASTGenerator {
     }
 
     public static void main(String args[]) throws IOException{
-        File root = new File("resource/example");
-        //File root = new File("resource/java");
+        //File root = new File("resource/example");
+        File root = new File("resource/java");
         File[] fs = root.listFiles();
         for (int i = 0; i < fs.length; i++) {
-            if (fs.split('.').size() != 2)
+            if (fs[i].getName().split("\\.").length != 2){
+                 System.out.println(fs[i].getName().split(".").length+" Ignoring " + fs[i]);
                 continue;
+            }
             System.out.println("Parsing " + fs[i]);
             parseFile(fs[i].toString());
         }
@@ -61,12 +65,18 @@ public class ASTGenerator {
         File invocationFile = new File(fileName + ".invoc");
         Writer out = new FileWriter(outputFile);
         Writer invocation = new FileWriter(invocationFile);
-
-        apiCount = 0;
        
         out.write("digraph G {\n");
         printDOT(out, invocation);
         out.write("}\n");
+
+        invocation.write("\n<Api\n");
+        Iterator iterator_1 = Api.keySet().iterator();    
+        while (iterator_1.hasNext()) {    
+            Object key = iterator_1.next();    
+            invocation.write(Api.get(key)+" "+key+"\n");    
+        }     
+
         out.close();
         invocation.close();
         // System.out.println("digraph G {");
@@ -101,7 +111,6 @@ public class ASTGenerator {
     }
     
     private static void printLabel(Writer writer, Writer invocationWriter) throws IOException {
-        TreeMap treeMap = new TreeMap();
         for(int i =0; i<LineNum.size(); i++){
             String label = Type.get(i);
             String content = Content.get(i).replace("\"","\\\"");
@@ -111,21 +120,16 @@ public class ASTGenerator {
             if (label == "methodDeclarator")
                 invocationWriter.write("\n>" + content + "\n");
             if (label.indexOf("methodInvocation") != -1 && content.indexOf("System") == -1){
+
                 //System.out.println(label);
                 String apiName = content.split("\\(")[0];
-                if(!treeMap.containsKey(apiName)) {
-                    treeMap.put(apiName, apiCount);
-                }
-                invocationWriter.write(apiName + "\n");
-            }
-        }
 
-        invocationFile.write("\n-----\n");
-        Iterator tit = treeMap.entrySet().iterator();
-        while (tit.hasNext()) {
-            Map.Entry e = (Map.Entry) tit.next();
-            invocationFile.write(e.getKey() + "--Value: "
-                    + e.getValue());
+                if (!Api.containsKey(apiName)) {
+                    Api.put(apiName, apiCount);
+                    apiCount ++;
+                }
+                invocationWriter.write(Api.get(apiName) + "\n");
+            }
         }
     }
     
