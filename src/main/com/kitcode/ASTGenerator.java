@@ -53,32 +53,38 @@ public class ASTGenerator {
 
     private static void parseFile(String fileName) throws IOException {
         String inputString = readFile(fileName);
+        // 以该条代码语句作为初始条件
         ANTLRInputStream input = new ANTLRInputStream(inputString);
-        Java8Lexer lexer = new Java8Lexer(input);
-        CommonTokenStream tokens = new CommonTokenStream(lexer);
-        Java8Parser parser = new Java8Parser(tokens);
-        ParserRuleContext ctx = parser.compilationUnit();
+        Java8Lexer java8Lexer = new Java8Lexer(input);
 
-        generateAST(ctx, false, 0);
+        // 本来出现在上条代码语句之后的代码语句，用于比对结果
+//        Java8Lexer lexer = new Java8Lexer(input);
+//        CommonTokenStream tokens = new CommonTokenStream(lexer);
+//        Java8Parser parser = new Java8Parser(tokens);
+//        ParserRuleContext ctx = parser.compilationUnit();
+//
 
-        File outputFile = new File(fileName + ".dot");
-        File invocationFile = new File(fileName + ".invoc");
-        Writer out = new FileWriter(outputFile);
-        Writer invocation = new FileWriter(invocationFile);
-       
-        out.write("digraph G {\n");
-        printDOT(out, invocation);
-        out.write("}\n");
 
-        invocation.write("\n<Api\n");
-        Iterator iterator_1 = Api.keySet().iterator();    
-        while (iterator_1.hasNext()) {    
-            Object key = iterator_1.next();    
-            invocation.write(Api.get(key)+" "+key+"\n");    
-        }     
-
-        out.close();
-        invocation.close();
+//        generateAST(ctx, false, 0);
+//
+//        File outputFile = new File(fileName + ".dot");
+//        File invocationFile = new File(fileName + ".invoc");
+//        Writer out = new FileWriter(outputFile);
+//        Writer invocation = new FileWriter(invocationFile);
+//
+//        out.write("digraph G {\n");
+//        printDOT(out, invocation);
+//        out.write("}\n");
+//
+//        invocation.write("\n<Api\n");
+//        Iterator iterator_1 = Api.keySet().iterator();
+//        while (iterator_1.hasNext()) {
+//            Object key = iterator_1.next();
+//            invocation.write(Api.get(key)+" "+key+"\n");
+//        }
+//
+//        out.close();
+//        invocation.close();
         // System.out.println("digraph G {");
         // printDOT();
         // System.out.println("}");
